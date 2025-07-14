@@ -1,0 +1,284 @@
+file_path,text,bbox_path
+./Train/25170Y.jpeg,2 5 1 7 0 Y,./Data/None
+./Train/7006M.jpeg,7 0 0 6 M,./Data/None
+./Train/50635S.jpeg,5 0 6 3 5 S,./Data/None
+./Train/42356S.jpeg,4 2 3 5 6 S,./Data/None
+./Train/7236RR.jpeg,7 2 3 6 R R,./Data/None
+./Train/35615R.jpeg,3 5 6 1 5 R,./Data/None
+./Train/34472Y.jpeg,3 4 4 7 2 Y,./Data/None
+./Train/58972BB.jpeg,5 8 9 7 2 B B,./Data/None
+./Train/02.jpeg,0 2,./Data/None
+./Train/80478D.jpeg,8 0 4 7 8 D,./Data/None
+./Train/15001BB.jpeg,1 5 0 0 1 B B,./Data/None
+./Train/31934H.jpeg,3 1 9 3 4 H,./Data/None
+./Train/6864BH.jpeg,6 8 6 4 B H,./Data/None
+./Train/87347AA.jpeg,8 7 3 4 7 A A,./Data/None
+./Train/19136BB.jpeg,1 9 1 3 6 B B,./Data/None
+./Train/73495BB.jpeg,7 3 4 9 5 B B,./Data/None
+./Train/54814S.jpeg,5 4 8 1 4 S,./Data/None
+./Train/21737R.jpeg,2 1 7 3 7 R,./Data/None
+./Train/81430BB.jpeg,8 1 4 3 0 B B,./Data/None
+./Train/41949R.jpeg,4 1 9 4 9 R,./Data/None
+./Train/60790W.jpeg,6 0 7 9 0 W,./Data/None
+./Train/12990W.jpeg,1 2 9 9 0 W,./Data/None
+./Train/47168M.jpeg,4 7 1 6 8 M,./Data/None
+./Train/50266W.jpeg,5 0 2 6 6 W,./Data/None
+./Train/18488S.jpeg,1 8 4 8 8 S,./Data/None
+./Train/43274.jpeg,4 3 2 7 4 ,./Data/None
+./Train/50079BB.jpeg,5 0 0 7 9 B B,./Data/None
+./Train/80268R.jpeg,8 0 2 6 8 R,./Data/None
+./Train/97898R.jpeg,9 7 8 9 8 R,./Data/None
+./Train/19976D.jpeg,1 9 9 7 6 D,./Data/None
+./Train/46351BB.jpeg,4 6 3 5 1 B B,./Data/None
+./Train/70651Y.jpeg,7 0 6 5 1 Y,./Data/None
+./Train/56806A.jpeg,5 6 8 0 6 A,./Data/None
+./Train/17321H.jpeg,1 7 3 2 1 H,./Data/None
+./Train/95160A.jpeg,9 5 1 6 0 A,./Data/None
+./Train/88439BB.jpeg,8 8 4 3 9 B B,./Data/None
+./Train/66948AA.jpeg,6 6 9 4 8 A A,./Data/None
+./Train/34262H.jpeg,3 4 2 6 2 H,./Data/None
+./Train/83402H.jpeg,8 3 4 0 2 H,./Data/None
+./Train/7592T.jpeg,7 5 9 2 T,./Data/None
+./Train/76598BB.jpeg,7 6 5 9 8 B B,./Data/None
+./Train/30968H.jpeg,3 0 9 6 8 H,./Data/None
+./Train/8793TH.jpeg,8 7 9 3 T H,./Data/None
+./Train/27187BB.jpeg,2 7 1 8 7 B B,./Data/None
+./Train/5483M.jpeg,5 4 8 3 M,./Data/None
+./Train/41751S.jpeg,4 1 7 5 1 S,./Data/None
+./Train/45038S.jpeg,4 5 0 3 8 S,./Data/None
+./Train/63414S.jpeg,6 3 4 1 4 S,./Data/None
+./Train/5070BB.jpeg,5 0 7 0 B B,./Data/None
+./Train/30095BB.jpeg,3 0 0 9 5 B B,./Data/None
+./Train/1915RY.jpeg,1 9 1 5 R Y,./Data/None
+./Train/59468Y.jpeg,5 9 4 6 8 Y,./Data/None
+./Train/90391D.jpeg,9 0 3 9 1 D,./Data/None
+./Train/9360AD.jpeg,9 3 6 0 A D,./Data/None
+./Train/4124HD.jpeg,4 1 2 4 H D,./Data/None
+./Train/63313S.jpeg,6 3 3 1 3 S,./Data/None
+./Train/87139Y.jpeg,8 7 1 3 9 Y,./Data/None
+./Train/35909AA.jpeg,3 5 9 0 9 A A,./Data/None
+./Train/16342H.jpeg,1 6 3 4 2 H,./Data/None
+./Train/79395BB.jpeg,7 9 3 9 5 B B,./Data/None
+./Train/61456M.jpeg,6 1 4 5 6 M,./Data/None
+./Train/41932.jpeg,4 1 9 3 2 ,./Data/None
+./Train/15996.jpeg,1 5 9 9 6 ,./Data/None
+./Train/72676H.jpeg,7 2 6 7 6 H,./Data/None
+./Train/35807A.jpeg,3 5 8 0 7 A,./Data/None
+./Train/66956AA.jpeg,6 6 9 5 6 A A,./Data/None
+./Train/74003Y.jpeg,7 4 0 0 3 Y,./Data/None
+./Train/39244M.jpeg,3 9 2 4 4 M,./Data/None
+./Train/98565W.jpeg,9 8 5 6 5 W,./Data/None
+./Train/71945H.jpeg,7 1 9 4 5 H,./Data/None
+./Train/71945H_01.jpeg,7 1 9 4 5 H,./Data/None
+./Train/42484H.jpeg,4 2 4 8 4 H,./Data/None
+./Train/76024BB.jpeg,7 6 0 2 4 B B,./Data/None
+./Train/28405B.jpeg,2 8 4 0 5 B,./Data/None
+./Train/50635S_01.jpeg,5 0 6 3 5 S,./Data/None
+./Train/88656BB.jpeg,8 8 6 5 6 B B,./Data/None
+./Train/5092R.jpeg,5 0 9 2 R,./Data/None
+./Train/12915BB.jpeg,1 2 9 1 5 B B,./Data/None
+./Train/88860M.jpeg,8 8 8 6 0 M,./Data/None
+./Train/7734YB.jpeg,7 7 3 4 Y B,./Data/None
+./Train/53444BB.jpeg,5 3 4 4 4 B B,./Data/None
+./Train/63717H.jpeg,6 3 7 1 7 H,./Data/None
+./Train/24096BB.jpeg,2 4 0 9 6 B B,./Data/None
+./Train/12915BB_01.jpeg,1 2 9 1 5 B B,./Data/None
+./Train/6270LA.jpeg,6 2 7 0 L A,./Data/None
+./Train/4681HH.jpeg,4 6 8 1 H H,./Data/None
+./Train/98565W_01.jpeg,9 8 5 6 5 W,./Data/None
+./Train/29060B.jpeg,2 9 0 6 0 B,./Data/None
+./Train/657TA.jpeg,6 5 7 T A,./Data/None
+./Train/87216BB.jpeg,8 7 2 1 6 B B,./Data/None
+./Train/10808.jpeg,1 0 8 0 8 ,./Data/None
+./Train/39517W.jpeg,3 9 5 1 7 W,./Data/None
+./Train/82628D.jpeg,8 2 6 2 8 D,./Data/None
+./Train/94292BB.jpeg,9 4 2 9 2 B B,./Data/None
+./Train/40297W.jpeg,4 0 2 9 7 W,./Data/None
+./Train/2264BD.jpeg,2 2 6 4 B D,./Data/None
+./Train/53369R.jpeg,5 3 3 6 9 R,./Data/None
+./Train/42865AA.jpeg,4 2 8 6 5 A A,./Data/None
+./Train/49008M.jpeg,4 9 0 0 8 M,./Data/None
+./Train/8614RW.jpeg,8 6 1 4 R W,./Data/None
+./Train/73702S.jpeg,7 3 7 0 2 S,./Data/None
+./Train/87496M.jpeg,8 7 4 9 6 M,./Data/None
+./Train/173YY.jpeg,1 7 3 Y Y,./Data/None
+./Train/94669Y.jpeg,9 4 6 6 9 Y,./Data/None
+./Train/34259H.jpeg,3 4 2 5 9 H,./Data/None
+./Train/8815HH.jpeg,8 8 1 5 H H,./Data/None
+./Train/10635D.jpeg,1 0 6 3 5 D,./Data/None
+./Train/45761B.jpeg,4 5 7 6 1 B,./Data/None
+./Train/23052BB.jpeg,2 3 0 5 2 B B,./Data/None
+./Train/58536A.jpeg,5 8 5 3 6 A,./Data/None
+./Train/9545RS.jpeg,9 5 4 5 R S,./Data/None
+./Train/2599BK.jpeg,2 5 9 9 B K,./Data/None
+./Train/51167W.jpeg,5 1 1 6 7 W,./Data/None
+./Train/2335MY.jpeg,2 3 3 5 M Y,./Data/None
+./Train/47742AA.jpeg,4 7 7 4 2 A A,./Data/None
+./Train/39611D.jpeg,3 9 6 1 1 D,./Data/None
+./Train/1280D.jpeg,1 2 8 0 D,./Data/None
+./Train/15835S.jpeg,1 5 8 3 5 S,./Data/None
+./Train/36698R.jpeg,3 6 6 9 8 R,./Data/None
+./Train/33956W.jpeg,3 3 9 5 6 W,./Data/None
+./Train/44828M.jpeg,4 4 8 2 8 M,./Data/None
+./Train/68944B.jpeg,6 8 9 4 4 B,./Data/None
+./Train/49008M_01.jpeg,4 9 0 0 8 M,./Data/None
+./Train/1652HR.jpeg,1 6 5 2 H R,./Data/None
+./Train/18488S_01.jpeg,1 8 4 8 8 S,./Data/None
+./Train/54675H.jpeg,5 4 6 7 5 H,./Data/None
+./Train/47168M_01.jpeg,4 7 1 6 8 M,./Data/None
+./Train/15835S_01.jpeg,1 5 8 3 5 S,./Data/None
+./Train/17269W.jpeg,1 7 2 6 9 W,./Data/None
+./Train/70819Y.jpeg,7 0 8 1 9 Y,./Data/None
+./Train/79017H.jpeg,7 9 0 1 7 H,./Data/None
+./Train/1890MW.jpeg,1 8 9 0 M W,./Data/None
+./Train/62585R.jpeg,6 2 5 8 5 R,./Data/None
+./Train/2599BK_01.jpeg,2 5 9 9 B K,./Data/None
+./Train/9106AD.jpeg,9 1 0 6 A D,./Data/None
+./Train/32911H.jpeg,3 2 9 1 1 H,./Data/None
+./Train/20995S.jpeg,2 0 9 9 5 S,./Data/None
+./Train/77908H.jpeg,7 7 9 0 8 H,./Data/None
+./Train/7259DY.jpeg,7 2 5 9 D Y,./Data/None
+./Train/6379TB.jpeg,6 3 7 9 T B,./Data/None
+./Train/2169RS.jpeg,2 1 6 9 R S,./Data/None
+./Train/25459H.jpeg,2 5 4 5 9 H,./Data/None
+./Train/55618B.jpeg,5 5 6 1 8 B,./Data/None
+./Train/88770BB.jpeg,8 8 7 7 0 B B,./Data/None
+./Train/7315RW.jpeg,7 3 1 5 R W,./Data/None
+./Train/7350MY.jpeg,7 3 5 0 M Y,./Data/None
+./Train/19345R.jpeg,1 9 3 4 5 R,./Data/None
+./Train/76216R.jpeg,7 6 2 1 6 R,./Data/None
+./Train/48543R.jpeg,4 8 5 4 3 R,./Data/None
+./Train/22248R.jpeg,2 2 2 4 8 R,./Data/None
+./Train/62948A.jpeg,6 2 9 4 8 A,./Data/None
+./Train/67423BB.jpeg,6 7 4 2 3 B B,./Data/None
+./Train/21302.jpeg,2 1 3 0 2,./Data/None
+./Train/6843RR.jpeg,6 8 4 3 R R,./Data/None
+./Train/42484H_01.jpeg,4 2 4 8 4 H,./Data/None
+./Train/13942.jpeg,1 3 9 4 2 ,./Data/None
+./Train/18285S.jpeg,1 8 2 8 5 S,./Data/None
+./Train/14277A.jpeg,1 4 2 7 7 A,./Data/None
+./Train/20563D.jpeg,2 0 5 6 3 D,./Data/None
+./Train/2599BK_02.jpeg,2 5 9 9 B K,./Data/None
+./Train/89605B.jpeg,8 9 6 0 5 B,./Data/None
+./Train/86508AA.jpeg,8 6 5 0 8 A A,./Data/None
+./Train/28786BB.jpeg,2 8 7 8 6 B B,./Data/None
+./Train/2502RW.jpeg,2 5 0 2 R W,./Data/None
+./Train/22304B.jpeg,2 2 3 0 4 B,./Data/None
+./Train/97093B.jpeg,9 7 0 9 3 B,./Data/None
+./Train/16247D.jpeg,1 6 2 4 7 D,./Data/None
+./Train/44566BB.jpeg,4 4 5 6 6 B B,./Data/None
+./Train/80910AA.jpeg,8 0 9 1 0 A A,./Data/None
+./Train/66742.jpeg,6 6 7 4 2 ,./Data/None
+./Train/1723WW.jpeg,1 7 2 3 W W,./Data/None
+./Train/11814BB.jpeg,1 1 8 1 4 B B,./Data/None
+./Train/17756B.jpeg,1 7 7 5 6 B,./Data/None
+./Train/74607.jpeg,7 4 6 0 7,./Data/None
+./Train/6684AS.jpeg,6 6 8 4 A S,./Data/None
+./Train/59038M.jpeg,5 9 0 3 8 M,./Data/None
+./Train/5823SS.jpeg,5 8 2 3 S S,./Data/None
+./Train/30095BB_01.jpeg,3 0 0 9 5 B B,./Data/None
+./Train/29179BB.jpeg,2 9 1 7 9 B B,./Data/None
+./Train/2502RW_01.jpeg,2 5 0 2 R W,./Data/None
+./Train/23629AA.jpeg,2 3 6 2 9 A A,./Data/None
+./Train/9502SS.jpeg,9 5 0 2 S S,./Data/None
+./Train/40297W_01.jpeg,4 0 2 9 7 W,./Data/None
+./Train/18727BB.jpeg,1 8 7 2 7 B B,./Data/None
+./Train/2830HD.jpeg,2 8 3 0 H D,./Data/None
+./Train/96752W.jpeg,9 6 7 5 2 W,./Data/None
+./Train/60724BB.jpeg,6 0 7 2 4 B B,./Data/None
+./Train/8791AA.jpeg,8 7 9 1 A A,./Data/None
+./Train/7734YB_01.jpeg,7 7 3 4 Y B,./Data/None
+./Train/35861S.jpeg,3 5 8 6 1 S,./Data/None
+./Train/87496M_01.jpeg,8 7 4 9 6 M,./Data/None
+./Train/95871A.jpeg,9 5 8 7 1 A,./Data/None
+./Train/39102BB.jpeg,3 9 1 0 2 B B,./Data/None
+./Train/14968A.jpeg,1 4 9 6 8 A,./Data/None
+./Train/93938A.jpeg,9 3 9 3 8 A,./Data/None
+./Train/9410RM.jpeg,9 4 1 0 R M,./Data/None
+./Train/83070H.jpeg,8 3 0 7 0 H,./Data/None
+./Train/16618BB.jpeg,1 6 6 1 8 B B,./Data/None
+./Train/97093B_01.jpeg,9 7 0 9 3 B,./Data/None
+./Train/31527D.jpeg,3 1 5 2 7 D,./Data/None
+./Train/63721R.jpeg,6 3 7 2 1 R,./Data/None
+./Train/83070H_01.jpeg,8 3 0 7 0 H,./Data/None
+./Train/83317R.jpeg,8 3 3 1 7 R,./Data/None
+./Train/76739M.jpeg,7 6 7 3 9 M,./Data/None
+./Train/82793B.jpeg,8 2 7 9 3 B,./Data/None
+./Train/20665D.jpeg,2 0 6 6 5 D,./Data/None
+./Train/47490AA.jpeg,4 7 4 9 0 A A,./Data/None
+./Train/53369R_01.jpeg,5 3 3 6 9 R,./Data/None
+./Train/57465AA.jpeg,5 7 4 6 5 A A,./Data/None
+./Train/24649D.jpeg,2 4 6 4 9 D,./Data/None
+./Train/98752W.jpeg,9 8 7 5 2 W,./Data/None
+./Train/43922H.jpeg,4 3 9 2 2 H,./Data/None
+./Train/24365M.jpeg,2 4 3 6 5 M,./Data/None
+./Train/93980BB.jpeg,9 3 9 8 0 B B,./Data/None
+./Train/79395BB_01.jpeg,7 9 3 9 5 B B,./Data/None
+./Train/94861BB.jpeg,9 4 8 6 1 B B,./Data/None
+./Train/1610RR.jpeg,1 6 1 0 R R,./Data/None
+./Train/18741A.jpeg,1 8 7 4 1 A,./Data/None
+./Train/34918R.jpeg,3 4 9 1 8 R,./Data/None
+./Train/56289W.jpeg,5 6 2 8 9 W,./Data/None
+./Train/42796H.jpeg,4 2 7 9 6 H,./Data/None
+./Train/83697W.jpeg,8 3 6 9 7 W,./Data/None
+./Train/10954AA.jpeg,1 0 9 5 4 A A,./Data/None
+./Train/41728AA.jpeg,4 1 7 2 8 A A,./Data/None
+./Train/10433Y.jpeg,1 0 4 3 3 Y,./Data/None
+./Train/41974A.jpeg,4 1 9 7 4 A,./Data/None
+./Train/77908H_01.jpeg,7 7 9 0 8 H,./Data/None
+./Train/82803A.jpeg,8 2 8 0 3 A,./Data/None
+./Train/3048HR.jpeg,3 0 4 8 H R,./Data/None
+./Train/34259H_01.jpeg,3 4 2 5 9 H,./Data/None
+./Train/85519Y.jpeg,8 5 5 1 9 Y,./Data/None
+./Train/5924MW.jpeg,5 9 2 4 M W,./Data/None
+./Train/9412AB.jpeg,9 4 1 2 A B,./Data/None
+./Train/40368A.jpeg,4 0 3 6 8 A,./Data/None
+./Train/26996.jpeg,2 6 9 9 6,./Data/None
+./Train/72483H.jpeg,7 2 4 8 3 H,./Data/None
+./Train/2264BD_01.jpeg,2 2 6 4 B D,./Data/None
+./Train/77304M.jpeg,7 7 3 0 4 M,./Data/None
+./Train/97351W.jpeg,9 7 3 5 1 W,./Data/None
+./Train/78456S.jpeg,7 8 4 5 6 S,./Data/None
+./Train/84236Y.jpeg,8 4 2 3 6 Y,./Data/None
+./Train/27209W.jpeg,2 7 2 0 9 W,./Data/None
+./Train/24946R.jpeg,2 4 9 4 6 R,./Data/None
+./Train/23816Y.jpeg,2 3 8 1 6 Y,./Data/None
+./Train/63313S_01.jpeg,6 3 3 1 3 S,./Data/None
+./Train/28405B_01.jpeg,2 8 4 0 5 B,./Data/None
+./Train/85187M.jpeg,8 5 1 8 7 M,./Data/None
+./Train/1251H.jpeg,1 2 5 1 H,./Data/None
+./Train/93099W.jpeg,9 3 0 9 9 W,./Data/None
+./Train/7803MM.jpeg,7 8 0 3 M M,./Data/None
+./Train/17953B.jpeg,1 7 9 5 3 B,./Data/None
+./Train/11261W.jpeg,1 1 2 6 1 W,./Data/None
+./Train/54907Y.jpeg,5 4 9 0 7 Y,./Data/None
+./Train/81697AA.jpeg,8 1 6 9 7 A A,./Data/None
+./Train/69560B.jpeg,6 9 5 6 0 B,./Data/None
+./Train/6560T.jpeg,6 5 6 0 T,./Data/None
+./Train/12011M.jpeg,1 2 0 1 1 M,./Data/None
+./Train/4396HR.jpeg,4 3 9 6 H R,./Data/None
+./Train/1320T.jpeg,1 3 2 0 T,./Data/None
+./Train/43694D.jpeg,4 3 6 9 4 D,./Data/None
+./Train/17920B.jpeg,1 7 9 2 0 B,./Data/None
+./Train/1320T_01.jpeg,1 3 2 0 T,./Data/None
+./Train/7696AM.jpeg,7 6 9 6 A M,./Data/None
+./Train/22642H.jpeg,2 2 6 4 2 H,./Data/None
+./Train/39102BB_01.jpeg,3 9 1 0 2 B B,./Data/None
+./Train/79588BB.jpeg,7 9 5 8 8 B B,./Data/None
+./Train/44301B.jpeg,4 4 3 0 1 B,./Data/None
+./Train/2865R.jpeg,2 8 6 5 R,./Data/None
+./Train/56975H.jpeg,5 6 9 7 5 H,./Data/None
+./Train/70291AA.jpeg,7 0 2 9 1 A A,./Data/None
+./Train/39756M.jpeg,3 9 7 5 6 M,./Data/None
+./Train/78276H.jpeg,7 8 2 7 6 H,./Data/None
+./Train/91538D.jpeg,9 1 5 3 8 D,./Data/None
+./Train/89482D.jpeg,8 9 4 8 2 D,./Data/None
+./Train/75133R.jpeg,7 5 1 3 3 R,./Data/None
+./Train/72483H_01.jpeg,7 2 4 8 3 H,./Data/None
+./Train/37323W.jpeg,3 7 3 2 3 W,./Data/None
+./Train/3572AY.jpeg,3 5 7 2 A Y,./Data/None
+./Train/50768Y.jpeg,5 0 7 6 8 Y,./Data/None
+./Train/65805H.jpeg,6 5 8 0 5 H,./Data/None
+./Train/2865R_01.jpeg,2 8 6 5 R,./Data/None
+./Train/36387BB.jpeg,3 6 3 8 7 B B,./Data/None
+./Train/81006Y.jpeg,8 1 0 0 6 Y,./Data/None

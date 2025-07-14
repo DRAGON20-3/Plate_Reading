@@ -1,0 +1,501 @@
+file_path,text,bbox_path
+./Validation/9062BY.jpeg,9 0 6 2 B Y,./Data/None
+./Validation/92212W.jpeg,9 2 2 1 2 W,./Data/None
+./Validation/42640A.jpeg,4 2 6 4 0 A,./Data/None
+./Validation/16316A.jpeg,1 6 3 1 6 A,./Data/None
+./Validation/16909BB.jpeg,1 6 9 0 9 B B,./Data/None
+./Validation/61987Y.jpeg,6 1 9 8 7 Y,./Data/None
+./Validation/26606D.jpeg,2 6 6 0 6 D,./Data/None
+./Validation/5769Y.jpeg,5 7 6 9 Y,./Data/None
+./Validation/9285TB.jpeg,9 2 8 5 T B,./Data/None
+./Validation/33756R.jpeg,3 3 7 5 6 R,./Data/None
+./Validation/4580HH.jpeg,4 5 8 0 H H,./Data/None
+./Validation/2850AB.jpeg,2 8 5 0 A B,./Data/None
+./Validation/26979AA.jpeg,2 6 9 7 9 A A,./Data/None
+./Validation/85179D.jpeg,8 5 1 7 9 D,./Data/None
+./Validation/8020BD.jpeg,8 0 2 0 B D,./Data/None
+./Validation/9664TA.jpeg,9 6 6 4 T A,./Data/None
+./Validation/81430BB.jpeg,8 1 4 3 0 B B,./Data/None
+./Validation/72809D.jpeg,7 2 8 0 9 D,./Data/None
+./Validation/53422D.jpeg,5 3 4 2 2 D,./Data/None
+./Validation/30579H.jpeg,3 0 5 7 9 H,./Data/None
+./Validation/20373W.jpeg,2 0 3 7 3 W,./Data/None
+./Validation/65287B.jpeg,6 5 2 8 7 B,./Data/None
+./Validation/7890B.jpeg,7 8 9 0 B,./Data/None
+./Validation/1368B.jpeg,1 3 6 8 B,./Data/None
+./Validation/91052D.jpeg,9 1 0 5 2 D,./Data/None
+./Validation/84964A.jpeg,8 4 9 6 4 A,./Data/None
+./Validation/56195H.jpeg,5 6 1 9 5 H,./Data/None
+./Validation/42648B.jpeg,4 2 6 4 8 B,./Data/None
+./Validation/63706M.jpeg,6 3 7 0 6 M,./Data/None
+./Validation/14247H.jpeg,1 4 2 4 7 H,./Data/None
+./Validation/2502RW.jpeg,2 5 0 2 R W,./Data/None
+./Validation/62123B.jpeg,6 2 1 2 3 B,./Data/None
+./Validation/99805BB.jpeg,9 9 8 0 5 B B,./Data/None
+./Validation/75759S.jpeg,7 5 7 5 9 S,./Data/None
+./Validation/66862BB.jpeg,6 6 8 6 2 B B,./Data/None
+./Validation/4525DR.jpeg,4 5 2 5 D R,./Data/None
+./Validation/60473W.jpeg,6 0 4 7 3 W,./Data/None
+./Validation/74135Y.jpeg,7 4 1 3 5 Y,./Data/None
+./Validation/2850AB_01.jpeg,2 8 5 0 A B,./Data/None
+./Validation/75274W.jpeg,7 5 2 7 4 W,./Data/None
+./Validation/9328H.jpeg,9 3 2 8 H,./Data/None
+./Validation/81430BB_01.jpeg,8 1 4 3 0 B B,./Data/None
+./Validation/2205T.jpeg,2 2 0 5 T,./Data/None
+./Validation/60591Y.jpeg,6 0 5 9 1 Y,./Data/None
+./Validation/28152Y.jpeg,2 8 1 5 2 Y,./Data/None
+./Validation/43694D.jpeg,4 3 6 9 4 D,./Data/None
+./Validation/88079S.jpeg,8 8 0 7 9 S,./Data/None
+./Validation/77572D.jpeg,7 7 5 7 2 D,./Data/None
+./Validation/63879H.jpeg,6 3 8 7 9 H,./Data/None
+./Validation/50234R.jpeg,5 0 2 3 4 R,./Data/None
+./Validation/22616W.jpeg,2 2 6 1 6 W,./Data/None
+./Validation/73092Y.jpeg,7 3 0 9 2 Y,./Data/None
+./Validation/64205M.jpeg,6 4 2 0 5 M,./Data/None
+./Validation/8239T.jpeg,8 2 3 9 T,./Data/None
+./Validation/77830W.jpeg,7 7 8 3 0 W,./Data/None
+./Validation/16059W.jpeg,1 6 0 5 9 W,./Data/None
+./Validation/56393W.jpeg,5 6 3 9 3 W,./Data/None
+./Validation/5982BH.jpeg,5 9 8 2 B H,./Data/None
+./Validation/63706M_01.jpeg,6 3 7 0 6 M,./Data/None
+./Validation/97800B.jpeg,9 7 8 0 0 B,./Data/None
+./Validation/791BD.jpeg,7 9 1 B D,./Data/None
+./Validation/63842D.jpeg,6 3 8 4 2 D,./Data/None
+./Validation/61456M.jpeg,6 1 4 5 6 M,./Data/None
+./Validation/66025B.jpeg,6 6 0 2 5 B,./Data/None
+./Validation/78068H.jpeg,7 8 0 6 8 H,./Data/None
+./Validation/93980BB.jpeg,9 3 9 8 0 B B,./Data/None
+./Validation/4905BY.jpeg,4 9 0 5 B Y,./Data/None
+./Validation/56308AA.jpeg,5 6 3 0 8 A A,./Data/None
+./Validation/99533R.jpeg,9 9 5 3 3 R,./Data/None
+./Validation/21869M.jpeg,2 1 8 6 9 M,./Data/None
+./Validation/38897M.jpeg,3 8 8 9 7 M,./Data/None
+./Validation/72145B.jpeg,7 2 1 4 5 B,./Data/None
+./Validation/8791AA.jpeg,8 7 9 1 A A,./Data/None
+./Validation/28218H.jpeg,2 8 2 1 8 H,./Data/None
+./Validation/28218H_01.jpeg,2 8 2 1 8 H,./Data/None
+./Validation/66050A.jpeg,6 6 0 5 0 A,./Data/None
+./Validation/15152H.jpeg,1 5 1 5 2 H,./Data/None
+./Validation/41947A.jpeg,4 1 9 4 7 A,./Data/None
+./Validation/31824BB.jpeg,3 1 8 2 4 B B,./Data/None
+./Validation/98366BB.jpeg,9 8 3 6 6 B B,./Data/None
+./Validation/850HY.jpeg,8 5 0 H Y,./Data/None
+./Validation/34917W.jpeg,3 4 9 1 7 W,./Data/None
+./Validation/78879M.jpeg,7 8 8 7 9 M,./Data/None
+./Validation/78047D.jpeg,7 8 0 4 7 D,./Data/None
+./Validation/8815HH.jpeg,8 8 1 5 H H,./Data/None
+./Validation/76029H.jpeg,7 6 0 2 9 H,./Data/None
+./Validation/65034BB.jpeg,6 5 0 3 4 B B,./Data/None
+./Validation/81625R.jpeg,8 1 6 2 5 R,./Data/None
+./Validation/2523RW.jpeg,2 5 2 3 R W,./Data/None
+./Validation/57265M.jpeg,5 7 2 6 5 M,./Data/None
+./Validation/65366B.jpeg,6 5 3 6 6 B,./Data/None
+./Validation/41563BB.jpeg,4 1 5 6 3 B B,./Data/None
+./Validation/28906H.jpeg,2 8 9 0 6 H,./Data/None
+./Validation/3286DR.jpeg,3 2 8 6 D R,./Data/None
+./Validation/86508AA.jpeg,8 6 5 0 8 A A,./Data/None
+./Validation/12819AA.jpeg,1 2 8 1 9 A A,./Data/None
+./Validation/28390B.jpeg,2 8 3 9 0 B,./Data/None
+./Validation/97800B_01.jpeg,9 7 8 0 0 B,./Data/None
+./Validation/12232W.jpeg,1 2 2 3 2 W,./Data/None
+./Validation/92173H.jpeg,9 2 1 7 3 H,./Data/None
+./Validation/62149Y.jpeg,6 2 1 4 9 Y,./Data/None
+./Validation/14910M.jpeg,1 4 9 1 0 M,./Data/None
+./Validation/43157D.jpeg,4 3 1 5 7 D,./Data/None
+./Validation/6149H.jpeg,6 1 4 9 H,./Data/None
+./Validation/71713B.jpeg,7 1 7 1 3 B,./Data/None
+./Validation/75009W.jpeg,7 5 0 0 9 W,./Data/None
+./Validation/69209A.jpeg,6 9 2 0 9 A,./Data/None
+./Validation/56566A.jpeg,5 6 5 6 6 A,./Data/None
+./Validation/49756BB.jpeg,4 9 7 5 6 B B,./Data/None
+./Validation/7810RW.jpeg,7 8 1 0 R W,./Data/None
+./Validation/50079BB.jpeg,5 0 0 7 9 B B,./Data/None
+./Validation/47490.jpeg,4 7 4 9 0,./Data/None
+./Validation/39035A.jpeg,3 9 0 3 5 A,./Data/None
+./Validation/2599BK.jpeg,2 5 9 9 B K,./Data/None
+./Validation/12960D.jpeg,1 2 9 6 0 D,./Data/None
+./Validation/8815HH_01.jpeg,8 8 1 5 H H,./Data/None
+./Validation/27570W.jpeg,2 7 5 7 0 W,./Data/None
+./Validation/7734YB.jpeg,7 7 3 4 Y B,./Data/None
+./Validation/13644B.jpeg,1 3 6 4 4 B,./Data/None
+./Validation/65366B_01.jpeg,6 5 3 6 6 B,./Data/None
+./Validation/59468Y.jpeg,5 9 4 6 8 Y,./Data/None
+./Validation/74257R.jpeg,7 4 2 5 7 R,./Data/None
+./Validation/21737R.jpeg,2 1 7 3 7 R,./Data/None
+./Validation/44861R.jpeg,4 4 8 6 1 R,./Data/None
+./Validation/20239A.jpeg,2 0 2 3 9 A,./Data/None
+./Validation/62353AA.jpeg,6 2 3 5 3 A A,./Data/None
+./Validation/20563D.jpeg,2 0 5 6 3 D,./Data/None
+./Validation/62367M.jpeg,6 2 3 6 7 M,./Data/None
+./Validation/6684AS.jpeg,6 6 8 4 A S,./Data/None
+./Validation/40368B.jpeg,4 0 3 6 8 B,./Data/None
+./Validation/40368B_01.jpeg,4 0 3 6 8 B,./Data/None
+./Validation/76024BB.jpeg,7 6 0 2 4 B B,./Data/None
+./Validation/2037YB.jpeg,2 0 3 7 Y B,./Data/None
+./Validation/12692S.jpeg,1 2 6 9 2 S,./Data/None
+./Validation/61982H.jpeg,6 1 9 8 2 H,./Data/None
+./Validation/29728S.jpeg,2 9 7 2 8 S,./Data/None
+./Validation/57632A.jpeg,5 7 6 3 2 A,./Data/None
+./Validation/6163BH.jpeg,6 1 6 3 B H,./Data/None
+./Validation/51854M.jpeg,5 1 8 5 4 M,./Data/None
+./Validation/5246TH.jpeg,5 2 4 6 T H,./Data/None
+./Validation/80761W.jpeg,8 0 7 6 1 W,./Data/None
+./Validation/311T.jpeg,3 1 1 T,./Data/None
+./Validation/35807AA.jpeg,3 5 8 0 7 A A,./Data/None
+./Validation/93648BB.jpeg,9 3 6 4 8 B B,./Data/None
+./Validation/60790W.jpeg,6 0 7 9 0 W,./Data/None
+./Validation/60825A.jpeg,6 0 8 2 5 A,./Data/None
+./Validation/54633BB.jpeg,5 4 6 3 3 B B,./Data/None
+./Validation/57465AA.jpeg,5 7 4 6 5 A A,./Data/None
+./Validation/88198S.jpeg,8 8 1 9 8 S,./Data/None
+./Validation/3878BW.jpeg,3 8 7 8 B W,./Data/None
+./Validation/67423BB.jpeg,6 7 4 2 3 B B,./Data/None
+./Validation/22248R.jpeg,2 2 2 4 8 R,./Data/None
+./Validation/99551W.jpeg,9 9 5 5 1 W,./Data/None
+./Validation/98937M.jpeg,9 8 9 3 7 M,./Data/None
+./Validation/3286DR_01.jpeg,3 2 8 6 D R,./Data/None
+./Validation/6722DY.jpeg,6 7 2 2 D Y,./Data/None
+./Validation/1359A.jpeg,1 3 5 9 A,./Data/None
+./Validation/52717AA.jpeg,5 2 7 1 7 A A,./Data/None
+./Validation/64778BB.jpeg,6 4 7 7 8 B B,./Data/None
+./Validation/53213BB.jpeg,5 3 2 1 3 B B,./Data/None
+./Validation/9919AW.jpeg,9 9 1 9 A W,./Data/None
+./Validation/32827W.jpeg,3 2 8 2 7 W,./Data/None
+./Validation/40297W.jpeg,4 0 2 9 7 W,./Data/None
+./Validation/46312H.jpeg,4 6 3 1 2 H,./Data/None
+./Validation/48921W.jpeg,4 8 9 2 1 W,./Data/None
+./Validation/11478Y.jpeg,1 1 4 7 8 Y,./Data/None
+./Validation/13097R.jpeg,1 3 0 9 7 R,./Data/None
+./Validation/90964B.jpeg,9 0 9 6 4 B,./Data/None
+./Validation/88860M.jpeg,8 8 8 6 0 M,./Data/None
+./Validation/63079M.jpeg,6 3 0 7 9 M,./Data/None
+./Validation/40368B_02.jpeg,4 0 3 6 8 B,./Data/None
+./Validation/39357D.jpeg,3 9 3 5 7 D,./Data/None
+./Validation/95587M.jpeg,9 5 5 8 7 M,./Data/None
+./Validation/55366H.jpeg,5 5 3 6 6 H,./Data/None
+./Validation/5823SS.jpeg,5 8 2 3 S S,./Data/None
+./Validation/74902A.jpeg,7 4 9 0 2 A,./Data/None
+./Validation/59508H.jpeg,5 9 5 0 8 H,./Data/None
+./Validation/48940A.jpeg,4 8 9 4 0 A,./Data/None
+./Validation/32220BB.jpeg,3 2 2 2 0 B B,./Data/None
+./Validation/53444BB.jpeg,5 3 4 4 4 B B,./Data/None
+./Validation/60790W_01.jpeg,6 0 7 9 0 W,./Data/None
+./Validation/27709Y.jpeg,2 7 7 0 9 Y,./Data/None
+./Validation/3420RS.jpeg,3 4 2 0 R S,./Data/None
+./Validation/8872BR.jpeg,8 8 7 2 B R,./Data/None
+./Validation/1652HR.jpeg,1 6 5 2 H R,./Data/None
+./Validation/97458S.jpeg,9 7 4 5 8 S,./Data/None
+./Validation/57923B.jpeg,5 7 9 2 3 B,./Data/None
+./Validation/1359A_01.jpeg,1 3 5 9 A,./Data/None
+./Validation/17953B.jpeg,1 7 9 5 3 B,./Data/None
+./Validation/19345R.jpeg,1 9 3 4 5 R,./Data/None
+./Validation/99214S.jpeg,9 9 2 1 4 S,./Data/None
+./Validation/20345M.jpeg,2 0 3 4 5 M,./Data/None
+./Validation/18377D.jpeg,1 8 3 7 7 D,./Data/None
+./Validation/18488S.jpeg,1 8 4 8 8 S,./Data/None
+./Validation/91118BB.jpeg,9 1 1 1 8 B B,./Data/None
+./Validation/9314MY.jpeg,9 3 1 4 M Y,./Data/None
+./Validation/4782HY.jpeg,4 7 8 2 H Y,./Data/None
+./Validation/62784S.jpeg,6 2 7 8 4 S,./Data/None
+./Validation/29060.jpeg,2 9 0 6 0,./Data/None
+./Validation/89703R.jpeg,8 9 7 0 3 R,./Data/None
+./Validation/60423R.jpeg,6 0 4 2 3 R,./Data/None
+./Validation/7022TH.jpeg,7 0 2 2 T H,./Data/None
+./Validation/26452D.jpeg,2 6 4 5 2 D,./Data/None
+./Validation/40630W.jpeg,4 0 6 3 0 W,./Data/None
+./Validation/5973Y.jpeg,5 9 7 3 Y,./Data/None
+./Validation/38340B.jpeg,3 8 3 4 0 B,./Data/None
+./Validation/23011BB.jpeg,2 3 0 1 1 B B,./Data/None
+./Validation/81124BB.jpeg,8 1 1 2 4 B B,./Data/None
+./Validation/82570BB.jpeg,8 2 5 7 0 B B,./Data/None
+./Validation/47027M.jpeg,4 7 0 2 7 M,./Data/None
+./Validation/8325MM.jpeg,8 3 2 5 M M,./Data/None
+./Validation/60568A.jpeg,6 0 5 6 8 A,./Data/None
+./Validation/78742S.jpeg,7 8 7 4 2 S,./Data/None
+./Validation/23052BB.jpeg,2 3 0 5 2 B B,./Data/None
+./Validation/66431AA.jpeg,6 6 4 3 1 A A,./Data/None
+./Validation/1737BH.jpeg,1 7 3 7 B H,./Data/None
+./Validation/82628D.jpeg,8 2 6 2 8 D,./Data/None
+./Validation/9412AB.jpeg,9 4 1 2 A B,./Data/None
+./Validation/81227D.jpeg,8 1 2 2 7 D,./Data/None
+./Validation/70580A.jpeg,7 0 5 8 0 A,./Data/None
+./Validation/275RK.jpeg,2 7 5 R K,./Data/None
+./Validation/7958MM.jpeg,7 9 5 8 M M,./Data/None
+./Validation/38058AA.jpeg,3 8 0 5 8 A A,./Data/None
+./Validation/73744B.jpeg,7 3 7 4 4 B,./Data/None
+./Validation/37905AA.jpeg,3 7 9 0 5 A A,./Data/None
+./Validation/18377D_01.jpeg,1 8 3 7 7 D,./Data/None
+./Validation/22128BB.jpeg,2 2 1 2 8 B B,./Data/None
+./Validation/97093B.jpeg,9 7 0 9 3 B,./Data/None
+./Validation/958YY.jpeg,9 5 8 Y Y,./Data/None
+./Validation/51167W.jpeg,5 1 1 6 7 W,./Data/None
+./Validation/47168H.jpeg,4 7 1 6 8 H,./Data/None
+./Validation/98631B.jpeg,9 8 6 3 1 B,./Data/None
+./Validation/42107A.jpeg,4 2 1 0 7 A,./Data/None
+./Validation/7356S.jpeg,7 3 5 6 S,./Data/None
+./Validation/36304B.jpeg,3 6 3 0 4 B,./Data/None
+./Validation/8371B.jpeg,8 3 7 1 B,./Data/None
+./Validation/89703R_01.jpeg,8 9 7 0 3 R,./Data/None
+./Validation/59002BB.jpeg,5 9 0 0 2 B B,./Data/None
+./Validation/19986D.jpeg,1 9 9 8 6 D,./Data/None
+./Validation/26452D_01.jpeg,2 6 4 5 2 D,./Data/None
+./Validation/7022TH_01.jpeg,7 0 2 2 T H,./Data/None
+./Validation/85392R.jpeg,8 5 3 9 2 R,./Data/None
+./Validation/49761W.jpeg,4 9 7 6 1 W,./Data/None
+./Validation/88901H.jpeg,8 8 9 0 1 H,./Data/None
+./Validation/70327B.jpeg,7 0 3 2 7 B,./Data/None
+./Validation/80663D.jpeg,8 0 6 6 3 D,./Data/None
+./Validation/4396HR.jpeg,4 3 9 6 H R,./Data/None
+./Validation/7006M.jpeg,7 0 0 6 M,./Data/None
+./Validation/51731B.jpeg,5 1 7 3 1 B,./Data/None
+./Validation/44301B.jpeg,4 4 3 0 1 B,./Data/None
+./Validation/1918HY.jpeg,1 9 1 8 H Y,./Data/None
+./Validation/84237B.jpeg,8 4 2 3 7 B,./Data/None
+./Validation/18727BB.jpeg,1 8 7 2 7 B B,./Data/None
+./Validation/25991H.jpeg,2 5 9 9 1 H,./Data/None
+./Validation/3786KB.jpeg,3 7 8 6 K B,./Data/None
+./Validation/58202M.jpeg,5 8 2 0 2 M,./Data/None
+./Validation/14319W.jpeg,1 4 3 1 9 W,./Data/None
+./Validation/38058AA_01.jpeg,3 8 0 5 8 A A,./Data/None
+./Validation/99479AA.jpeg,9 9 4 7 9 A A,./Data/None
+./Validation/28786BB.jpeg,2 8 7 8 6 B B,./Data/None
+./Validation/3326AA.jpeg,3 3 2 6 A A,./Data/None
+./Validation/42866W.jpeg,4 2 8 6 6 W,./Data/None
+./Validation/7521T.jpeg,7 5 2 1 T,./Data/None
+./Validation/11678R.jpeg,1 1 6 7 8 R,./Data/None
+./Validation/9209BR.jpeg,9 2 0 9 B R,./Data/None
+./Validation/57990AA.jpeg,5 7 9 9 0 A A,./Data/None
+./Validation/9410RM.jpeg,9 4 1 0 R M,./Data/None
+./Validation/76739M.jpeg,7 6 7 3 9 M,./Data/None
+./Validation/76280Y.jpeg,7 6 2 8 0 Y,./Data/None
+./Validation/75012M.jpeg,7 5 0 1 2 M,./Data/None
+./Validation/98655S.jpeg,9 8 6 5 5 S,./Data/None
+./Validation/468W.jpeg,4 6 8 W,./Data/None
+./Validation/18016D.jpeg,1 8 0 1 6 D,./Data/None
+./Validation/8806AB.jpeg,8 8 0 6 A B,./Data/None
+./Validation/8673YY.jpeg,8 6 7 3 Y Y,./Data/None
+./Validation/62283BB.jpeg,6 2 2 8 3 B B,./Data/None
+./Validation/1226BS.jpeg,1 2 2 6 B S,./Data/None
+./Validation/78173Y.jpeg,7 8 1 7 3 Y,./Data/None
+./Validation/2129DR.jpeg,2 1 2 9 D R,./Data/None
+./Validation/8439WW.jpeg,8 4 3 9 W W,./Data/None
+./Validation/60235AA.jpeg,6 0 2 3 5 A A,./Data/None
+./Validation/78827D.jpeg,7 8 8 2 7 D,./Data/None
+./Validation/98409AA.jpeg,9 8 4 0 9 A A,./Data/None
+./Validation/4909AW.jpeg,4 9 0 9 A W,./Data/None
+./Validation/37383W.jpeg,3 7 3 8 3 W,./Data/None
+./Validation/87969B.jpeg,8 7 9 6 9 B,./Data/None
+./Validation/48461W.jpeg,4 8 4 6 1 W,./Data/None
+./Validation/5413SS.jpeg,5 4 1 3 S S,./Data/None
+./Validation/14675Y.jpeg,1 4 6 7 5 Y,./Data/None
+./Validation/62013W.jpeg,6 2 0 1 3 W,./Data/None
+./Validation/810TA.jpeg,8 1 0 T A,./Data/None
+./Validation/58684BB.jpeg,5 8 6 8 4 B B,./Data/None
+./Validation/80206BB.jpeg,8 0 2 0 6 B B,./Data/None
+./Validation/69163D.jpeg,6 9 1 6 3 D,./Data/None
+./Validation/27603B.jpeg,2 7 6 0 3 B,./Data/None
+./Validation/6560T.jpeg,6 5 6 0 T,./Data/None
+./Validation/76216R.jpeg,7 6 2 1 6 R,./Data/None
+./Validation/22069W.jpeg,2 2 0 6 9 W,./Data/None
+./Validation/11814BB.jpeg,1 1 8 1 4 B B,./Data/None
+./Validation/468W_01.jpeg,4 6 8 W,./Data/None
+./Validation/39878H.jpeg,3 9 8 7 8 H,./Data/None
+./Validation/25696H.jpeg,2 5 6 9 6 H,./Data/None
+./Validation/65069D.jpeg,6 5 0 6 9 D,./Data/None
+./Validation/60004W.jpeg,6 0 0 0 4 W,./Data/None
+./Validation/33617BB.jpeg,3 3 6 1 7 B B,./Data/None
+./Validation/25119R.jpeg,2 5 1 1 9 R,./Data/None
+./Validation/78173Y_01.jpeg,7 8 1 7 3 Y,./Data/None
+./Validation/8174DD.jpeg,8 1 7 4 D D,./Data/None
+./Validation/43915M.jpeg,4 3 9 1 5 M,./Data/None
+./Validation/19303A.jpeg,1 9 3 0 3 A,./Data/None
+./Validation/65936S.jpeg,6 5 9 3 6 S,./Data/None
+./Validation/12745H.jpeg,1 2 7 4 5 H,./Data/None
+./Validation/24806Y.jpeg,2 4 8 0 6 Y,./Data/None
+./Validation/62585R.jpeg,6 2 5 8 5 R,./Data/None
+./Validation/82588W.jpeg,8 2 5 8 8 W,./Data/None
+./Validation/6843RR.jpeg,6 8 4 3 R R,./Data/None
+./Validation/9804AM.jpeg,9 8 0 4 A M,./Data/None
+./Validation/2618K.jpeg,2 6 1 8 K,./Data/None
+./Validation/666HY.jpeg,6 6 6 H Y,./Data/None
+./Validation/73702S.jpeg,7 3 7 0 2 S,./Data/None
+./Validation/87589Y.jpeg,8 7 5 8 9 Y,./Data/None
+./Validation/5823SS_01.jpeg,5 8 2 3 S S,./Data/None
+./Validation/57624Y.jpeg,5 7 6 2 4 Y,./Data/None
+./Validation/18381B.jpeg,1 8 3 8 1 B,./Data/None
+./Validation/75498BB.jpeg,7 5 4 9 8 B B,./Data/None
+./Validation/4396HR_01.jpeg,4 3 9 6 H R,./Data/None
+./Validation/13580AA.jpeg,1 3 5 8 0 A A,./Data/None
+./Validation/8869RM.jpeg,8 8 6 9 R M,./Data/None
+./Validation/34153Y.jpeg,3 4 1 5 3 Y,./Data/None
+./Validation/95497H.jpeg,9 5 4 9 7 H,./Data/None
+./Validation/60827Y.jpeg,6 0 8 2 7 Y,./Data/None
+./Validation/67300D.jpeg,6 7 3 0 0 D,./Data/None
+./Validation/2982Y.jpeg,2 9 8 2 Y,./Data/None
+./Validation/25170Y.jpeg,2 5 1 7 0 Y,./Data/None
+./Validation/71322M.jpeg,7 1 3 2 2 M,./Data/None
+./Validation/74499BB.jpeg,7 4 4 9 9 B B,./Data/None
+./Validation/18909Y.jpeg,1 8 9 0 9 Y,./Data/None
+./Validation/83293Y.jpeg,8 3 2 9 3 Y,./Data/None
+./Validation/86157W.jpeg,8 6 1 5 7 W,./Data/None
+./Validation/87884M.jpeg,8 7 8 8 4 M,./Data/None
+./Validation/50748BB.jpeg,5 0 7 4 8 B B,./Data/None
+./Validation/9502SS.jpeg,9 5 0 2 S S,./Data/None
+./Validation/95787Y.jpeg,9 5 7 8 7 Y,./Data/None
+./Validation/54261D.jpeg,5 4 2 6 1 D,./Data/None
+./Validation/55796BB.jpeg,5 5 7 9 6 B B,./Data/None
+./Validation/6286RY.jpeg,6 2 8 6 R Y,./Data/None
+./Validation/666HY_01.jpeg,6 6 6 H Y,./Data/None
+./Validation/80922D.jpeg,8 0 9 2 2 D,./Data/None
+./Validation/5823SS_02.jpeg,5 8 2 3 S S,./Data/None
+./Validation/88815BB.jpeg,8 8 8 1 5 B B,./Data/None
+./Validation/85633S.jpeg,8 5 6 3 3 S,./Data/None
+./Validation/89543D.jpeg,8 9 5 4 3 D,./Data/None
+./Validation/9763DR.jpeg,9 7 6 3 D R,./Data/None
+./Validation/18567S.jpeg,1 8 5 6 7 S,./Data/None
+./Validation/1490DY.jpeg,1 4 9 0 D Y,./Data/None
+./Validation/33022BB.jpeg,3 3 0 2 2 B B,./Data/None
+./Validation/73807BB.jpeg,7 3 8 0 7 B B,./Data/None
+./Validation/35218D.jpeg,3 5 2 1 8 D,./Data/None
+./Validation/77304M.jpeg,7 7 3 0 4 M,./Data/None
+./Validation/10488S.jpeg,1 0 4 8 8 S,./Data/None
+./Validation/55254H.jpeg,5 5 2 5 4 H,./Data/None
+./Validation/2264BD.jpeg,2 2 6 4 B D,./Data/None
+./Validation/43922H.jpeg,4 3 9 2 2 H,./Data/None
+./Validation/87319R.jpeg,8 7 3 1 9 R,./Data/None
+./Validation/2044AW.jpeg,2 0 4 4 A W,./Data/None
+./Validation/6712B.jpeg,6 7 1 2 B,./Data/None
+./Validation/75406R.jpeg,7 5 4 0 6 R,./Data/None
+./Validation/32532M.jpeg,3 2 5 3 2 M,./Data/None
+./Validation/10798M.jpeg,1 0 7 9 8 M,./Data/None
+./Validation/54568BB.jpeg,5 4 5 6 8 B B,./Data/None
+./Validation/12253M.jpeg,1 2 2 5 3 M,./Data/None
+./Validation/80206BB_01.jpeg,8 0 2 0 6 B B,./Data/None
+./Validation/3645BY.jpeg,3 6 4 5 B Y,./Data/None
+./Validation/3870AD.jpeg,3 8 7 0 A D,./Data/None
+./Validation/4826BW.jpeg,4 8 2 6 B W,./Data/None
+./Validation/89074D.jpeg,8 9 0 7 4 D,./Data/None
+./Validation/48461W_01.jpeg,4 8 4 6 1 W,./Data/None
+./Validation/70159M.jpeg,7 0 1 5 9 M,./Data/None
+./Validation/678R.jpeg,6 7 8 R,./Data/None
+./Validation/8239T_01.jpeg,8 2 3 9 T,./Data/None
+./Validation/14319W_01.jpeg,1 4 3 1 9 W,./Data/None
+./Validation/6187HS.jpeg,6 1 8 7 H S,./Data/None
+./Validation/52350R.jpeg,5 2 3 5 0 R,./Data/None
+./Validation/7112DD.jpeg,7 1 1 2 D D,./Data/None
+./Validation/80478D.jpeg,8 0 4 7 8 D,./Data/None
+./Validation/75759S_01.jpeg,7 5 7 5 9 S,./Data/None
+./Validation/6142DR.jpeg,6 1 4 2 D R,./Data/None
+./Validation/63259D.jpeg,6 3 2 5 9 D,./Data/None
+./Validation/58299AA.jpeg,5 8 2 9 9 A A,./Data/None
+./Validation/92173H_01.jpeg,9 2 1 7 3 H,./Data/None
+./Validation/61987Y_01.jpeg,6 1 9 8 7 Y,./Data/None
+./Validation/7232RW.jpeg,7 2 3 2 R W,./Data/None
+./Validation/98039H.jpeg,9 8 0 3 9 H,./Data/None
+./Validation/28152Y_01.jpeg,2 8 1 5 2 Y,./Data/None
+./Validation/9656TH.jpeg,9 6 5 6 T H,./Data/None
+./Validation/96016A.jpeg,9 6 0 1 6 A,./Data/None
+./Validation/7090MM.jpeg,7 0 9 0 M M,./Data/None
+./Validation/58438AA.jpeg,5 8 4 3 8 A A,./Data/None
+./Validation/65287B_01.jpeg,6 5 2 8 7 B,./Data/None
+./Validation/85207H.jpeg,8 5 2 0 7 H,./Data/None
+./Validation/99163S.jpeg,9 9 1 6 3 S,./Data/None
+./Validation/9014KB.jpeg,9 0 1 4 K B,./Data/None
+./Validation/63879H_01.jpeg,6 3 8 7 9 H,./Data/None
+./Validation/65194S.jpeg,6 5 1 9 4 S,./Data/None
+./Validation/1205BM.jpeg,1 2 0 5 B M,./Data/None
+./Validation/63706M_02.jpeg,6 3 7 0 6 M,./Data/None
+./Validation/67912A.jpeg,6 7 9 1 2 A,./Data/None
+./Validation/78276H.jpeg,7 8 2 7 6 H,./Data/None
+./Validation/67552W.jpeg,6 7 5 5 2 W,./Data/None
+./Validation/44793BB.jpeg,4 4 7 9 3 B B,./Data/None
+./Validation/16972S.jpeg,1 6 9 7 2 S,./Data/None
+./Validation/47178A.jpeg,4 7 1 7 8 A,./Data/None
+./Validation/30149M.jpeg,3 0 1 4 9 M,./Data/None
+./Validation/90964B_01.jpeg,9 0 9 6 4 B,./Data/None
+./Validation/61987Y_02.jpeg,6 1 9 8 7 Y,./Data/None
+./Validation/75759S_02.jpeg,7 5 7 5 9 S,./Data/None
+./Validation/9062BY_01.jpeg,9 0 6 2 B Y,./Data/None
+./Validation/53422D_01.jpeg,5 3 4 2 2 D,./Data/None
+./Validation/8071TH.jpeg,8 0 7 1 T H,./Data/None
+./Validation/53733BB.jpeg,5 3 7 3 3 B B,./Data/None
+./Validation/33760AA.jpeg,3 3 7 6 0 A A,./Data/None
+./Validation/26979AA_01.jpeg,2 6 9 7 9 A A,./Data/None
+./Validation/4782HY_01.jpeg,4 7 8 2 H Y,./Data/None
+./Validation/2850AB_02.jpeg,2 8 5 0 A B,./Data/None
+./Validation/31833BB.jpeg,3 1 8 3 3 B B,./Data/None
+./Validation/33743D.jpeg,3 3 7 4 3 D,./Data/None
+./Validation/38070AA.jpeg,3 8 0 7 0 A A,./Data/None
+./Validation/54614B.jpeg,5 4 6 1 4 B,./Data/None
+./Validation/47490AA.jpeg,4 7 4 9 0 A A,./Data/None
+./Validation/12550BB.jpeg,1 2 5 5 0 B B,./Data/None
+./Validation/21737R_01.jpeg,2 1 7 3 7 R,./Data/None
+./Validation/59468Y_01.jpeg,5 9 4 6 8 Y,./Data/None
+./Validation/40507R.jpeg,4 0 5 0 7 R,./Data/None
+./Validation/44358BB.jpeg,4 4 3 5 8 B B,./Data/None
+./Validation/72145B_01.jpeg,7 2 1 4 5 B,./Data/None
+./Validation/43800AA.jpeg,4 3 8 0 0 A A,./Data/None
+./Validation/1490DY_01.jpeg,1 4 9 0 D Y,./Data/None
+./Validation/2204RR.jpeg,2 2 0 4 R R,./Data/None
+./Validation/91655S.jpeg,9 1 6 5 5 S,./Data/None
+./Validation/58299BB.jpeg,5 8 2 9 9 B B,./Data/None
+./Validation/51603BB.jpeg,5 1 6 0 3 B B,./Data/None
+./Validation/76029H_01.jpeg,7 6 0 2 9 H,./Data/None
+./Validation/15612M.jpeg,1 5 6 1 2 M,./Data/None
+./Validation/70478R.jpeg,7 0 4 7 8 R,./Data/None
+./Validation/12960D_01.jpeg,1 2 9 6 0 D,./Data/None
+./Validation/96551R.jpeg,9 6 5 5 1 R,./Data/None
+./Validation/67736A.jpeg,6 7 7 3 6 A,./Data/None
+./Validation/41947A_01.jpeg,4 1 9 4 7 A,./Data/None
+./Validation/81625R_01.jpeg,8 1 6 2 5 R,./Data/None
+./Validation/36139AA.jpeg,3 6 1 3 9 A A,./Data/None
+./Validation/14300BB.jpeg,1 4 3 0 0 B B,./Data/None
+./Validation/31904BB.jpeg,3 1 9 0 4 B B,./Data/None
+./Validation/4241T.jpeg,4 2 4 1 T,./Data/None
+./Validation/44160S.jpeg,4 4 1 6 0 S,./Data/None
+./Validation/44160S_01.jpeg,4 4 1 6 0 S,./Data/None
+./Validation/47556S.jpeg,4 7 5 5 6 S,./Data/None
+./Validation/66956AA.jpeg,6 6 9 5 6 A A,./Data/None
+./Validation/28218H_02.jpeg,2 8 2 1 8 H,./Data/None
+./Validation/8791AA_01.jpeg,8 7 9 1 A A,./Data/None
+./Validation/56308AA_01.jpeg,5 6 3 0 8 A A,./Data/None
+./Validation/37569W.jpeg,3 7 5 6 9 W,./Data/None
+./Validation/7115BY.jpeg,7 1 1 5 B Y,./Data/None
+./Validation/53042R.jpeg,5 3 0 4 2 R,./Data/None
+./Validation/76598BB.jpeg,7 6 5 9 8 B B,./Data/None
+./Validation/66307R.jpeg,6 6 3 0 7 R,./Data/None
+./Validation/96746Y.jpeg,9 6 7 4 6 Y,./Data/None
+./Validation/2689BD.jpeg,2 6 8 9 B D,./Data/None
+./Validation/87693AA.jpeg,8 7 6 9 3 A A,./Data/None
+./Validation/21737R_02.jpeg,2 1 7 3 7 R,./Data/None
+./Validation/22213Y.jpeg,2 2 2 1 3 Y,./Data/None
+./Validation/87496M.jpeg,8 7 4 9 6 M,./Data/None
+./Validation/13560Y.jpeg,1 3 5 6 0 Y,./Data/None
+./Validation/63158W.jpeg,6 3 1 5 8 W,./Data/None
+./Validation/35382S.jpeg,3 5 3 8 2 S,./Data/None
+./Validation/81006Y.jpeg,8 1 0 0 6 Y,./Data/None
+./Validation/56899Y.jpeg,5 6 8 9 9 Y,./Data/None
+./Validation/65217R.jpeg,6 5 2 1 7 R,./Data/None
+./Validation/4428A.jpeg,4 4 2 8 A,./Data/None
+./Validation/41949R.jpeg,4 1 9 4 9 R,./Data/None
+./Validation/94358BB.jpeg,9 4 3 5 8 B B,./Data/None
+./Validation/36387BB.jpeg,3 6 3 8 7 B B,./Data/None
+./Validation/89407BB.jpeg,8 9 4 0 7 B B,./Data/None
+./Validation/94005S.jpeg,9 4 0 0 5 S,./Data/None
+./Validation/66630Y.jpeg,6 6 6 3 0 Y,./Data/None
+./Validation/78358M.jpeg,7 8 3 5 8 M,./Data/None
+./Validation/71492H.jpeg,7 1 4 9 2 H,./Data/None
+./Validation/24579BB.jpeg,2 4 5 7 9 B B,./Data/None
+./Validation/29728S_01.jpeg,2 9 7 2 8 S,./Data/None
+./Validation/275RK_01.jpeg,2 7 5 R K,./Data/None
+./Validation/33756R_01.jpeg,3 3 7 5 6 R,./Data/None
+./Validation/85389S.jpeg,8 5 3 8 9 S,./Data/None
+./Validation/80478D_01.jpeg,8 0 4 7 8 D,./Data/None
+./Validation/57683M.jpeg,5 7 6 8 3 M,./Data/None
+./Validation/78276H_01.jpeg,7 8 2 7 6 H,./Data/None
+./Validation/42941AA.jpeg,4 2 9 4 1 A A,./Data/None
+./Validation/3870AD_01.jpeg,3 8 7 0 A D,./Data/None
+./Validation/60724BB.jpeg,6 0 7 2 4 B B,./Data/None
+./Validation/83402H.jpeg,8 3 4 0 2 H,./Data/None
+./Validation/58438AA_01.jpeg,5 8 4 3 8 A A,./Data/None
+./Validation/3850H.jpeg,3 8 5 0 H,./Data/None

@@ -1,0 +1,2 @@
+The results of comparsion between the proposed method and other similar methods are reported here. Each folder named after the methods that compared with the proposed method. 
+The methods evaluated on each subset of datasets, which is described in the manuscript; so there is three files for each subset of datasets include labels, predictions, and evaluation metrics. The size of each subset is mentioned in the files name.

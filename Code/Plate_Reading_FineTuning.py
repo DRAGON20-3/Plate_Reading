@@ -1,6 +1,6 @@
 import numpy as np
-from PIL import Image
 import pandas as pd
+from PIL import Image, ImageStat, ImageEnhance
 import os
 import matplotlib.pyplot as plt
 import time
@@ -52,10 +52,9 @@ clear_output()
 
 ####################### Global Parameters ####################### #######################
 
-#os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+#os.environ["CUDA_VISIBLE_DEVICES"] = "1" # In Order To Select GPU
 
 Execution_Device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
 
 Base_Address = "../"
 Data_Address = "../Data/"
@@ -68,23 +67,22 @@ Using_Synthetic_Dataset = 1
 #Using_White_BackGround_Synthetic_Dataset = 0
 #Using_Black_BackGround_Synthetic_Dataset = 0
 Using_Augmented_Dataset = 0
-Using_Real_World_Dataset = 0 
+Using_Real_World_Dataset = 0
 
 
 Dataset_Portion = 1.0 # between 0.0 and 1.0 to choose a portion of Trainin Data in order to tackle low RAM memory for loading data
 Validation_Size = 0.2 # 0.23 means 23%
 
 
-Validation_Cumulation = 0 # 0: Just Using the Evaludation Set Of Real Data, 1: Concatenate The Evaludation Set Of Real Data with Validation Set of The Mentioned Section, 2: Just Validation Set Of The Mentioned Section
+Validation_Cumulation = 2 # 0: Just Using the Evaludation Set Of Real Data, 1: Concatenate The Evaludation Set Of Real Data with Validation Set of The Mentioned Section, 2: Just Validation Set Of The Mentioned Section
 Evaluation_Section = 1 # 1: 500 Dubizzle, (DO NOT CHANGE OR REMOVE THIS PARAMETER)
 
-Using_Gray_Scale_Filters = 2 # Using Grayscale and Filters Over The Image Instead Of RGB Image; 1: Combination Of Filters, 2: Concatenated Three GrayScale, 3: Concatenated fastNlMeansDenoising, 4: Concatenated Sobel Edge
+Using_Gray_Scale_Filters = 0 # Using Grayscale and Filters Over The Image Instead Of RGB Image; 1: Combination Of Filters, 2: Concatenated Three GrayScale, 3: Concatenated fastNlMeansDenoising, 4: Concatenated Sobel Edge
 Using_WhiteSpace = 0 # Using WhiteSpace In Tokenization Between Each Letter (1: "1 3 4 B", 0: "134B")
-Style_Shifting = "0" # Changing The Style Of Synthetic Data To Be Similar To Real Data (Like Augmentations Techniques); 1: All, 2: BackGround, 3: Brightness, 4: Stratching, 5: Rotation, 6: Noise; Could be Merge like "23" Means both Background and Brightness
+Style_Shifting = "1" # Changing The Style Of Synthetic Data To Be Similar To Real Data (Like Augmentations Techniques); 1: All, 2: BackGround, 3: Brightness, 4: Stratching, 5: Rotation, 6: Noise; Could be Merge like "23" Means both Background and Brightness
 
 Epochs = 10 
 Batch_Size = 32
-
 
 
 ####################### Data Loading ####################### #######################
@@ -133,7 +131,12 @@ if Using_Real_World_Dataset == 1:
   Temp["file_path"] = np.char.replace(Temp["file_path"].to_numpy().astype("<U230"), "./", Data_Address + "Real_Data/")
   Temp["bbox_path"] = np.char.replace(Temp["bbox_path"].to_numpy().astype("<U230"), "./", Data_Address + "Real_Data/")
   #
+  Temp_2 = pd.read_csv(Data_Address + "Real_Data/Validation.csv")
+  Temp_2["file_path"] = np.char.replace(Temp_2["file_path"].to_numpy().astype("<U230"), "./", Data_Address + "Real_Data/")
+  Temp_2["bbox_path"] = np.char.replace(Temp_2["bbox_path"].to_numpy().astype("<U230"), "./", Data_Address + "Real_Data/")
+  #
   Data_Train = pd.concat([Data_Train, Temp], ignore_index = True)
+  Data_Test = pd.concat([Data_Test, Temp_2], ignore_index = True)
   #
 
 
@@ -141,7 +144,7 @@ if "Temp" in globals(): del Temp
 if "Temp_2" in globals(): del Temp_2
 
 
-Evaluation_Data = None
+Evaluation_Data = np.array([])
 if Validation_Cumulation != 2:
   Evaluation_Data = pd.read_csv(Data_Address + "Real_Data/Validation.csv")
   Evaluation_Data["file_path"] = np.char.replace(Evaluation_Data["file_path"].to_numpy().astype("<U230"), "./", Data_Address + "Real_Data/")
@@ -163,8 +166,9 @@ if len(Data_Test) > 0:
   Data_Test.iloc[:, 1] = np.char.decode(np.char.encode(Data_Test.iloc[:, 1].to_numpy().astype(np.str_), encoding = "ascii", errors = "ignore"))
   Data_Test.iloc[:, 1] = np.char.replace(np.char.strip(Data_Test.iloc[:, 1].to_numpy().astype(np.str_)), "  ", " ")
 
-Evaluation_Data.iloc[:, 1] = np.char.decode(np.char.encode(Evaluation_Data.iloc[:, 1].to_numpy().astype(np.str_), encoding = "ascii", errors = "ignore"))
-Evaluation_Data.iloc[:, 1] = np.char.replace(np.char.strip(Evaluation_Data.iloc[:, 1].to_numpy().astype(np.str_)), "  ", " ")
+if Validation_Cumulation != 2:
+  Evaluation_Data.iloc[:, 1] = np.char.decode(np.char.encode(Evaluation_Data.iloc[:, 1].to_numpy().astype(np.str_), encoding = "ascii", errors = "ignore"))
+  Evaluation_Data.iloc[:, 1] = np.char.replace(np.char.strip(Evaluation_Data.iloc[:, 1].to_numpy().astype(np.str_)), "  ", " ")
 
 
 if Validation_Cumulation == 0:
@@ -186,7 +190,6 @@ print("Data_Train Shape:", Data_Train.shape)
 print("Data_Validation Shape:", Data_Validation.shape)
 print("Evaluation_Data Shape:", Evaluation_Data.shape)
 
-input("S")
 
 print()
 
@@ -199,28 +202,29 @@ if os.path.exists(Base_Address + "Model/" + Model_Name + "/"):
   Temp = json.loads(F.read().replace("\n", ",").replace("'", "\""))
   F.close()
   # 
-  Processor = TrOCRProcessor.from_pretrained(Temp["Model_Name"].replace("_", "/")) # , device_map = Execution_Device
-  # [Base_Address + "Model/" + Models_Name[i] + "/" + name, os.path.getmtime(Base_Address + "Model/" + Models_Name[i] + "/" + name)]
   Temp = [[Base_Address + "Model/" + Model_Name + "/" + name, os.path.getmtime(Base_Address + "Model/" + Model_Name + "/" + name)] for name in os.listdir(Base_Address + "Model/" + Model_Name + "/") if ("checkpoint" in name.lower() and os.path.isdir(Base_Address + "Model/" + Model_Name + "/" + name))]
   Temp = np.array(Temp)
   if len(Temp) == 0 : 
     print("No CheckPoint Is Available!!")
-    quit() # print(SKIP)
+    Temp = Model_Name
+    #quit() # print(SKIP)
   else:
     Temp = Temp[np.argmax(Temp[:, 1].astype(np.float64)), 0]
   #
   Model = VisionEncoderDecoderModel.from_pretrained(Temp) # , device_map = Execution_Device
-else:
-  Processor = TrOCRProcessor.from_pretrained(Model_Name) # , device_map = Execution_Device
+elif not os.path.exists(Base_Address + "Model/" + Model_Name + "/") or "Model" not in globals():
   try:
-    print(Skip_Parameter)
     Model = VisionEncoderDecoderModel.from_pretrained(Base_Address + "Transformers/" + Model_Name.replace("/" , "_") + "/") # , device_map = Execution_Device
   except:
 	  print("\nModel was not stored offline! It will be download soon\n")
 	  Model = VisionEncoderDecoderModel.from_pretrained(Model_Name) # , device_map = Execution_Device
 	  Model.save_pretrained(Base_Address + "Transformers/" + Model_Name.replace("/" , "_") + "/")
 
-
+try:
+  Processor = TrOCRProcessor.from_pretrained(Base_Address + "Transformers/" + Model_Name.replace("/" , "_") + "/Processor/")
+except:
+  Processor = TrOCRProcessor.from_pretrained(Model_Name)
+  Processor.save_pretrained(Base_Address + "Transformers/" + Model_Name.replace("/" , "_") + "/Processor/")
 
 Model.config.max_length = 20
 Model.config.max_new_tokens = 20
@@ -241,6 +245,7 @@ Model.config.early_stopping = False
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 try:
+  print(AA)
   Model.to("cuda")
 except:
   pass
@@ -258,8 +263,6 @@ except:
 
 ####################### FineTuning TrOCR ####################### #######################
 
-from PIL import Image, ImageStat, ImageEnhance
-import cv2
 
 class CustomOCRDataset(Dataset):
   def __init__(self, Base_Address, df, Processor, max_target_length = 128):
@@ -288,7 +291,6 @@ class CustomOCRDataset(Dataset):
       image = Image.fromarray(image)
     #
     Resize_Shape = (160, 40)
-    if Input_Mode == 1 or Input_Mode == 3: Resize_Shape = (160, 80)
     ####################### Style Shifting #######################
     if "0" not in Style_Shifting and (trainer.control.should_evaluate == False or self.df.shape[0] == Data_Validation.df.shape[0]) and (Using_Synthetic_Dataset == 1): # (Using_Synthetic_Dataset == 1 or Using_White_BackGround_Synthetic_Dataset == 1 or Using_Black_BackGround_Synthetic_Dataset == 1)
       # 1: All, 2: BackGround, 3: Brightness, 4: Stratching, 5: Rotation, 6: Noise
@@ -397,47 +399,44 @@ class CustomOCRDataset(Dataset):
       #
     ####################### #######################
     if Using_Gray_Scale_Filters > 0:
-      Temp = [Image.fromarray(Temp[j]).resize((600, 150)) for j in range(Temp.shape[0])]
+      Temp = image.resize((600, 150))
       #
-      for j in range(len(Temp)):
-        if (Using_Augmented_Dataset == 1 or Using_Real_World_Dataset == 1) or "labeling-helper-source" in str(Validation_Data.iloc[j + (Batch_Size * i)]["file_path"]).lower():
-          Temp[j] = ImageEnhance.Brightness(Temp[j]).enhance(60 / ImageStat.Stat(Temp[j]).mean[0])
-          Temp[j] = ImageEnhance.Contrast(Temp[j]).enhance(60 / ImageStat.Stat(Temp[j]).stddev[0])
+      if (Using_Augmented_Dataset == 1 or Using_Real_World_Dataset == 1) or "labeling-helper-source" in str(self.root_dir + file_path).lower():
+        Temp = ImageEnhance.Brightness(Temp).enhance(60 / ImageStat.Stat(Temp).mean[0])
+        Temp = ImageEnhance.Contrast(Temp).enhance(60 / ImageStat.Stat(Temp).stddev[0])
       #
       # 1: Combination Of Filters, 2: Concatenated Three GrayScale, 3: Concatenated fastNlMeansDenoising, 4: Concatenated Sobel Edge
-      GrayScale_Image = [np.array(Temp[j].convert("L")) for j in range(len(Temp))] # Gray
+      GrayScale_Image = np.array(Temp.convert("L")) # Gray
       #
       Temp = np.array(Temp)
       if Using_Gray_Scale_Filters == 1 or Using_Gray_Scale_Filters == 2:
-        for j in range(Temp.shape[0]):
-          Temp[j, :, :, 0], Temp[j, :, :, 1], Temp[j, :, :, 2] = GrayScale_Image[j], GrayScale_Image[j], GrayScale_Image[j]
+        Temp[:, :, 0], Temp[:, :, 1], Temp[:, :, 2] = GrayScale_Image, GrayScale_Image, GrayScale_Image
       #
       if Using_Gray_Scale_Filters > 0 or Using_Gray_Scale_Filters != 2:
-        Blurred_Image = [cv2.GaussianBlur(GrayScale_Image[j], (5, 5), 0) for j in range(len(GrayScale_Image))]
+        Blurred_Image = cv2.GaussianBlur(GrayScale_Image, (5, 5), 0)
       #
       if Using_Gray_Scale_Filters == 1 or Using_Gray_Scale_Filters == 3:
-        Denoised_Image = [cv2.fastNlMeansDenoising(Blurred_Image[j], h = 10, templateWindowSize = 7, searchWindowSize = 21) for j in range(len(Blurred_Image))]
-        Denoised_Image = [cv2.threshold(Denoised_Image[j], 64, 255, cv2.THRESH_BINARY)[1] for j in range(len(Denoised_Image))]
-        Denoised_Image = [abs(Denoised_Image[j] - 255.0) if np.sum(Denoised_Image[j] < 64) > (0.65 * np.prod(list(Denoised_Image[j].shape))) else Denoised_Image[j] for j in range(len(Denoised_Image))]
+        Denoised_Image = cv2.fastNlMeansDenoising(Blurred_Image, h = 10, templateWindowSize = 7, searchWindowSize = 21)
+        Denoised_Image = cv2.threshold(Denoised_Image, 64, 255, cv2.THRESH_BINARY)[1]
+        Denoised_Image = abs(Denoised_Image - 255.0) if np.sum(Denoised_Image < 64) > (0.65 * np.prod(list(Denoised_Image.shape))) else Denoised_Image
         #
-        for j in range(Temp.shape[0]):
-          Temp[j, :, :, 0], Temp[j, :, :, 1], Temp[j, :, :, 2] = Denoised_Image[j], Denoised_Image[j], Denoised_Image[j]
+        Temp[:, :, 0], Temp[:, :, 1], Temp[:, :, 2] = Denoised_Image, Denoised_Image, Denoised_Image
       #
       if Using_Gray_Scale_Filters == 1 or Using_Gray_Scale_Filters == 4:
-        Sobel_Edge_Image = [cv2.magnitude(cv2.Sobel(Blurred_Image[j], cv2.CV_64F, 1, 0, ksize = 3), cv2.Sobel(Blurred_Image[j], cv2.CV_64F, 0, 1, ksize = 3)) for j in range(len(Blurred_Image))]
-        Sobel_Edge_Image = [((Sobel_Edge_Image[j] / np.max(Sobel_Edge_Image[j])) * 255).astype("uint8") for j in range(len(Sobel_Edge_Image))]
-        Sobel_Edge_Image = [cv2.threshold(Sobel_Edge_Image[j], 50, 255, cv2.THRESH_BINARY)[1] for j in range(len(Sobel_Edge_Image))]
-        Sobel_Edge_Image = [np.array(Image.fromarray(Sobel_Edge_Image[j]).filter(ImageEnhance.ImageFilter.SHARPEN).filter(ImageEnhance.ImageFilter.MedianFilter(3))) for j in range(len(Sobel_Edge_Image))] # .filter(ImageEnhance.ImageFilter.MaxFilter(3))
-        Sobel_Edge_Image = [np.where(Sobel_Edge_Image[j] > 32, 0, 255) for j in range(len(Sobel_Edge_Image))]
+        Sobel_Edge_Image = cv2.magnitude(cv2.Sobel(Blurred_Image, cv2.CV_64F, 1, 0, ksize = 3), cv2.Sobel(Blurred_Image, cv2.CV_64F, 0, 1, ksize = 3))
+        Sobel_Edge_Image = ((Sobel_Edge_Image / np.max(Sobel_Edge_Image)) * 255).astype("uint8")
+        Sobel_Edge_Image = cv2.threshold(Sobel_Edge_Image, 50, 255, cv2.THRESH_BINARY)[1]
+        Sobel_Edge_Image = np.array(Image.fromarray(Sobel_Edge_Image).filter(ImageEnhance.ImageFilter.SHARPEN).filter(ImageEnhance.ImageFilter.MedianFilter(3))) # .filter(ImageEnhance.ImageFilter.MaxFilter(3))
+        Sobel_Edge_Image = np.where(Sobel_Edge_Image > 32, 0, 255)
         #
-        for j in range(Temp.shape[0]):
-          Temp[j, :, :, 0], Temp[j, :, :, 1], Temp[j, :, :, 2] = Sobel_Edge_Image[j], Sobel_Edge_Image[j], Sobel_Edge_Image[j]
+        Temp[:, :, 0], Temp[:, :, 1], Temp[:, :, 2] = Sobel_Edge_Image, Sobel_Edge_Image, Sobel_Edge_Image
         #
       if Using_Gray_Scale_Filters == 1:
-        for j in range(Temp.shape[0]):
-          Temp[j, :, :, 0], Temp[j, :, :, 1], Temp[j, :, :, 2] = GrayScale_Image[j], Denoised_Image[j], Sobel_Edge_Image[j]
+        Temp[:, :, 0], Temp[:, :, 1], Temp[:, :, 2] = GrayScale_Image, Denoised_Image, Sobel_Edge_Image
         #
-        # del Blurred_Image, Denoised_Image, Sobel_Edge_Image
+      image = Image.fromarray(Temp)
+      #
+      # del Blurred_Image, Denoised_Image, Sobel_Edge_Image
       if "Blurred_Image" in globals(): del Blurred_Image
       if "Denoised_Image" in globals(): del Denoised_Image
       if "Sobel_Edge_Image" in globals(): del Sobel_Edge_Image
@@ -518,13 +517,10 @@ def Compute_Error_Rates(pred):
 
   CER = CER_Metric.compute(predictions = pred_str, references = label_str)
   WER = WER_Metric.compute(predictions = pred_str, references = label_str)
-
   return {"CER": CER, "WER": WER}
 
 
-# Storing_Path = "TrOCR_" + str(int(time.time()))
 Storing_Path = Base_Address + "Model/" + Model_Name[Model_Name.rfind("/") + 1:] + "_" + str(int(time.time())) + "_Fine-Tuning" + "/"
-# Storing_Path = "/content/drive/MyDrive/Neural Network/Plate_Reading/data/Model/trocr-small-printed_1732379080_Fine-Tuning/"
 
 
 ####################### Save Log Of Parameters #######################
@@ -541,12 +537,8 @@ Parameters = {"Model_Name": Model_Name.replace("/" , "_")
               , "Evaluation_Section": Evaluation_Section
               , "Using_Gray_Scale_Filters": Using_Gray_Scale_Filters
               , "Style_Shifting": Style_Shifting
-              , "Input_Mode": Input_Mode
-              # , "Concatenation_Length": Concatenation_Length
               , "Using_Synthetic_Dataset": Using_Synthetic_Dataset
               #, "Using_Synthetic_Dataset": round(Using_Synthetic_Dataset)
-              , "Using_White_BackGround_Synthetic_Dataset": Using_White_BackGround_Synthetic_Dataset
-              , "Using_Black_BackGround_Synthetic_Dataset": Using_Black_BackGround_Synthetic_Dataset
               , "Using_Augmented_Dataset": Using_Augmented_Dataset
               , "Using_Real_World_Dataset": Using_Real_World_Dataset
               , "Using_WhiteSpace": Using_WhiteSpace
@@ -555,15 +547,15 @@ Parameters = {"Model_Name": Model_Name.replace("/" , "_")
 for i in range(len(Parameters.keys())):
   print(list(Parameters.items())[i])
 
+
 ####################### Continue Existed Run #######################
-import json
+if not os.path.isdir(Base_Address + "Model/"): os.makedirs(Base_Address + "Model/")
 Temp_Folders = [Base_Address + "Model/" + name for name in os.listdir(Base_Address + "Model/") if ("Fine-Tuning".lower() in name.lower() and os.path.isfile(Base_Address + "Model/" + name + "/Parameters.txt"))]
 for i in range(len(Temp_Folders)):
   F = open(Temp_Folders[i] + "/Parameters.txt", "r")
   Temp = json.loads(F.read().replace("\n", ",").replace("'", "\""))
   F.close()
   #
-  # if False not in [Temp[j] == Parameters[j] for j in list(Temp.keys()) if j not in ["Model_Name", "Epochs", "Execution_Device"]]:
   if (False not in [Temp[i] == Parameters[i] for i in list(Temp.keys()) if i not in ["Epochs", "Execution_Device"]]) and list(Temp.keys()) == list(Parameters.keys()): # Model_Name
     Temp_Storing_Path = Storing_Path
     Storing_Path = Temp_Folders[i] + "/"
@@ -572,14 +564,12 @@ for i in range(len(Temp_Folders)):
     print("----------------------- -----------------------")
     break
     ####################### #######################
-    # OverWrite To Make Sure The Details Like Epochs Are The Same
+    # OverWrite To Make Sure Some Details Like Epochs Are The Same
     #
     F = open(Storing_Path + "Parameters.txt", "w")
-    # F.write(str(Parameters))
     F.write(str(Parameters).replace(",", "\n"))
 
 ####################### ####################### #######################
-
 
 
 
@@ -589,8 +579,6 @@ if not os.path.isdir(Storing_Path): os.makedirs(Storing_Path)
 
 Train_Parameters = Seq2SeqTrainingArguments(
   output_dir = Storing_Path,
-  # output_dir = "/content/Model/" + Model_Name[Model_Name.rfind("/") + 1:] + "_" + str(int(time.time())) + "_Inferencing" + "/",
-  # output_dir = "/content/Model/TrOCR/" + Model_Name[Model_Name.rfind("/") + 1:] + str(int(time.time())) + "/",
   predict_with_generate = True,
   eval_strategy = "epoch",
   per_device_train_batch_size = Batch_Size, # 32
@@ -606,28 +594,7 @@ Train_Parameters = Seq2SeqTrainingArguments(
   , remove_unused_columns = False
   , dataloader_pin_memory = False
 )
-"""
-Train_Parameters = Seq2SeqTrainingArguments(
-  output_dir = Storing_Path,
-  per_device_train_batch_size = Batch_Size, # 32
-  per_device_eval_batch_size = 16,
-  num_train_epochs = Epochs, # 10
-  save_total_limit = 1,
-  report_to = "tensorboard",
-  fp16 = True,
-  #eval_strategy = "epoch",
-  eval_strategy = "steps",
-  local_rank = -1,
-  gradient_accumulation_steps = 1, # 1
-  predict_with_generate = True,
-  save_strategy = "steps",
-  # save_strategy = "epoch",
-  logging_strategy = "epoch"
-  , dataloader_num_workers = 32
-  , split_batches = True
-)
-input("S")
-"""
+
 print("Execution Devices Count:", Train_Parameters.n_gpu)
 print("Parameters Were Set")
 
@@ -636,21 +603,11 @@ trainer = Seq2SeqTrainer(
   tokenizer = Processor.feature_extractor,
   args = Train_Parameters,
   compute_metrics = Compute_Error_Rates,
-  Data_Trainset = Data_Train,
+  train_dataset = Data_Train,
   eval_dataset = Data_Validation,
   data_collator = default_data_collator
 )
 
-"""
-for batches in Data_Train:
-	#print(time.time(), end = "\t")
-	#if int(time.time() % 100) > 97: print()
-	if len(batches) == 0:
-		input("S")
-
-print(Data_Train.__getitem__(1)["pixel_values"].shape)
-input("S")
-"""
 
 print("Starting Fine-Tuning", Model_Name, "With", Batch_Size, "Batches And", Epochs, "Epochs ...")
 print(Train_Parameters.output_dir)
@@ -661,9 +618,7 @@ try:
   trainer.train(resume_from_checkpoint = True)
   del Temp_Storing_Path
 except:
-  # # Storing_Path = "TrOCR_" + str(int(time.time()))
-  # Storing_Path = Base_Address + "Model/" + Model_Name[Model_Name.rfind("/") + 1:] + "_" + str(int(time.time())) + "_Fine-Tuning" + "/"
-  # # Storing_Path = "/content/drive/MyDrive/Neural Network/Plate_Reading/data/Model/trocr-small-printed_1732379080_Fine-Tuning/"
+  #
   if "Temp_Storing_Path" in globals():
     Storing_Path = Temp_Storing_Path
     del Temp_Storing_Path
@@ -683,12 +638,8 @@ except:
                 , "Evaluation_Section": Evaluation_Section
                 , "Using_Gray_Scale_Filters": Using_Gray_Scale_Filters
                 , "Style_Shifting": Style_Shifting
-                , "Input_Mode": Input_Mode
-                # , "Concatenation_Length": Concatenation_Length
                 , "Using_Synthetic_Dataset": Using_Synthetic_Dataset
                 #, "Using_Synthetic_Dataset": round(Using_Synthetic_Dataset)
-                , "Using_White_BackGround_Synthetic_Dataset": Using_White_BackGround_Synthetic_Dataset
-                , "Using_Black_BackGround_Synthetic_Dataset": Using_Black_BackGround_Synthetic_Dataset
                 , "Using_Augmented_Dataset": Using_Augmented_Dataset
                 , "Using_Real_World_Dataset": Using_Real_World_Dataset
                 , "Using_WhiteSpace": Using_WhiteSpace
@@ -718,60 +669,7 @@ F.write(str(trainer.args))
 # F.write(str(trainer.args).replace(",", "\n"))
 F.close()
 
-# if os.path.isdir("/content/drive/MyDrive/Neural Network/Machine_Translation/omani-arabic-MT-research/Model/"):
-#   shutil.move(history.args.output_dir, history.args.output_dir.replace("/content/", "/content/drive/MyDrive/Neural Network/Machine_Translation/omani-arabic-MT-research/Model/CheckPoints/"))
-# else:
-#   [shutil.rmtree(history.args.output_dir + "/" + j) for j in os.listdir(history.args.output_dir) if os.path.isdir(history.args.output_dir + "/" + j)]
-#   shutil.move(history.args.output_dir, history.args.output_dir.replace("/content/", "/content/drive/MyDrive/Neural Network/Machine_Translation/CheckPoints/"))
-
 History = trainer
-
-# shutil.rmtree("/content/drive/MyDrive/Neural Network/Plate_Reading/data/Model/trocr-large-printed_1730943143_Fine-Tuning/")
-# shutil.rmtree(Storing_Path)
-
-
-
-"""
-# Storing Labeled Real Data
-Replications = 0
-if not os.path.isdir(Data_Address + "New_DataSet/Train/"): os.makedirs(Data_Address + "New_DataSet/Train/")
-for i in range(Data_Train.shape[0]):
-  Temp = np.array(Image.open(Data_Train["file_path"].iloc[i]))
-  Temp = np.transpose([Temp[:, :, 2], Temp[:, :, 1], Temp[:, :, 0]], axes = (1, 2, 0))
-  Temp = Image.fromarray(Temp)
-  if not os.path.isfile(Data_Address + "New_DataSet/Train/" + Data_Train["text"].iloc[i].replace(" ", "") + Data_Train["file_path"].iloc[i][Data_Train["file_path"].iloc[i].rfind("."):]):
-    Temp.save(Data_Address + "New_DataSet/Train/" + Data_Train["text"].iloc[i].replace(" ", "") + Data_Train["file_path"].iloc[i][Data_Train["file_path"].iloc[i].rfind("."):])
-  else:
-    Replications += 1
-    j = 1
-    while os.path.isfile(Data_Address + "New_DataSet/Train/" + Data_Train["text"].iloc[i].replace(" ", "") + "_" + str(j).zfill(2) + Data_Train["file_path"].iloc[i][Data_Train["file_path"].iloc[i].rfind("."):]):
-      j += 1
-    Temp.save(Data_Address + "New_DataSet/Train/" + Data_Train["text"].iloc[i].replace(" ", "") + "_" + str(j).zfill(2) + Data_Train["file_path"].iloc[i][Data_Train["file_path"].iloc[i].rfind("."):])
-
-Data_Train.to_csv(Data_Address + "New_DataSet/Train.csv", index = False)
-print("Replicated Data In Trian:", Replications)
-
-if not os.path.isdir(Data_Address + "New_DataSet/Validation/"): os.makedirs(Data_Address + "New_DataSet/Validation/")
-for i in range(Evaluation_Data.shape[0]):
-  Temp = np.array(Image.open(Evaluation_Data["file_path"].iloc[i]))
-  Temp = np.transpose([Temp[:, :, 2], Temp[:, :, 1], Temp[:, :, 0]], axes = (1, 2, 0))
-  Temp = Image.fromarray(Temp)
-  if not os.path.isfile(Data_Address + "New_DataSet/Validation/" + Evaluation_Data["text"].iloc[i].replace(" ", "") + Evaluation_Data["file_path"].iloc[i][Evaluation_Data["file_path"].iloc[i].rfind("."):]):
-    Temp.save(Data_Address + "New_DataSet/Validation/" + Evaluation_Data["text"].iloc[i].replace(" ", "") + Evaluation_Data["file_path"].iloc[i][Evaluation_Data["file_path"].iloc[i].rfind("."):])
-  else:
-    Replications += 1
-    j = 1
-    while os.path.isfile(Data_Address + "New_DataSet/Validation/" + Evaluation_Data["text"].iloc[i].replace(" ", "") + "_" + str(j).zfill(2) + Evaluation_Data["file_path"].iloc[i][Evaluation_Data["file_path"].iloc[i].rfind("."):]):
-      j += 1
-    Temp.save(Data_Address + "New_DataSet/Validation/" + Evaluation_Data["text"].iloc[i].replace(" ", "") + "_" + str(j).zfill(2) + Evaluation_Data["file_path"].iloc[i][Evaluation_Data["file_path"].iloc[i].rfind("."):])
-
-Data_Train.to_csv(Data_Address + "New_DataSet/Validation.csv", index = False)
-print("Replicated Data In Trian And Validation:", Replications)
-
-
-print(np.unique(Data_Train["file_path"]).shape)
-print(np.unique(Evaluation_Data["file_path"]).shape)
-"""
 
 
 

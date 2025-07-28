@@ -21,14 +21,15 @@ The parameters in all of the codes consist of:
 10. __Using_Gray_Scale_Filters__: $${\color{lightblue}int}$$; It is defining the gray scale filters that each sample of data should undergo. Moreover, it has 5 modes which consists of *0*: No filter (use RGB), *1*: Combination of filters from mode 2, 3, and 4 as a three channels image, *2*: GrayScale Filter, *3*: fastNlMeansDenoising Thresholding Filter, *4*: Sobel Edge Thresholding Filter. In mode 2, 3, and 4, the output of each filters concatenated with itself three time to form a three channel image instead of RGB input.
 11. __Using_WhiteSpace__: $${\color{lightblue}int/boolean}$$; Activating the white spaces between each character of labels. It wanted the model to generate a white space between each recognized character.
 12. __Style_Shifting__: $${\color{lightblue}str}$$; Determine the data transformation for synthetic data to bear resemblance to real data. This parameter has multiple values as follows that each one corresponds to one step of the proposed transformations (It is also named Style Shifting in some lines of the codes):
-    - "0": No transformation 
+    - "0": No transformation .
     - "1": All of the transformations in order.
-    - "2": Edge Color Padding (AKA adding colorful background)
-    - "3": Adjusting Brightness and contrast randomly in a specified range Plus Blurring
-    - "4": Perspective and Stretching
-    - "5": Rotation
-    - "6": Noise Addition
-It is possible to use a combination of those values; For example, "46" means using both Perspective and Stretching Plus Noise Addition. It is important to consider that the "0" or "1" are dominant values which can cover other values (e.g. all the steps will be used for either "13" or "1" because of including "1".).
+    - "2": Edge Color Padding (AKA adding colorful background).
+    - "3": Adjusting Brightness and contrast randomly in a specified range Plus Blurring.
+    - "4": Perspective and Stretching.
+    - "5": Rotation.
+    - "6": Noise Addition.
+      
+It is possible to use a combination of those values; For example, "46" means using both Perspective and Stretching Plus Noise Addition. It is important to consider that the "0" or "1" are dominant values which can cover other values (e.g. all the steps will be used for either "13" or "1" because of including "1".). Samples and some details are provided in the manuscript.
 14. __Epochs__: $${\color{lightblue}int}$$; The number of training iteration for all the data
 15. __Batch_Size__: $${\color{lightblue}int}$$; The number of data samples in each batch
 

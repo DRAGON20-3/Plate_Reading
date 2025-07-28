@@ -12,10 +12,6 @@ clear_output()
 Base_Address = "../"
 Data_Address = "../Data/"
 
-Model_Name = "microsoft/trocr-small-printed"
-#Model_Name = "microsoft/trocr-base-printed"
-#Model_Name = "microsoft/trocr-large-printed"
-
 ####################### History Plotting ####################### #######################
 
 

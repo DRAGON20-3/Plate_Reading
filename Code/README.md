@@ -31,7 +31,7 @@ The parameters in all of the codes consist of:
       
     It is possible to use a combination of those values; For example, "46" means using both Perspective and Stretching Plus Noise Addition. It is important to consider that the "0" or "1" are dominant values which can cover other values (e.g. all the steps will be used for either "13" or "1" because of including "1"). This implementation will assist in ablation study. Samples and some details are provided in the manuscript.
 
-14. __Epochs__: $${\color{lightblue}int}$$; The number of training iteration for all the data
-15. __Batch_Size__: $${\color{lightblue}int}$$; The number of data samples in each batch
+14. __Epochs__: $${\color{lightblue}int}$$; The number of training iteration for all the data.
+15. __Batch_Size__: $${\color{lightblue}int}$$; The number of data samples in each batch.
 
 .

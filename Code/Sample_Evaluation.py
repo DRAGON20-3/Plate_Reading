@@ -6,9 +6,7 @@ import os
 import jiwer
 
 
-Base_Address = "/content/drive/MyDrive/Neural Network/Plate_Reading/data/"
-# Base_Address = "/content/"
-Base_Address = "./Data/"
+Base_Address = "../"
 
 
 ####################### Computing Evaluation Metrics For Each Sample #######################
@@ -62,6 +60,7 @@ for j in range(len(Models_Name)):
   Results.to_csv(Base_Address + "Model/" + Models_Name[j] + "/Sample_Evaluation_" + str(len(Labels)) + ".csv", index = False)
   #
   ######### Processed Prediction #########
+  # Without White Spaces
   Labels = [i.replace(" ", "") for i in Labels]
   Predictions = [i.replace(" ", "") for i in Predictions]
   #
@@ -86,7 +85,6 @@ for j in range(len(Models_Name)):
   Temp_Labels = [Temp_Labels[i] for i in range(len(Temp_Labels)) if i not in np.argwhere(np.array(Temp_Labels) == "")[:, 0].tolist()]
   Results += [["Letters", Temp_Labels[i], Temp_Predictions[i], jiwer.cer(reference = Temp_Labels[i], hypothesis = Temp_Predictions[i]), int(Temp_Labels[i].lower() == Temp_Predictions[i].lower())] for i in range(len(Temp_Labels))]
   Results += [["Letters", "Average", "Average", np.mean(np.array(Results)[Temp:, 3].astype(np.float64)), np.mean(np.array(Results)[Temp:, 4].astype(np.float64))]]
-  #
   #
   Results = pd.DataFrame(Results, columns = Columns)
   Results.to_csv(Base_Address + "Model/" + Models_Name[j] + "/Sample_Evaluation_Processed_" + str(len(Labels)) + ".csv", index = False)

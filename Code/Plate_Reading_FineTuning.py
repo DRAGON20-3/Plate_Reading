@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 from PIL import Image, ImageStat, ImageEnhance
 import os
-import matplotlib.pyplot as plt
 import time
 import shutil
 
@@ -38,12 +37,6 @@ try:
 except:
     os.system("pip install jiwer") # !pip install jiwer
     clear_output()
-
-try:
-  from google.colab import drive
-  drive.mount("/content/drive")
-except:
-  pass
 
 clear_output()
 
@@ -284,12 +277,6 @@ class CustomOCRDataset(Dataset):
 
     image = Image.open(self.root_dir + file_path).convert("RGB") # Read the image, apply augmentations, and get the transformed pixels.
     #
-    if "labeling-helper-source" in str(self.root_dir + file_path).lower():
-      image = np.array(image)
-      image = np.array([image[:, :, 2], image[:, :, 1], image[:, :, 0]])
-      image = np.transpose(image, axes = [1, 2, 0])
-      image = Image.fromarray(image)
-    #
     Resize_Shape = (160, 40)
     ####################### Style Shifting #######################
     if "0" not in Style_Shifting and (trainer.control.should_evaluate == False or self.df.shape[0] == Data_Validation.df.shape[0]) and (Using_Synthetic_Dataset == 1): # (Using_Synthetic_Dataset == 1 or Using_White_BackGround_Synthetic_Dataset == 1 or Using_Black_BackGround_Synthetic_Dataset == 1)
@@ -401,7 +388,7 @@ class CustomOCRDataset(Dataset):
     if Using_Gray_Scale_Filters > 0:
       Temp = image.resize((600, 150))
       #
-      if (Using_Augmented_Dataset == 1 or Using_Real_World_Dataset == 1) or "labeling-helper-source" in str(self.root_dir + file_path).lower():
+      if (Using_Augmented_Dataset == 1 or Using_Real_World_Dataset == 1) or "Real_Data" in str(self.root_dir + file_path).lower():
         Temp = ImageEnhance.Brightness(Temp).enhance(60 / ImageStat.Stat(Temp).mean[0])
         Temp = ImageEnhance.Contrast(Temp).enhance(60 / ImageStat.Stat(Temp).stddev[0])
       #

@@ -1,2 +1,8 @@
 # Plate_Reading
-Recognizing the sequence of character from the image of a plate
+This page consists of codes, data, and results of the manuscript entitled __"Robust Automatic License Plate Recognition Using Synthetic Data and Transformer-Based Deep Learning Model"__.
+
+The implemented codes for inference and fine-tune related models, Evaluation codes, and plotting history exist in the `Code` repository.
+
+The `Data` repository includes the utilized datasets in the manuscript in order to inference and fine-tune models.
+
+Results of experiments are located in `Results` directory. Additionally, the comparison results on the provided data is also placed in this directory.

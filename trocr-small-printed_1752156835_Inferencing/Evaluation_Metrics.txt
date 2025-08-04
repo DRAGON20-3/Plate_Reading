@@ -1,8 +1,0 @@
-{'CER': 1.3523945675482487
- 'WER': 1.6220472440944882
- 'CER_Not_Split': 1.6220472440944882
- 'WER_Not_Split': 1.0
- 'Google_BLEU': 0.00814580403187998
- 'Google_BLEU_Not_Split': 0.0
- 'Accuracy': 0.0
- 'Loss': np.float64(9.71985124206543)}

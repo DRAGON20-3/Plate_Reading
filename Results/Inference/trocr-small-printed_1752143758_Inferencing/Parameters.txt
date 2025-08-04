@@ -10,7 +10,6 @@
  'Evaluation_Section': 1
  'Using_Gray_Scale_Filters': 4
  'Style_Shifting': '0'
- 'Input_Mode': 0
  'Using_Synthetic_Dataset': 1
  'Using_White_BackGround_Synthetic_Dataset': 0
  'Using_Black_BackGround_Synthetic_Dataset': 0

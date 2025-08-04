@@ -1,0 +1,1502 @@
+Type,Label,Prediction,CER,Accuracy
+All_Characters,9 0 6 2 B Y,* * *,0.8181818181818182,0.0
+All_Characters,9 2 2 1 2 W,T O T A L,0.6363636363636364,0.0
+All_Characters,4 2 6 4 0 A,:,1.0,0.0
+All_Characters,1 6 3 1 6 A,* * *,0.8181818181818182,0.0
+All_Characters,1 6 9 0 9 B B,* * *,0.8461538461538461,0.0
+All_Characters,6 1 9 8 7 Y,-,1.0,0.0
+All_Characters,2 6 6 0 6 D,T O T A L C A S H I E R,1.6363636363636365,0.0
+All_Characters,5 7 6 9 Y,T O T A L,0.5555555555555556,0.0
+All_Characters,9 2 8 5 T B,T O T A L,0.6363636363636364,0.0
+All_Characters,3 3 7 5 6 R,* * *,0.8181818181818182,0.0
+All_Characters,4 5 8 0 H H,D I S P L A Y F A C E U P O N D A S H,2.8181818181818183,0.0
+All_Characters,2 8 5 0 A B,* * *,0.8181818181818182,0.0
+All_Characters,2 6 9 7 9 A A,* * *,0.8461538461538461,0.0
+All_Characters,8 5 1 7 9 D,R E F U N D,0.45454545454545453,0.0
+All_Characters,8 0 2 0 B D,T O T A L,0.6363636363636364,0.0
+All_Characters,9 6 6 4 T A,* * *,0.8181818181818182,0.0
+All_Characters,8 1 4 3 0 B B,T O T A L,0.6923076923076923,0.0
+All_Characters,7 2 8 0 9 D,D I S P L A Y F A C E U P O N D A S H,2.8181818181818183,0.0
+All_Characters,5 3 4 2 2 D,D I S C O U N T,0.9090909090909091,0.0
+All_Characters,3 0 5 7 9 H,- -,0.9090909090909091,0.0
+All_Characters,2 0 3 7 3 W,T O T A L,0.6363636363636364,0.0
+All_Characters,6 5 2 8 7 B,D I S C O U N T R E C E I P T F O R A N O F F E R,4.0,0.0
+All_Characters,7 8 9 0 B,U S I N G R E C E I P T F O R A N O F F E R,4.333333333333333,0.0
+All_Characters,1 3 6 8 B,:,1.0,0.0
+All_Characters,9 1 0 5 2 D,:,1.0,0.0
+All_Characters,8 4 9 6 4 A,T O T A L R E F U N D,1.4545454545454546,0.0
+All_Characters,5 6 1 9 5 H,* * *,0.8181818181818182,0.0
+All_Characters,4 2 6 4 8 B,T O T A L C A S H I E R,1.6363636363636365,0.0
+All_Characters,6 3 7 0 6 M,6 5 . 0 0,0.45454545454545453,0.0
+All_Characters,1 4 2 4 7 H,G S T - S I D E - S I Z E,1.8181818181818181,0.0
+All_Characters,2 5 0 2 R W,C H A N G E,0.5454545454545454,0.0
+All_Characters,6 2 1 2 3 B,T O T A L R E C E I P T F O R R E C E I P T F O R A N O F F E R,5.2727272727272725,0.0
+All_Characters,9 9 8 0 5 B B,T O T A L,0.6923076923076923,0.0
+All_Characters,7 5 7 5 9 S,D I S C O U N T C A R D S,1.7272727272727273,0.0
+All_Characters,6 6 8 6 2 B B,D I S C O U N T F O R A N O F F E R,2.230769230769231,0.0
+All_Characters,4 5 2 5 D R,T O T A L :,0.5454545454545454,0.0
+All_Characters,6 0 4 7 3 W,T O T A L C A S H I E R,1.6363636363636365,0.0
+All_Characters,7 4 1 3 5 Y,R E F,0.8181818181818182,0.0
+All_Characters,2 8 5 0 A B,* * *,0.8181818181818182,0.0
+All_Characters,7 5 2 7 4 W,R E C E I P T F O R A N O F F E R,2.5454545454545454,0.0
+All_Characters,9 3 2 8 H,T O T A L,0.5555555555555556,0.0
+All_Characters,8 1 4 3 0 B B,D I S C O U N T,0.6923076923076923,0.0
+All_Characters,2 2 0 5 T,* * *,0.7777777777777778,0.0
+All_Characters,6 0 5 9 1 Y,D I S C O U N T R E C E I P T F O R A N O F F E R,4.0,0.0
+All_Characters,2 8 1 5 2 Y,* * *,0.8181818181818182,0.0
+All_Characters,4 3 6 9 4 D,$ 5 0 0 C A S H G I V E A W A Y O N B A C K,3.4545454545454546,0.0
+All_Characters,8 8 0 7 9 S,S U B J E C T :,0.9090909090909091,0.0
+All_Characters,7 7 5 7 2 D,T O T A L,0.6363636363636364,0.0
+All_Characters,6 3 8 7 9 H,* * *,0.8181818181818182,0.0
+All_Characters,5 0 2 3 4 R,* * *,0.8181818181818182,0.0
+All_Characters,2 2 6 1 6 W,* * *,0.8181818181818182,0.0
+All_Characters,7 3 0 9 2 Y,* * *,0.8181818181818182,0.0
+All_Characters,6 4 2 0 5 M,T O T A L T O T A L,1.2727272727272727,0.0
+All_Characters,8 2 3 9 T,T O T A L T O T A L,1.5555555555555556,0.0
+All_Characters,7 7 8 3 0 W,T O T A L : 3 . 5 0,1.1818181818181819,0.0
+All_Characters,1 6 0 5 9 W,T O T A L,0.6363636363636364,0.0
+All_Characters,5 6 3 9 3 W,E X C E P T N O T E O F R E C E I P T F O R A N O F F E R,4.7272727272727275,0.0
+All_Characters,5 9 8 2 B H,$ 5 0 0 C A S H G I V E A W A Y O N B A C K,3.272727272727273,0.0
+All_Characters,6 3 7 0 6 M,T O T A L :,0.5454545454545454,0.0
+All_Characters,9 7 8 0 0 B,T O T A L U N I T E D S T A T E S,2.5454545454545454,0.0
+All_Characters,7 9 1 B D,T O T A L,0.5555555555555556,0.0
+All_Characters,6 3 8 4 2 D,S A L E S,0.6363636363636364,0.0
+All_Characters,6 1 4 5 6 M,* * * * * *,0.5454545454545454,0.0
+All_Characters,6 6 0 2 5 B,* * *,0.8181818181818182,0.0
+All_Characters,7 8 0 6 8 H,S E E B A C K O F R E C E I P T F O R A N O F F E R,4.181818181818182,0.0
+All_Characters,9 3 9 8 0 B B,-,1.0,0.0
+All_Characters,4 9 0 5 B Y,* * *,0.8181818181818182,0.0
+All_Characters,5 6 3 0 8 A A,C A S H I E R,0.5384615384615384,0.0
+All_Characters,9 9 5 3 3 R,T O T A L T O T A L,1.2727272727272727,0.0
+All_Characters,2 1 8 6 9 M,- -,0.9090909090909091,0.0
+All_Characters,3 8 8 9 7 M,S U B J E C T :,0.9090909090909091,0.0
+All_Characters,7 2 1 4 5 B,* * *,0.8181818181818182,0.0
+All_Characters,8 7 9 1 A A,T O T A L A M O U N T,1.3636363636363635,0.0
+All_Characters,2 8 2 1 8 H,* * *,0.8181818181818182,0.0
+All_Characters,2 8 2 1 8 H,T O T A L :,0.5454545454545454,0.0
+All_Characters,6 6 0 5 0 A,* * *,0.8181818181818182,0.0
+All_Characters,1 5 1 5 2 H,:,1.0,0.0
+All_Characters,4 1 9 4 7 A,T O T A L,0.6363636363636364,0.0
+All_Characters,3 1 8 2 4 B B,D I S C O U N T R E C E I P T F O R A N O F F E R,3.3076923076923075,0.0
+All_Characters,9 8 3 6 6 B B,T O T A L R E C E I P T,1.3076923076923077,0.0
+All_Characters,8 5 0 H Y,* * *,0.7777777777777778,0.0
+All_Characters,3 4 9 1 7 W,6 . 0 0,0.7272727272727273,0.0
+All_Characters,7 8 8 7 9 M,C A S H I E R,0.7272727272727273,0.0
+All_Characters,7 8 0 4 7 D,T O T A L :,0.5454545454545454,0.0
+All_Characters,8 8 1 5 H H,T O T A L,0.6363636363636364,0.0
+All_Characters,7 6 0 2 9 H,T O T A L,0.6363636363636364,0.0
+All_Characters,6 5 0 3 4 B B,D I S C O U N T R E C E I P T F O R A N O F F E R,3.3076923076923075,0.0
+All_Characters,8 1 6 2 5 R,T O T A L,0.6363636363636364,0.0
+All_Characters,2 5 2 3 R W,* * *,0.8181818181818182,0.0
+All_Characters,5 7 2 6 5 M,* * *,0.8181818181818182,0.0
+All_Characters,6 5 3 6 6 B,D I S C O U N T F O R A,1.6363636363636365,0.0
+All_Characters,4 1 5 6 3 B B,T O T A L,0.6923076923076923,0.0
+All_Characters,2 8 9 0 6 H,C A S H I E R,0.7272727272727273,0.0
+All_Characters,3 2 8 6 D R,* * *,0.8181818181818182,0.0
+All_Characters,8 6 5 0 8 A A,D I S C O U N T F O R A G O O D O R G A N I Z E S .,3.3076923076923075,0.0
+All_Characters,1 2 8 1 9 A A,* * *,0.8461538461538461,0.0
+All_Characters,2 8 3 9 0 B,* * *,0.8181818181818182,0.0
+All_Characters,9 7 8 0 0 B,T O T A L,0.6363636363636364,0.0
+All_Characters,1 2 2 3 2 W,T O T A L R E C E I P T F O R A N O F F E R,3.4545454545454546,0.0
+All_Characters,9 2 1 7 3 H,* * *,0.8181818181818182,0.0
+All_Characters,6 2 1 4 9 Y,* * *,0.8181818181818182,0.0
+All_Characters,1 4 9 1 0 M,T O T A L,0.6363636363636364,0.0
+All_Characters,4 3 1 5 7 D,T O T A L A M O U N T,1.4545454545454546,0.0
+All_Characters,6 1 4 9 H,D I S C O U N T C A R D S,2.3333333333333335,0.0
+All_Characters,7 1 7 1 3 B,* * *,0.8181818181818182,0.0
+All_Characters,7 5 0 0 9 W,D I S C O U N T F O R A F R E E C A R D S,3.272727272727273,0.0
+All_Characters,6 9 2 0 9 A,* * *,0.8181818181818182,0.0
+All_Characters,5 6 5 6 6 A,D I S C O U N T F O R A G O O D C A R D S .,3.3636363636363638,0.0
+All_Characters,4 9 7 5 6 B B,D I S C O U N T F O R A F R E E C A R D S . C O M O V E R F O R R E C E I P T F O R D E T A I L S .,7.153846153846154,0.0
+All_Characters,7 8 1 0 R W,* * *,0.8181818181818182,0.0
+All_Characters,5 0 0 7 9 B B,T O T A L C A S H I E R,1.3076923076923077,0.0
+All_Characters,4 7 4 9 0,T O T A L R E F U N D S,2.111111111111111,0.0
+All_Characters,3 9 0 3 5 A,* * *,0.8181818181818182,0.0
+All_Characters,2 5 9 9 B K,D I S C O U N T N O T E O F R E C E I P T,3.272727272727273,0.0
+All_Characters,1 2 9 6 0 D,* * *,0.8181818181818182,0.0
+All_Characters,8 8 1 5 H H,C A S H I E R,0.7272727272727273,0.0
+All_Characters,2 7 5 7 0 W,-,1.0,0.0
+All_Characters,7 7 3 4 Y B,D I S C O U N T,0.9090909090909091,0.0
+All_Characters,1 3 6 4 4 B,T O T A L U N I T E D S T A T E S,2.5454545454545454,0.0
+All_Characters,6 5 3 6 6 B,* * *,0.8181818181818182,0.0
+All_Characters,5 9 4 6 8 Y,* * *,0.8181818181818182,0.0
+All_Characters,7 4 2 5 7 R,T O T A L,0.6363636363636364,0.0
+All_Characters,2 1 7 3 7 R,T O T A L,0.6363636363636364,0.0
+All_Characters,4 4 8 6 1 R,T O T A L,0.6363636363636364,0.0
+All_Characters,2 0 2 3 9 A,* * *,0.8181818181818182,0.0
+All_Characters,6 2 3 5 3 A A,D I S C O U N T R E C E I P T F O R A N O F F E R,3.230769230769231,0.0
+All_Characters,2 0 5 6 3 D,R E G I O N : 0 5 0 0 - 0 5 -,2.0,0.0
+All_Characters,6 2 3 6 7 M,T O T A L,0.6363636363636364,0.0
+All_Characters,6 6 8 4 A S,T O T A L R E F U N D S,1.5454545454545454,0.0
+All_Characters,4 0 3 6 8 B,D I S C O U N T,0.9090909090909091,0.0
+All_Characters,4 0 3 6 8 B,D I S C O U N T,0.9090909090909091,0.0
+All_Characters,7 6 0 2 4 B B,D I S C O U N T,0.6923076923076923,0.0
+All_Characters,2 0 3 7 Y B,* * *,0.8181818181818182,0.0
+All_Characters,1 2 6 9 2 S,T O T A L S A L E S,1.1818181818181819,0.0
+All_Characters,6 1 9 8 2 H,T O T A L R E F U N D S,1.6363636363636365,0.0
+All_Characters,2 9 7 2 8 S,T O T A L R E C E I P T,1.6363636363636365,0.0
+All_Characters,5 7 6 3 2 A,F R E E T O T A L,1.0,0.0
+All_Characters,6 1 6 3 B H,D I S C O U N T F O R A F R E E F R Y & C A S H T A I N O N R E C E I P T F O R D E - S .,7.545454545454546,0.0
+All_Characters,5 1 8 5 4 M,* * *,0.8181818181818182,0.0
+All_Characters,5 2 4 6 T H,R E F U N D,0.5454545454545454,0.0
+All_Characters,8 0 7 6 1 W,T O T A L A M O U N T,1.4545454545454546,0.0
+All_Characters,3 1 1 T,:,1.0,0.0
+All_Characters,3 5 8 0 7 A A,T O T A L A M O U N T,1.0769230769230769,0.0
+All_Characters,9 3 6 4 8 B B,* * *,0.8461538461538461,0.0
+All_Characters,6 0 7 9 0 W,T O T A L A M O U N T,1.4545454545454546,0.0
+All_Characters,6 0 8 2 5 A,* * *,0.8181818181818182,0.0
+All_Characters,5 4 6 3 3 B B,* * *,0.8461538461538461,0.0
+All_Characters,5 7 4 6 5 A A,T O T A L R E F U N D S,1.3076923076923077,0.0
+All_Characters,8 8 1 9 8 S,D I S C O U N T * * *,1.4545454545454546,0.0
+All_Characters,3 8 7 8 B W,T O T A L R E F U N D S,1.6363636363636365,0.0
+All_Characters,6 7 4 2 3 B B,T O T A L G O O D,0.8461538461538461,0.0
+All_Characters,2 2 2 4 8 R,* * *,0.8181818181818182,0.0
+All_Characters,9 9 5 5 1 W,* * *,0.8181818181818182,0.0
+All_Characters,9 8 9 3 7 M,T O T A L,0.6363636363636364,0.0
+All_Characters,3 2 8 6 D R,* * *,0.8181818181818182,0.0
+All_Characters,6 7 2 2 D Y,* * *,0.8181818181818182,0.0
+All_Characters,1 3 5 9 A,* * *,0.7777777777777778,0.0
+All_Characters,5 2 7 1 7 A A,* * *,0.8461538461538461,0.0
+All_Characters,6 4 7 7 8 B B,D I S C O U N T R E C E I P T F O R A N O F F E R,3.3076923076923075,0.0
+All_Characters,5 3 2 1 3 B B,T O T A L R E C E I P T F O R A N O F F E R,2.8461538461538463,0.0
+All_Characters,9 9 1 9 A W,D I S C O U N T F O R A,1.6363636363636365,0.0
+All_Characters,3 2 8 2 7 W,T O T A L :,0.5454545454545454,0.0
+All_Characters,4 0 2 9 7 W,* * *,0.8181818181818182,0.0
+All_Characters,4 6 3 1 2 H,T O T A L R E C E I P T,1.6363636363636365,0.0
+All_Characters,4 8 9 2 1 W,T O T A L : 3 5 . 0 0 %,1.6363636363636365,0.0
+All_Characters,1 1 4 7 8 Y,* * *,0.8181818181818182,0.0
+All_Characters,1 3 0 9 7 R,S T Y P E,0.6363636363636364,0.0
+All_Characters,9 0 9 6 4 B,T O T A L,0.6363636363636364,0.0
+All_Characters,8 8 8 6 0 M,* * *,0.8181818181818182,0.0
+All_Characters,6 3 0 7 9 M,T O T A L,0.6363636363636364,0.0
+All_Characters,4 0 3 6 8 B,-,1.0,0.0
+All_Characters,3 9 3 5 7 D,T O T A L,0.6363636363636364,0.0
+All_Characters,9 5 5 8 7 M,* * *,0.8181818181818182,0.0
+All_Characters,5 5 3 6 6 H,T O T A L A M O U N T,1.4545454545454546,0.0
+All_Characters,5 8 2 3 S S,T O T A L C A R D S,1.1818181818181819,0.0
+All_Characters,7 4 9 0 2 A,* * *,0.8181818181818182,0.0
+All_Characters,5 9 5 0 8 H,C A S H I E R,0.7272727272727273,0.0
+All_Characters,4 8 9 4 0 A,* * *,0.8181818181818182,0.0
+All_Characters,3 2 2 2 0 B B,D I S C O U N T F O R A,1.3076923076923077,0.0
+All_Characters,5 3 4 4 4 B B,T O T A L G O O D,0.8461538461538461,0.0
+All_Characters,6 0 7 9 0 W,T O T A L,0.6363636363636364,0.0
+All_Characters,2 7 7 0 9 Y,* * *,0.8181818181818182,0.0
+All_Characters,3 4 2 0 R S,* * *,0.8181818181818182,0.0
+All_Characters,8 8 7 2 B R,C H A N G E,0.5454545454545454,0.0
+All_Characters,1 6 5 2 H R,T O T A L G O O D,1.0909090909090908,0.0
+All_Characters,9 7 4 5 8 S,D I S C O U N T,0.9090909090909091,0.0
+All_Characters,5 7 9 2 3 B,T O T A L,0.6363636363636364,0.0
+All_Characters,1 3 5 9 A,:,1.0,0.0
+All_Characters,1 7 9 5 3 B,* * *,0.8181818181818182,0.0
+All_Characters,1 9 3 4 5 R,D I S C O U N T,0.9090909090909091,0.0
+All_Characters,9 9 2 1 4 S,* * *,0.8181818181818182,0.0
+All_Characters,2 0 3 4 5 M,* * *,0.8181818181818182,0.0
+All_Characters,1 8 3 7 7 D,R E F U N D I N G R E C E I P T F O R A N O F F E R,4.090909090909091,0.0
+All_Characters,1 8 4 8 8 S,T O T A L,0.6363636363636364,0.0
+All_Characters,9 1 1 1 8 B B,* * *,0.8461538461538461,0.0
+All_Characters,9 3 1 4 M Y,D I S P L A Y F A C E U P O N D A S H,2.8181818181818183,0.0
+All_Characters,4 7 8 2 H Y,T O T A L,0.6363636363636364,0.0
+All_Characters,6 2 7 8 4 S,8 . 0 0,0.7272727272727273,0.0
+All_Characters,2 9 0 6 0,:,1.0,0.0
+All_Characters,8 9 7 0 3 R,* * *,0.8181818181818182,0.0
+All_Characters,6 0 4 2 3 R,D I S C O U N T F O R A F R E E O R A D J U S T F O R A F R E E O R A D J U S T F O R Y O U R R E C E I,8.818181818181818,0.0
+All_Characters,7 0 2 2 T H,* * *,0.8181818181818182,0.0
+All_Characters,2 6 4 5 2 D,T O T A L,0.6363636363636364,0.0
+All_Characters,4 0 6 3 0 W,D I S C O U N T R E C E I P T F O R A N O F F E R,4.0,0.0
+All_Characters,5 9 7 3 Y,T O T A L A M O U N T,1.8888888888888888,0.0
+All_Characters,3 8 3 4 0 B,D I S C O U N T F O R A F R E E O R I G I N A L O R R E C E I P T F O R A N O F F E R,7.2727272727272725,0.0
+All_Characters,2 3 0 1 1 B B,T O T A L U N I T E D S T A T E S,2.076923076923077,0.0
+All_Characters,8 1 1 2 4 B B,T O T A L T O T A L,1.0,0.0
+All_Characters,8 2 5 7 0 B B,S E E B A C K O F R E C E I P T F O R A N O F F E R,3.4615384615384617,0.0
+All_Characters,4 7 0 2 7 M,T O T A L A M O U N T,1.3636363636363635,0.0
+All_Characters,8 3 2 5 M M,D I S C O U N T F O R A,1.6363636363636365,0.0
+All_Characters,6 0 5 6 8 A,T O T A L :,0.5454545454545454,0.0
+All_Characters,7 8 7 4 2 S,D I S C O U N T R E C E I P T F O R A N O F F E R,4.0,0.0
+All_Characters,2 3 0 5 2 B B,D I S C O U N T F O R A F R E E O R O L D E R,3.0,0.0
+All_Characters,6 6 4 3 1 A A,T O T A L,0.6153846153846154,0.0
+All_Characters,1 7 3 7 B H,1 - 2 -,0.6363636363636364,0.0
+All_Characters,8 2 6 2 8 D,D I S C O U N T F O R A F R E E F R Y & C A S H T A I N F O R R E C E I P T F O R R E C E I P T F O R,8.727272727272727,0.0
+All_Characters,9 4 1 2 A B,0 . 0 0,0.7272727272727273,0.0
+All_Characters,8 1 2 2 7 D,D I S C O U N T,0.9090909090909091,0.0
+All_Characters,7 0 5 8 0 A,T O T A L C A S H I E R,1.5454545454545454,0.0
+All_Characters,2 7 5 R K,T O T A L,0.5555555555555556,0.0
+All_Characters,7 9 5 8 M M,1 . 2 . 5,0.6363636363636364,0.0
+All_Characters,3 8 0 5 8 A A,T O T A L E X C H A N G E S,1.5384615384615385,0.0
+All_Characters,7 3 7 4 4 B,* * *,0.8181818181818182,0.0
+All_Characters,3 7 9 0 5 A A,T O T A L A M O U N T,1.0769230769230769,0.0
+All_Characters,1 8 3 7 7 D,D I S C O U N T,0.9090909090909091,0.0
+All_Characters,2 2 1 2 8 B B,U S I N G R E C E I P T F O R A N O F F E R,2.8461538461538463,0.0
+All_Characters,9 7 0 9 3 B,T O T A L,0.6363636363636364,0.0
+All_Characters,9 5 8 Y Y,* * *,0.7777777777777778,0.0
+All_Characters,5 1 1 6 7 W,D I S C O U N T F O R A F R E E O R I G I N A L O R R E C E I P T F O R A N O F F E R R E C E I P T,8.545454545454545,0.0
+All_Characters,4 7 1 6 8 H,1,0.9090909090909091,0.0
+All_Characters,9 8 6 3 1 B,T O T A L R E C E I P T,1.6363636363636365,0.0
+All_Characters,4 2 1 0 7 A,T O T A L R E F U N D S,1.6363636363636365,0.0
+All_Characters,7 3 5 6 S,* * *,0.7777777777777778,0.0
+All_Characters,3 6 3 0 4 B,T O T A L,0.6363636363636364,0.0
+All_Characters,8 3 7 1 B,R E F,0.7777777777777778,0.0
+All_Characters,8 9 7 0 3 R,T O T A L A M O U N T,1.4545454545454546,0.0
+All_Characters,5 9 0 0 2 B B,T O T A L R E F U N D S,1.3076923076923077,0.0
+All_Characters,1 9 9 8 6 D,T O T A L,0.6363636363636364,0.0
+All_Characters,2 6 4 5 2 D,D I S C O U N T F O R A F R E E O R I G I N A L & D R I N T A I N O N R E C E I P T F O R D E T A,8.272727272727273,0.0
+All_Characters,7 0 2 2 T H,* * *,0.8181818181818182,0.0
+All_Characters,8 5 3 9 2 R,* * *,0.8181818181818182,0.0
+All_Characters,4 9 7 6 1 W,2 5 . 0 0,0.6363636363636364,0.0
+All_Characters,8 8 9 0 1 H,T O T A L,0.6363636363636364,0.0
+All_Characters,7 0 3 2 7 B,G S T,0.8181818181818182,0.0
+All_Characters,8 0 6 6 3 D,T O T A L S A L E S,1.2727272727272727,0.0
+All_Characters,4 3 9 6 H R,R E F U N D,0.5454545454545454,0.0
+All_Characters,7 0 0 6 M,T O T A L C A S H I E R,2.111111111111111,0.0
+All_Characters,5 1 7 3 1 B,T O T A L R E C E I P T,1.6363636363636365,0.0
+All_Characters,4 4 3 0 1 B,* * *,0.8181818181818182,0.0
+All_Characters,1 9 1 8 H Y,* * *,0.8181818181818182,0.0
+All_Characters,8 4 2 3 7 B,S E E B A C K O F R E C E I P T F O R A N O F F E R,4.181818181818182,0.0
+All_Characters,1 8 7 2 7 B B,T O T A L C A S H I E R,1.3076923076923077,0.0
+All_Characters,2 5 9 9 1 H,D I S C O U N T R E C E I P T F O R A N O F F E R,4.0,0.0
+All_Characters,3 7 8 6 K B,* * *,0.8181818181818182,0.0
+All_Characters,5 8 2 0 2 M,T O T A L U N I T E D S T A T E S,2.5454545454545454,0.0
+All_Characters,1 4 3 1 9 W,T O T A L,0.6363636363636364,0.0
+All_Characters,3 8 0 5 8 A A,C A S H D I S C O U N T,1.3076923076923077,0.0
+All_Characters,9 9 4 7 9 A A,D I S C O U N T R E C E I P T F O R A N O F F E R,3.230769230769231,0.0
+All_Characters,2 8 7 8 6 B B,T O T A L C A S H I E R,1.3076923076923077,0.0
+All_Characters,3 3 2 6 A A,* * *,0.8181818181818182,0.0
+All_Characters,4 2 8 6 6 W,C H A N G E,0.5454545454545454,0.0
+All_Characters,7 5 2 1 T,R E F,0.7777777777777778,0.0
+All_Characters,1 1 6 7 8 R,6 . 0 0,0.6363636363636364,0.0
+All_Characters,9 2 0 9 B R,* * *,0.8181818181818182,0.0
+All_Characters,5 7 9 9 0 A A,* * *,0.8461538461538461,0.0
+All_Characters,9 4 1 0 R M,G S T :,0.7272727272727273,0.0
+All_Characters,7 6 7 3 9 M,S E E B A C K O F R E C E I P T F O R A N O F F E R,4.181818181818182,0.0
+All_Characters,7 6 2 8 0 Y,* * *,0.8181818181818182,0.0
+All_Characters,7 5 0 1 2 M,T O T A L,0.6363636363636364,0.0
+All_Characters,9 8 6 5 5 S,R E G I O N : 0 5 0 0,1.3636363636363635,0.0
+All_Characters,4 6 8 W,* * *,0.7142857142857143,0.0
+All_Characters,1 8 0 1 6 D,D I S C O U N T F O R A N O F F E R,2.727272727272727,0.0
+All_Characters,8 8 0 6 A B,D I S C O U N T F O R A F R E E O R I G I N A L O R R E C E I P T F O R D E T A I L S .,7.363636363636363,0.0
+All_Characters,8 6 7 3 Y Y,* * *,0.8181818181818182,0.0
+All_Characters,6 2 2 8 3 B B,D I S C O U N T,0.6923076923076923,0.0
+All_Characters,1 2 2 6 B S,D I S C O U N T,0.9090909090909091,0.0
+All_Characters,7 8 1 7 3 Y,T O T A L,0.6363636363636364,0.0
+All_Characters,2 1 2 9 D R,T O T A L,0.6363636363636364,0.0
+All_Characters,8 4 3 9 W W,T O T A L U N I T E D S T A T E S,2.5454545454545454,0.0
+All_Characters,6 0 2 3 5 A A,T O T A L :,0.6153846153846154,0.0
+All_Characters,7 8 8 2 7 D,S A M P L E,0.5454545454545454,0.0
+All_Characters,9 8 4 0 9 A A,T O T A L C A S H I E R,1.2307692307692308,0.0
+All_Characters,4 9 0 9 A W,G S T : 0 0 0 0,0.8181818181818182,0.0
+All_Characters,3 7 3 8 3 W,G S T :,0.7272727272727273,0.0
+All_Characters,8 7 9 6 9 B,* * *,0.8181818181818182,0.0
+All_Characters,4 8 4 6 1 W,S R :,0.8181818181818182,0.0
+All_Characters,5 4 1 3 S S,* * *,0.8181818181818182,0.0
+All_Characters,1 4 6 7 5 Y,D I S C O U N T N O T E O F R E C E I P T F O R A N O F F E R,5.090909090909091,0.0
+All_Characters,6 2 0 1 3 W,T O T A L,0.6363636363636364,0.0
+All_Characters,8 1 0 T A,P E R F O R A T E D C A R D S,2.5555555555555554,0.0
+All_Characters,5 8 6 8 4 B B,T O T A L : 1 0 . 0 0 %,1.3076923076923077,0.0
+All_Characters,8 0 2 0 6 B B,D I S C O U N T F O R A F R E E O R G A N I C S !,3.3076923076923075,0.0
+All_Characters,6 9 1 6 3 D,T O T A L A M O U N T,1.4545454545454546,0.0
+All_Characters,2 7 6 0 3 B,D I S P L A Y F A C E U P O N D A S H,2.909090909090909,0.0
+All_Characters,6 5 6 0 T,-,1.0,0.0
+All_Characters,7 6 2 1 6 R,T O T A L R E C E I P T F O R A N O F F E R,3.3636363636363638,0.0
+All_Characters,2 2 0 6 9 W,T O T A L U N I T E D S T A T E S,2.5454545454545454,0.0
+All_Characters,1 1 8 1 4 B B,D I S C O U N T F O R A G O O D .,2.076923076923077,0.0
+All_Characters,4 6 8 W,* * *,0.7142857142857143,0.0
+All_Characters,3 9 8 7 8 H,* * *,0.8181818181818182,0.0
+All_Characters,2 5 6 9 6 H,C A S H I E R,0.7272727272727273,0.0
+All_Characters,6 5 0 6 9 D,D I S C O U N T E X C H A N G E S,2.5454545454545454,0.0
+All_Characters,6 0 0 0 4 W,T O T A L C A S H I E R,1.6363636363636365,0.0
+All_Characters,3 3 6 1 7 B B,T O T A L,0.6923076923076923,0.0
+All_Characters,2 5 1 1 9 R,T O T A L,0.6363636363636364,0.0
+All_Characters,7 8 1 7 3 Y,T O T A L,0.6363636363636364,0.0
+All_Characters,8 1 7 4 D D,* * *,0.8181818181818182,0.0
+All_Characters,4 3 9 1 5 M,* * *,0.8181818181818182,0.0
+All_Characters,1 9 3 0 3 A,T O T A L P R I C E,1.2727272727272727,0.0
+All_Characters,6 5 9 3 6 S,T O T A L,0.6363636363636364,0.0
+All_Characters,1 2 7 4 5 H,* * *,0.8181818181818182,0.0
+All_Characters,2 4 8 0 6 Y,T O T A L,0.6363636363636364,0.0
+All_Characters,6 2 5 8 5 R,* * *,0.8181818181818182,0.0
+All_Characters,8 2 5 8 8 W,* * *,0.8181818181818182,0.0
+All_Characters,6 8 4 3 R R,* * *,0.8181818181818182,0.0
+All_Characters,9 8 0 4 A M,* * *,0.8181818181818182,0.0
+All_Characters,2 6 1 8 K,* * *,0.7777777777777778,0.0
+All_Characters,6 6 6 H Y,- 5 - 2 - 9 -,1.0,0.0
+All_Characters,7 3 7 0 2 S,:,1.0,0.0
+All_Characters,8 7 5 8 9 Y,T O T A L R E C E I P T F O R A N O F F E R,3.4545454545454546,0.0
+All_Characters,5 8 2 3 S S,T O T A L * * *,0.9090909090909091,0.0
+All_Characters,5 7 6 2 4 Y,S R - F R E E,0.7272727272727273,0.0
+All_Characters,1 8 3 8 1 B,* * * * * *,0.5454545454545454,0.0
+All_Characters,7 5 4 9 8 B B,C A S H I E R :,0.6923076923076923,0.0
+All_Characters,4 3 9 6 H R,T O T A L C A S H I E R,1.4545454545454546,0.0
+All_Characters,1 3 5 8 0 A A,D A T E :,0.6923076923076923,0.0
+All_Characters,8 8 6 9 R M,T O T A L,0.6363636363636364,0.0
+All_Characters,3 4 1 5 3 Y,T O T A L C A R D S,1.2727272727272727,0.0
+All_Characters,9 5 4 9 7 H,* * *,0.8181818181818182,0.0
+All_Characters,6 0 8 2 7 Y,-,1.0,0.0
+All_Characters,6 7 3 0 0 D,* * *,0.8181818181818182,0.0
+All_Characters,2 9 8 2 Y,* * *,0.7777777777777778,0.0
+All_Characters,2 5 1 7 0 Y,-,1.0,0.0
+All_Characters,7 1 3 2 2 M,* * *,0.8181818181818182,0.0
+All_Characters,7 4 4 9 9 B B,C H A N G E,0.6153846153846154,0.0
+All_Characters,1 8 9 0 9 Y,G S T : 0 1 0 - 0 5,1.1818181818181819,0.0
+All_Characters,8 3 2 9 3 Y,* * *,0.8181818181818182,0.0
+All_Characters,8 6 1 5 7 W,T O T A L R E F U N D S,1.6363636363636365,0.0
+All_Characters,8 7 8 8 4 M,T O T A L S A L E S,1.2727272727272727,0.0
+All_Characters,5 0 7 4 8 B B,D I S C O U N T F O R A G O O D C A R D S .,2.8461538461538463,0.0
+All_Characters,9 5 0 2 S S,D I S C O U N T,0.9090909090909091,0.0
+All_Characters,9 5 7 8 7 Y,* * *,0.8181818181818182,0.0
+All_Characters,5 4 2 6 1 D,* * *,0.8181818181818182,0.0
+All_Characters,5 5 7 9 6 B B,* * *,0.8461538461538461,0.0
+All_Characters,6 2 8 6 R Y,T O T A L R E C E I P T,1.5454545454545454,0.0
+All_Characters,6 6 6 H Y,* * *,0.7777777777777778,0.0
+All_Characters,8 0 9 2 2 D,T O T A L,0.6363636363636364,0.0
+All_Characters,5 8 2 3 S S,D I S C O U N T F O R A F R E E O R O L D E R O R O L D E R .,5.090909090909091,0.0
+All_Characters,8 8 8 1 5 B B,* * *,0.8461538461538461,0.0
+All_Characters,8 5 6 3 3 S,* * *,0.8181818181818182,0.0
+All_Characters,8 9 5 4 3 D,* * *,0.8181818181818182,0.0
+All_Characters,9 7 6 3 D R,-,1.0,0.0
+All_Characters,1 8 5 6 7 S,T O T A L S A L E S,1.1818181818181819,0.0
+All_Characters,1 4 9 0 D Y,T O T A L T O T A L,1.2727272727272727,0.0
+All_Characters,3 3 0 2 2 B B,T O T A L C A S H I E R,1.3076923076923077,0.0
+All_Characters,7 3 8 0 7 B B,D I S P L A Y F A C E U P O N D A S H,2.3846153846153846,0.0
+All_Characters,3 5 2 1 8 D,* * *,0.8181818181818182,0.0
+All_Characters,7 7 3 0 4 M,T O T A L,0.6363636363636364,0.0
+All_Characters,1 0 4 8 8 S,R E F,0.8181818181818182,0.0
+All_Characters,5 5 2 5 4 H,T O T A L : 0 . 0 0,1.2727272727272727,0.0
+All_Characters,2 2 6 4 B D,T O T A L :,0.5454545454545454,0.0
+All_Characters,4 3 9 2 2 H,* * *,0.8181818181818182,0.0
+All_Characters,8 7 3 1 9 R,* * *,0.8181818181818182,0.0
+All_Characters,2 0 4 4 A W,C A S H I E R,0.7272727272727273,0.0
+All_Characters,6 7 1 2 B,* * *,0.7777777777777778,0.0
+All_Characters,7 5 4 0 6 R,C A S H I E R,0.6363636363636364,0.0
+All_Characters,3 2 5 3 2 M,T O T A L,0.6363636363636364,0.0
+All_Characters,1 0 7 9 8 M,2 . 2 0,0.7272727272727273,0.0
+All_Characters,5 4 5 6 8 B B,* * *,0.8461538461538461,0.0
+All_Characters,1 2 2 5 3 M,-,1.0,0.0
+All_Characters,8 0 2 0 6 B B,T O T A L,0.6923076923076923,0.0
+All_Characters,3 6 4 5 B Y,- S T Y P E - S I Z E,1.4545454545454546,0.0
+All_Characters,3 8 7 0 A D,-,1.0,0.0
+All_Characters,4 8 2 6 B W,T O T A L S A L E S,1.2727272727272727,0.0
+All_Characters,8 9 0 7 4 D,T O T A L,0.6363636363636364,0.0
+All_Characters,4 8 4 6 1 W,* * *,0.8181818181818182,0.0
+All_Characters,7 0 1 5 9 M,* * *,0.8181818181818182,0.0
+All_Characters,6 7 8 R,T O T A L,0.8571428571428571,0.0
+All_Characters,8 2 3 9 T,* * *,0.7777777777777778,0.0
+All_Characters,1 4 3 1 9 W,T O T A L,0.6363636363636364,0.0
+All_Characters,6 1 8 7 H S,D I S C O U N T F O R A F R E E O R O L D E R !,3.8181818181818183,0.0
+All_Characters,5 2 3 5 0 R,* * *,0.8181818181818182,0.0
+All_Characters,7 1 1 2 D D,* * *,0.8181818181818182,0.0
+All_Characters,8 0 4 7 8 D,* * *,0.8181818181818182,0.0
+All_Characters,7 5 7 5 9 S,* * *,0.8181818181818182,0.0
+All_Characters,6 1 4 2 D R,T O T A L,0.6363636363636364,0.0
+All_Characters,6 3 2 5 9 D,D I S C O U N T,0.9090909090909091,0.0
+All_Characters,5 8 2 9 9 A A,T O T A L,0.6153846153846154,0.0
+All_Characters,9 2 1 7 3 H,* * *,0.8181818181818182,0.0
+All_Characters,6 1 9 8 7 Y,* * *,0.8181818181818182,0.0
+All_Characters,7 2 3 2 R W,T O T A L T O T A L,1.2727272727272727,0.0
+All_Characters,9 8 0 3 9 H,- -,0.9090909090909091,0.0
+All_Characters,2 8 1 5 2 Y,2 5 . 0 0,0.5454545454545454,0.0
+All_Characters,9 6 5 6 T H,* * *,0.8181818181818182,0.0
+All_Characters,9 6 0 1 6 A,T O T A L C A S H I E R,1.5454545454545454,0.0
+All_Characters,7 0 9 0 M M,T O T A L S A L E S,1.2727272727272727,0.0
+All_Characters,5 8 4 3 8 A A,* * * * * *,0.6153846153846154,0.0
+All_Characters,6 5 2 8 7 B,T O T A L * * *,0.9090909090909091,0.0
+All_Characters,8 5 2 0 7 H,C A S H T A I N R E C E I P T,2.1818181818181817,0.0
+All_Characters,9 9 1 6 3 S,* * *,0.8181818181818182,0.0
+All_Characters,9 0 1 4 K B,R E F U N D,0.5454545454545454,0.0
+All_Characters,6 3 8 7 9 H,T O T A L R E C E I P T F O R A N O F F E R,3.4545454545454546,0.0
+All_Characters,6 5 1 9 4 S,T O T A L,0.6363636363636364,0.0
+All_Characters,1 2 0 5 B M,G S T :,0.7272727272727273,0.0
+All_Characters,6 3 7 0 6 M,T O T A L T O T A L,1.2727272727272727,0.0
+All_Characters,6 7 9 1 2 A,T O T A L T O T A L,1.1818181818181819,0.0
+All_Characters,7 8 2 7 6 H,T O T A L S A L E S,1.2727272727272727,0.0
+All_Characters,6 7 5 5 2 W,S U B J E C T :,0.9090909090909091,0.0
+All_Characters,4 4 7 9 3 B B,D I S C O U N T,0.6923076923076923,0.0
+All_Characters,1 6 9 7 2 S,T O T A L,0.6363636363636364,0.0
+All_Characters,4 7 1 7 8 A,T O T A L,0.6363636363636364,0.0
+All_Characters,3 0 1 4 9 M,T O T A L * * *,0.9090909090909091,0.0
+All_Characters,9 0 9 6 4 B,* * *,0.8181818181818182,0.0
+All_Characters,6 1 9 8 7 Y,R E F U N D,0.5454545454545454,0.0
+All_Characters,7 5 7 5 9 S,* * *,0.8181818181818182,0.0
+All_Characters,9 0 6 2 B Y,* * *,0.8181818181818182,0.0
+All_Characters,5 3 4 2 2 D,D I S C O U N T,0.9090909090909091,0.0
+All_Characters,8 0 7 1 T H,* * *,0.8181818181818182,0.0
+All_Characters,5 3 7 3 3 B B,* * *,0.8461538461538461,0.0
+All_Characters,3 3 7 6 0 A A,S R - C - S - C - S - S - S - S,1.9230769230769231,0.0
+All_Characters,2 6 9 7 9 A A,T O T A L,0.6153846153846154,0.0
+All_Characters,4 7 8 2 H Y,S U B J E C T :,0.9090909090909091,0.0
+All_Characters,2 8 5 0 A B,T O T A L,0.5454545454545454,0.0
+All_Characters,3 1 8 3 3 B B,T O T A L A M O U N T,1.1538461538461537,0.0
+All_Characters,3 3 7 4 3 D,* * *,0.8181818181818182,0.0
+All_Characters,3 8 0 7 0 A A,- -,0.9230769230769231,0.0
+All_Characters,5 4 6 1 4 B,T O T A L C A S H I E R,1.6363636363636365,0.0
+All_Characters,4 7 4 9 0 A A,T O T A L : 0 . 0 0,0.9230769230769231,0.0
+All_Characters,1 2 5 5 0 B B,D I S C O U N T F O R A,1.3076923076923077,0.0
+All_Characters,2 1 7 3 7 R,D I S C O U N T F O R A F R E E O R I G I N A L !,3.909090909090909,0.0
+All_Characters,5 9 4 6 8 Y,* * *,0.8181818181818182,0.0
+All_Characters,4 0 5 0 7 R,T O T A L R E C E I P T,1.5454545454545454,0.0
+All_Characters,4 4 3 5 8 B B,D I S C O U N T,0.6923076923076923,0.0
+All_Characters,7 2 1 4 5 B,* * *,0.8181818181818182,0.0
+All_Characters,4 3 8 0 0 A A,T O T A L T O T A L,0.9230769230769231,0.0
+All_Characters,1 4 9 0 D Y,T O T A L G O O D,1.0909090909090908,0.0
+All_Characters,2 2 0 4 R R,T O T A L,0.6363636363636364,0.0
+All_Characters,9 1 6 5 5 S,C A S H I E R,0.7272727272727273,0.0
+All_Characters,5 8 2 9 9 B B,D I S C O U N T,0.6923076923076923,0.0
+All_Characters,5 1 6 0 3 B B,"T O T A L U N I T E D S T A T E S , I N C .",2.8461538461538463,0.0
+All_Characters,7 6 0 2 9 H,T O T A L R E C E I P T F O R A N O F F E R R E C E I P T F O R A N O F F I N R E C E I P T F O R R E C,8.909090909090908,0.0
+All_Characters,1 5 6 1 2 M,* * *,0.8181818181818182,0.0
+All_Characters,7 0 4 7 8 R,-,1.0,0.0
+All_Characters,1 2 9 6 0 D,C O N V E N I E N C E,1.4545454545454546,0.0
+All_Characters,9 6 5 5 1 R,T O T A L,0.6363636363636364,0.0
+All_Characters,6 7 7 3 6 A,T O T A L,0.6363636363636364,0.0
+All_Characters,4 1 9 4 7 A,:,1.0,0.0
+All_Characters,8 1 6 2 5 R,T O T A L R E F U N D S,1.5454545454545454,0.0
+All_Characters,3 6 1 3 9 A A,6 5 . 0 0,0.6153846153846154,0.0
+All_Characters,1 4 3 0 0 B B,* * *,0.8461538461538461,0.0
+All_Characters,3 1 9 0 4 B B,T O T A L,0.6923076923076923,0.0
+All_Characters,4 2 4 1 T,* * *,0.7777777777777778,0.0
+All_Characters,4 4 1 6 0 S,T O T A L E X C H A N G E,1.8181818181818181,0.0
+All_Characters,4 4 1 6 0 S,D I S C O U N T R E C E I P T F O R A N O F F E R,4.0,0.0
+All_Characters,4 7 5 5 6 S,* * *,0.8181818181818182,0.0
+All_Characters,6 6 9 5 6 A A,T O T A L T O T A L,0.9230769230769231,0.0
+All_Characters,2 8 2 1 8 H,* * *,0.8181818181818182,0.0
+All_Characters,8 7 9 1 A A,-,1.0,0.0
+All_Characters,5 6 3 0 8 A A,T O T A L R E C E I P T,1.3076923076923077,0.0
+All_Characters,3 7 5 6 9 W,T O T A L A M O U N T,1.4545454545454546,0.0
+All_Characters,7 1 1 5 B Y,- 2 . 2 5,0.6363636363636364,0.0
+All_Characters,5 3 0 4 2 R,C A S H I E R,0.6363636363636364,0.0
+All_Characters,7 6 5 9 8 B B,D I S C O U N T F O R A F R E E O R O L D E R !,3.1538461538461537,0.0
+All_Characters,6 6 3 0 7 R,S U B J E C T :,0.9090909090909091,0.0
+All_Characters,9 6 7 4 6 Y,T O T A L A M O U N T,1.4545454545454546,0.0
+All_Characters,2 6 8 9 B D,D I S C O U N T,0.9090909090909091,0.0
+All_Characters,8 7 6 9 3 A A,T O T A L A M O U N T,1.0769230769230769,0.0
+All_Characters,2 1 7 3 7 R,* * *,0.8181818181818182,0.0
+All_Characters,2 2 2 1 3 Y,* * *,0.8181818181818182,0.0
+All_Characters,8 7 4 9 6 M,* * *,0.8181818181818182,0.0
+All_Characters,1 3 5 6 0 Y,R E F .,0.7272727272727273,0.0
+All_Characters,6 3 1 5 8 W,* * *,0.8181818181818182,0.0
+All_Characters,3 5 3 8 2 S,T O T A L C A S H I E R,1.5454545454545454,0.0
+All_Characters,8 1 0 0 6 Y,T O T A L C A S H I E R,1.6363636363636365,0.0
+All_Characters,5 6 8 9 9 Y,T O T A L,0.6363636363636364,0.0
+All_Characters,6 5 2 1 7 R,- -,0.9090909090909091,0.0
+All_Characters,4 4 2 8 A,T O T A L,0.5555555555555556,0.0
+All_Characters,4 1 9 4 9 R,D I S C O U N T,0.9090909090909091,0.0
+All_Characters,9 4 3 5 8 B B,T O T A L G O O D,0.8461538461538461,0.0
+All_Characters,3 6 3 8 7 B B,* * *,0.8461538461538461,0.0
+All_Characters,8 9 4 0 7 B B,D I S C O U N T F O R A,1.3076923076923077,0.0
+All_Characters,9 4 0 0 5 S,"T O T A L U N I T E D S T A T E S , I N C .",3.3636363636363638,0.0
+All_Characters,6 6 6 3 0 Y,C A S H I E R,0.7272727272727273,0.0
+All_Characters,7 8 3 5 8 M,T O T A L A M O U N T,1.3636363636363635,0.0
+All_Characters,7 1 4 9 2 H,-,1.0,0.0
+All_Characters,2 4 5 7 9 B B,T O T A L S A L E S,1.0,0.0
+All_Characters,2 9 7 2 8 S,C A S H D I S P L A Y F A C E U P O N D A S H,3.5454545454545454,0.0
+All_Characters,2 7 5 R K,T O T A L,0.5555555555555556,0.0
+All_Characters,3 3 7 5 6 R,* * *,0.8181818181818182,0.0
+All_Characters,8 5 3 8 9 S,T O T A L,0.6363636363636364,0.0
+All_Characters,8 0 4 7 8 D,T O T A L,0.6363636363636364,0.0
+All_Characters,5 7 6 8 3 M,T O T A L A M O U N T,1.3636363636363635,0.0
+All_Characters,7 8 2 7 6 H,T O T A L T O T A L,1.2727272727272727,0.0
+All_Characters,4 2 9 4 1 A A,P O S T I N G R E C E I P T F O R A N O F F E R,3.076923076923077,0.0
+All_Characters,3 8 7 0 A D,T O T A L,0.5454545454545454,0.0
+All_Characters,6 0 7 2 4 B B,T O T A L A M O U N T,1.1538461538461537,0.0
+All_Characters,8 3 4 0 2 H,D I S C O U N T F O R A F R E E O R A,2.909090909090909,0.0
+All_Characters,5 8 4 3 8 A A,T O T A L A M O U N T,1.0769230769230769,0.0
+All_Characters,3 8 5 0 H,C A S H I E R,1.0,0.0
+All_Characters,Average,Average,1.3454478854478853,0.0
+Digits,9062,,1.0,0.0
+Digits,92212,,1.0,0.0
+Digits,42640,,1.0,0.0
+Digits,16316,,1.0,0.0
+Digits,16909,,1.0,0.0
+Digits,61987,,1.0,0.0
+Digits,26606,,1.0,0.0
+Digits,5769,,1.0,0.0
+Digits,9285,,1.0,0.0
+Digits,33756,,1.0,0.0
+Digits,4580,,1.0,0.0
+Digits,2850,,1.0,0.0
+Digits,26979,,1.0,0.0
+Digits,85179,,1.0,0.0
+Digits,8020,,1.0,0.0
+Digits,9664,,1.0,0.0
+Digits,81430,,1.0,0.0
+Digits,72809,,1.0,0.0
+Digits,53422,,1.0,0.0
+Digits,30579,,1.0,0.0
+Digits,20373,,1.0,0.0
+Digits,65287,,1.0,0.0
+Digits,7890,,1.0,0.0
+Digits,1368,,1.0,0.0
+Digits,91052,,1.0,0.0
+Digits,84964,,1.0,0.0
+Digits,56195,,1.0,0.0
+Digits,42648,,1.0,0.0
+Digits,63706,6500,0.6,0.0
+Digits,14247,,1.0,0.0
+Digits,2502,,1.0,0.0
+Digits,62123,,1.0,0.0
+Digits,99805,,1.0,0.0
+Digits,75759,,1.0,0.0
+Digits,66862,,1.0,0.0
+Digits,4525,,1.0,0.0
+Digits,60473,,1.0,0.0
+Digits,74135,,1.0,0.0
+Digits,2850,,1.0,0.0
+Digits,75274,,1.0,0.0
+Digits,9328,,1.0,0.0
+Digits,81430,,1.0,0.0
+Digits,2205,,1.0,0.0
+Digits,60591,,1.0,0.0
+Digits,28152,,1.0,0.0
+Digits,43694,500,1.0,0.0
+Digits,88079,,1.0,0.0
+Digits,77572,,1.0,0.0
+Digits,63879,,1.0,0.0
+Digits,50234,,1.0,0.0
+Digits,22616,,1.0,0.0
+Digits,73092,,1.0,0.0
+Digits,64205,,1.0,0.0
+Digits,8239,,1.0,0.0
+Digits,77830,350,0.8,0.0
+Digits,16059,,1.0,0.0
+Digits,56393,,1.0,0.0
+Digits,5982,500,0.75,0.0
+Digits,63706,,1.0,0.0
+Digits,97800,,1.0,0.0
+Digits,791,,1.0,0.0
+Digits,63842,,1.0,0.0
+Digits,61456,,1.0,0.0
+Digits,66025,,1.0,0.0
+Digits,78068,,1.0,0.0
+Digits,93980,,1.0,0.0
+Digits,4905,,1.0,0.0
+Digits,56308,,1.0,0.0
+Digits,99533,,1.0,0.0
+Digits,21869,,1.0,0.0
+Digits,38897,,1.0,0.0
+Digits,72145,,1.0,0.0
+Digits,8791,,1.0,0.0
+Digits,28218,,1.0,0.0
+Digits,28218,,1.0,0.0
+Digits,66050,,1.0,0.0
+Digits,15152,,1.0,0.0
+Digits,41947,,1.0,0.0
+Digits,31824,,1.0,0.0
+Digits,98366,,1.0,0.0
+Digits,850,,1.0,0.0
+Digits,34917,600,1.0,0.0
+Digits,78879,,1.0,0.0
+Digits,78047,,1.0,0.0
+Digits,8815,,1.0,0.0
+Digits,76029,,1.0,0.0
+Digits,65034,,1.0,0.0
+Digits,81625,,1.0,0.0
+Digits,2523,,1.0,0.0
+Digits,57265,,1.0,0.0
+Digits,65366,,1.0,0.0
+Digits,41563,,1.0,0.0
+Digits,28906,,1.0,0.0
+Digits,3286,,1.0,0.0
+Digits,86508,,1.0,0.0
+Digits,12819,,1.0,0.0
+Digits,28390,,1.0,0.0
+Digits,97800,,1.0,0.0
+Digits,12232,,1.0,0.0
+Digits,92173,,1.0,0.0
+Digits,62149,,1.0,0.0
+Digits,14910,,1.0,0.0
+Digits,43157,,1.0,0.0
+Digits,6149,,1.0,0.0
+Digits,71713,,1.0,0.0
+Digits,75009,,1.0,0.0
+Digits,69209,,1.0,0.0
+Digits,56566,,1.0,0.0
+Digits,49756,,1.0,0.0
+Digits,7810,,1.0,0.0
+Digits,50079,,1.0,0.0
+Digits,47490,,1.0,0.0
+Digits,39035,,1.0,0.0
+Digits,2599,,1.0,0.0
+Digits,12960,,1.0,0.0
+Digits,8815,,1.0,0.0
+Digits,27570,,1.0,0.0
+Digits,7734,,1.0,0.0
+Digits,13644,,1.0,0.0
+Digits,65366,,1.0,0.0
+Digits,59468,,1.0,0.0
+Digits,74257,,1.0,0.0
+Digits,21737,,1.0,0.0
+Digits,44861,,1.0,0.0
+Digits,20239,,1.0,0.0
+Digits,62353,,1.0,0.0
+Digits,20563,050005,1.0,0.0
+Digits,62367,,1.0,0.0
+Digits,6684,,1.0,0.0
+Digits,40368,,1.0,0.0
+Digits,40368,,1.0,0.0
+Digits,76024,,1.0,0.0
+Digits,2037,,1.0,0.0
+Digits,12692,,1.0,0.0
+Digits,61982,,1.0,0.0
+Digits,29728,,1.0,0.0
+Digits,57632,,1.0,0.0
+Digits,6163,,1.0,0.0
+Digits,51854,,1.0,0.0
+Digits,5246,,1.0,0.0
+Digits,80761,,1.0,0.0
+Digits,311,,1.0,0.0
+Digits,35807,,1.0,0.0
+Digits,93648,,1.0,0.0
+Digits,60790,,1.0,0.0
+Digits,60825,,1.0,0.0
+Digits,54633,,1.0,0.0
+Digits,57465,,1.0,0.0
+Digits,88198,,1.0,0.0
+Digits,3878,,1.0,0.0
+Digits,67423,,1.0,0.0
+Digits,22248,,1.0,0.0
+Digits,99551,,1.0,0.0
+Digits,98937,,1.0,0.0
+Digits,3286,,1.0,0.0
+Digits,6722,,1.0,0.0
+Digits,1359,,1.0,0.0
+Digits,52717,,1.0,0.0
+Digits,64778,,1.0,0.0
+Digits,53213,,1.0,0.0
+Digits,9919,,1.0,0.0
+Digits,32827,,1.0,0.0
+Digits,40297,,1.0,0.0
+Digits,46312,,1.0,0.0
+Digits,48921,3500,1.0,0.0
+Digits,11478,,1.0,0.0
+Digits,13097,,1.0,0.0
+Digits,90964,,1.0,0.0
+Digits,88860,,1.0,0.0
+Digits,63079,,1.0,0.0
+Digits,40368,,1.0,0.0
+Digits,39357,,1.0,0.0
+Digits,95587,,1.0,0.0
+Digits,55366,,1.0,0.0
+Digits,5823,,1.0,0.0
+Digits,74902,,1.0,0.0
+Digits,59508,,1.0,0.0
+Digits,48940,,1.0,0.0
+Digits,32220,,1.0,0.0
+Digits,53444,,1.0,0.0
+Digits,60790,,1.0,0.0
+Digits,27709,,1.0,0.0
+Digits,3420,,1.0,0.0
+Digits,8872,,1.0,0.0
+Digits,1652,,1.0,0.0
+Digits,97458,,1.0,0.0
+Digits,57923,,1.0,0.0
+Digits,1359,,1.0,0.0
+Digits,17953,,1.0,0.0
+Digits,19345,,1.0,0.0
+Digits,99214,,1.0,0.0
+Digits,20345,,1.0,0.0
+Digits,18377,,1.0,0.0
+Digits,18488,,1.0,0.0
+Digits,91118,,1.0,0.0
+Digits,9314,,1.0,0.0
+Digits,4782,,1.0,0.0
+Digits,62784,800,1.0,0.0
+Digits,29060,,1.0,0.0
+Digits,89703,,1.0,0.0
+Digits,60423,,1.0,0.0
+Digits,7022,,1.0,0.0
+Digits,26452,,1.0,0.0
+Digits,40630,,1.0,0.0
+Digits,5973,,1.0,0.0
+Digits,38340,,1.0,0.0
+Digits,23011,,1.0,0.0
+Digits,81124,,1.0,0.0
+Digits,82570,,1.0,0.0
+Digits,47027,,1.0,0.0
+Digits,8325,,1.0,0.0
+Digits,60568,,1.0,0.0
+Digits,78742,,1.0,0.0
+Digits,23052,,1.0,0.0
+Digits,66431,,1.0,0.0
+Digits,1737,12,0.75,0.0
+Digits,82628,,1.0,0.0
+Digits,9412,000,1.0,0.0
+Digits,81227,,1.0,0.0
+Digits,70580,,1.0,0.0
+Digits,275,,1.0,0.0
+Digits,7958,125,0.75,0.0
+Digits,38058,,1.0,0.0
+Digits,73744,,1.0,0.0
+Digits,37905,,1.0,0.0
+Digits,18377,,1.0,0.0
+Digits,22128,,1.0,0.0
+Digits,97093,,1.0,0.0
+Digits,958,,1.0,0.0
+Digits,51167,,1.0,0.0
+Digits,47168,1,0.8,0.0
+Digits,98631,,1.0,0.0
+Digits,42107,,1.0,0.0
+Digits,7356,,1.0,0.0
+Digits,36304,,1.0,0.0
+Digits,8371,,1.0,0.0
+Digits,89703,,1.0,0.0
+Digits,59002,,1.0,0.0
+Digits,19986,,1.0,0.0
+Digits,26452,,1.0,0.0
+Digits,7022,,1.0,0.0
+Digits,85392,,1.0,0.0
+Digits,49761,2500,1.0,0.0
+Digits,88901,,1.0,0.0
+Digits,70327,,1.0,0.0
+Digits,80663,,1.0,0.0
+Digits,4396,,1.0,0.0
+Digits,7006,,1.0,0.0
+Digits,51731,,1.0,0.0
+Digits,44301,,1.0,0.0
+Digits,1918,,1.0,0.0
+Digits,84237,,1.0,0.0
+Digits,18727,,1.0,0.0
+Digits,25991,,1.0,0.0
+Digits,3786,,1.0,0.0
+Digits,58202,,1.0,0.0
+Digits,14319,,1.0,0.0
+Digits,38058,,1.0,0.0
+Digits,99479,,1.0,0.0
+Digits,28786,,1.0,0.0
+Digits,3326,,1.0,0.0
+Digits,42866,,1.0,0.0
+Digits,7521,,1.0,0.0
+Digits,11678,600,0.8,0.0
+Digits,9209,,1.0,0.0
+Digits,57990,,1.0,0.0
+Digits,9410,,1.0,0.0
+Digits,76739,,1.0,0.0
+Digits,76280,,1.0,0.0
+Digits,75012,,1.0,0.0
+Digits,98655,0500,1.0,0.0
+Digits,468,,1.0,0.0
+Digits,18016,,1.0,0.0
+Digits,8806,,1.0,0.0
+Digits,8673,,1.0,0.0
+Digits,62283,,1.0,0.0
+Digits,1226,,1.0,0.0
+Digits,78173,,1.0,0.0
+Digits,2129,,1.0,0.0
+Digits,8439,,1.0,0.0
+Digits,60235,,1.0,0.0
+Digits,78827,,1.0,0.0
+Digits,98409,,1.0,0.0
+Digits,4909,0000,0.75,0.0
+Digits,37383,,1.0,0.0
+Digits,87969,,1.0,0.0
+Digits,48461,,1.0,0.0
+Digits,5413,,1.0,0.0
+Digits,14675,,1.0,0.0
+Digits,62013,,1.0,0.0
+Digits,810,,1.0,0.0
+Digits,58684,1000,1.0,0.0
+Digits,80206,,1.0,0.0
+Digits,69163,,1.0,0.0
+Digits,27603,,1.0,0.0
+Digits,6560,,1.0,0.0
+Digits,76216,,1.0,0.0
+Digits,22069,,1.0,0.0
+Digits,11814,,1.0,0.0
+Digits,468,,1.0,0.0
+Digits,39878,,1.0,0.0
+Digits,25696,,1.0,0.0
+Digits,65069,,1.0,0.0
+Digits,60004,,1.0,0.0
+Digits,33617,,1.0,0.0
+Digits,25119,,1.0,0.0
+Digits,78173,,1.0,0.0
+Digits,8174,,1.0,0.0
+Digits,43915,,1.0,0.0
+Digits,19303,,1.0,0.0
+Digits,65936,,1.0,0.0
+Digits,12745,,1.0,0.0
+Digits,24806,,1.0,0.0
+Digits,62585,,1.0,0.0
+Digits,82588,,1.0,0.0
+Digits,6843,,1.0,0.0
+Digits,9804,,1.0,0.0
+Digits,2618,,1.0,0.0
+Digits,666,529,1.0,0.0
+Digits,73702,,1.0,0.0
+Digits,87589,,1.0,0.0
+Digits,5823,,1.0,0.0
+Digits,57624,,1.0,0.0
+Digits,18381,,1.0,0.0
+Digits,75498,,1.0,0.0
+Digits,4396,,1.0,0.0
+Digits,13580,,1.0,0.0
+Digits,8869,,1.0,0.0
+Digits,34153,,1.0,0.0
+Digits,95497,,1.0,0.0
+Digits,60827,,1.0,0.0
+Digits,67300,,1.0,0.0
+Digits,2982,,1.0,0.0
+Digits,25170,,1.0,0.0
+Digits,71322,,1.0,0.0
+Digits,74499,,1.0,0.0
+Digits,18909,01005,0.8,0.0
+Digits,83293,,1.0,0.0
+Digits,86157,,1.0,0.0
+Digits,87884,,1.0,0.0
+Digits,50748,,1.0,0.0
+Digits,9502,,1.0,0.0
+Digits,95787,,1.0,0.0
+Digits,54261,,1.0,0.0
+Digits,55796,,1.0,0.0
+Digits,6286,,1.0,0.0
+Digits,666,,1.0,0.0
+Digits,80922,,1.0,0.0
+Digits,5823,,1.0,0.0
+Digits,88815,,1.0,0.0
+Digits,85633,,1.0,0.0
+Digits,89543,,1.0,0.0
+Digits,9763,,1.0,0.0
+Digits,18567,,1.0,0.0
+Digits,1490,,1.0,0.0
+Digits,33022,,1.0,0.0
+Digits,73807,,1.0,0.0
+Digits,35218,,1.0,0.0
+Digits,77304,,1.0,0.0
+Digits,10488,,1.0,0.0
+Digits,55254,000,1.0,0.0
+Digits,2264,,1.0,0.0
+Digits,43922,,1.0,0.0
+Digits,87319,,1.0,0.0
+Digits,2044,,1.0,0.0
+Digits,6712,,1.0,0.0
+Digits,75406,,1.0,0.0
+Digits,32532,,1.0,0.0
+Digits,10798,220,1.0,0.0
+Digits,54568,,1.0,0.0
+Digits,12253,,1.0,0.0
+Digits,80206,,1.0,0.0
+Digits,3645,,1.0,0.0
+Digits,3870,,1.0,0.0
+Digits,4826,,1.0,0.0
+Digits,89074,,1.0,0.0
+Digits,48461,,1.0,0.0
+Digits,70159,,1.0,0.0
+Digits,678,,1.0,0.0
+Digits,8239,,1.0,0.0
+Digits,14319,,1.0,0.0
+Digits,6187,,1.0,0.0
+Digits,52350,,1.0,0.0
+Digits,7112,,1.0,0.0
+Digits,80478,,1.0,0.0
+Digits,75759,,1.0,0.0
+Digits,6142,,1.0,0.0
+Digits,63259,,1.0,0.0
+Digits,58299,,1.0,0.0
+Digits,92173,,1.0,0.0
+Digits,61987,,1.0,0.0
+Digits,7232,,1.0,0.0
+Digits,98039,,1.0,0.0
+Digits,28152,2500,0.8,0.0
+Digits,9656,,1.0,0.0
+Digits,96016,,1.0,0.0
+Digits,7090,,1.0,0.0
+Digits,58438,,1.0,0.0
+Digits,65287,,1.0,0.0
+Digits,85207,,1.0,0.0
+Digits,99163,,1.0,0.0
+Digits,9014,,1.0,0.0
+Digits,63879,,1.0,0.0
+Digits,65194,,1.0,0.0
+Digits,1205,,1.0,0.0
+Digits,63706,,1.0,0.0
+Digits,67912,,1.0,0.0
+Digits,78276,,1.0,0.0
+Digits,67552,,1.0,0.0
+Digits,44793,,1.0,0.0
+Digits,16972,,1.0,0.0
+Digits,47178,,1.0,0.0
+Digits,30149,,1.0,0.0
+Digits,90964,,1.0,0.0
+Digits,61987,,1.0,0.0
+Digits,75759,,1.0,0.0
+Digits,9062,,1.0,0.0
+Digits,53422,,1.0,0.0
+Digits,8071,,1.0,0.0
+Digits,53733,,1.0,0.0
+Digits,33760,,1.0,0.0
+Digits,26979,,1.0,0.0
+Digits,4782,,1.0,0.0
+Digits,2850,,1.0,0.0
+Digits,31833,,1.0,0.0
+Digits,33743,,1.0,0.0
+Digits,38070,,1.0,0.0
+Digits,54614,,1.0,0.0
+Digits,47490,000,0.8,0.0
+Digits,12550,,1.0,0.0
+Digits,21737,,1.0,0.0
+Digits,59468,,1.0,0.0
+Digits,40507,,1.0,0.0
+Digits,44358,,1.0,0.0
+Digits,72145,,1.0,0.0
+Digits,43800,,1.0,0.0
+Digits,1490,,1.0,0.0
+Digits,2204,,1.0,0.0
+Digits,91655,,1.0,0.0
+Digits,58299,,1.0,0.0
+Digits,51603,,1.0,0.0
+Digits,76029,,1.0,0.0
+Digits,15612,,1.0,0.0
+Digits,70478,,1.0,0.0
+Digits,12960,,1.0,0.0
+Digits,96551,,1.0,0.0
+Digits,67736,,1.0,0.0
+Digits,41947,,1.0,0.0
+Digits,81625,,1.0,0.0
+Digits,36139,6500,0.8,0.0
+Digits,14300,,1.0,0.0
+Digits,31904,,1.0,0.0
+Digits,4241,,1.0,0.0
+Digits,44160,,1.0,0.0
+Digits,44160,,1.0,0.0
+Digits,47556,,1.0,0.0
+Digits,66956,,1.0,0.0
+Digits,28218,,1.0,0.0
+Digits,8791,,1.0,0.0
+Digits,56308,,1.0,0.0
+Digits,37569,,1.0,0.0
+Digits,7115,225,0.75,0.0
+Digits,53042,,1.0,0.0
+Digits,76598,,1.0,0.0
+Digits,66307,,1.0,0.0
+Digits,96746,,1.0,0.0
+Digits,2689,,1.0,0.0
+Digits,87693,,1.0,0.0
+Digits,21737,,1.0,0.0
+Digits,22213,,1.0,0.0
+Digits,87496,,1.0,0.0
+Digits,13560,,1.0,0.0
+Digits,63158,,1.0,0.0
+Digits,35382,,1.0,0.0
+Digits,81006,,1.0,0.0
+Digits,56899,,1.0,0.0
+Digits,65217,,1.0,0.0
+Digits,4428,,1.0,0.0
+Digits,41949,,1.0,0.0
+Digits,94358,,1.0,0.0
+Digits,36387,,1.0,0.0
+Digits,89407,,1.0,0.0
+Digits,94005,,1.0,0.0
+Digits,66630,,1.0,0.0
+Digits,78358,,1.0,0.0
+Digits,71492,,1.0,0.0
+Digits,24579,,1.0,0.0
+Digits,29728,,1.0,0.0
+Digits,275,,1.0,0.0
+Digits,33756,,1.0,0.0
+Digits,85389,,1.0,0.0
+Digits,80478,,1.0,0.0
+Digits,57683,,1.0,0.0
+Digits,78276,,1.0,0.0
+Digits,42941,,1.0,0.0
+Digits,3870,,1.0,0.0
+Digits,60724,,1.0,0.0
+Digits,83402,,1.0,0.0
+Digits,58438,,1.0,0.0
+Digits,3850,,1.0,0.0
+Digits,Average,Average,0.9939,0.0
+Letters,BY,***,1.5,0.0
+Letters,W,TOTAL,5.0,0.0
+Letters,A,:,1.0,0.0
+Letters,A,***,3.0,0.0
+Letters,BB,***,1.5,0.0
+Letters,Y,-,1.0,0.0
+Letters,D,TOTALCASHIER,12.0,0.0
+Letters,Y,TOTAL,5.0,0.0
+Letters,TB,TOTAL,2.0,0.0
+Letters,R,***,3.0,0.0
+Letters,HH,DISPLAYFACEUPONDASH,9.0,0.0
+Letters,AB,***,1.5,0.0
+Letters,AA,***,1.5,0.0
+Letters,D,REFUND,5.0,0.0
+Letters,BD,TOTAL,2.5,0.0
+Letters,TA,***,1.5,0.0
+Letters,BB,TOTAL,2.5,0.0
+Letters,D,DISPLAYFACEUPONDASH,18.0,0.0
+Letters,D,DISCOUNT,7.0,0.0
+Letters,H,--,2.0,0.0
+Letters,W,TOTAL,5.0,0.0
+Letters,B,DISCOUNTRECEIPTFORANOFFER,25.0,0.0
+Letters,B,USINGRECEIPTFORANOFFER,22.0,0.0
+Letters,B,:,1.0,0.0
+Letters,D,:,1.0,0.0
+Letters,A,TOTALREFUND,10.0,0.0
+Letters,H,***,3.0,0.0
+Letters,B,TOTALCASHIER,12.0,0.0
+Letters,M,.,1.0,0.0
+Letters,H,GST-SIDE-SIZE,13.0,0.0
+Letters,RW,CHANGE,3.0,0.0
+Letters,B,TOTALRECEIPTFORRECEIPTFORANOFFER,32.0,0.0
+Letters,BB,TOTAL,2.5,0.0
+Letters,S,DISCOUNTCARDS,12.0,0.0
+Letters,BB,DISCOUNTFORANOFFER,9.0,0.0
+Letters,DR,TOTAL:,3.0,0.0
+Letters,W,TOTALCASHIER,12.0,0.0
+Letters,Y,REF,3.0,0.0
+Letters,AB,***,1.5,0.0
+Letters,W,RECEIPTFORANOFFER,17.0,0.0
+Letters,H,TOTAL,5.0,0.0
+Letters,BB,DISCOUNT,4.0,0.0
+Letters,T,***,3.0,0.0
+Letters,Y,DISCOUNTRECEIPTFORANOFFER,25.0,0.0
+Letters,Y,***,3.0,0.0
+Letters,D,$CASHGIVEAWAYONBACK,19.0,0.0
+Letters,S,SUBJECT:,7.0,0.0
+Letters,D,TOTAL,5.0,0.0
+Letters,H,***,3.0,0.0
+Letters,R,***,3.0,0.0
+Letters,W,***,3.0,0.0
+Letters,Y,***,3.0,0.0
+Letters,M,TOTALTOTAL,10.0,0.0
+Letters,T,TOTALTOTAL,9.0,0.0
+Letters,W,TOTAL:.,7.0,0.0
+Letters,W,TOTAL,5.0,0.0
+Letters,W,EXCEPTNOTEOFRECEIPTFORANOFFER,29.0,0.0
+Letters,BH,$CASHGIVEAWAYONBACK,9.0,0.0
+Letters,M,TOTAL:,6.0,0.0
+Letters,B,TOTALUNITEDSTATES,17.0,0.0
+Letters,BD,TOTAL,2.5,0.0
+Letters,D,SALES,5.0,0.0
+Letters,M,******,6.0,0.0
+Letters,B,***,3.0,0.0
+Letters,H,SEEBACKOFRECEIPTFORANOFFER,26.0,0.0
+Letters,BB,-,1.0,0.0
+Letters,BY,***,1.5,0.0
+Letters,AA,CASHIER,3.0,0.0
+Letters,R,TOTALTOTAL,10.0,0.0
+Letters,M,--,2.0,0.0
+Letters,M,SUBJECT:,8.0,0.0
+Letters,B,***,3.0,0.0
+Letters,AA,TOTALAMOUNT,4.5,0.0
+Letters,H,***,3.0,0.0
+Letters,H,TOTAL:,6.0,0.0
+Letters,A,***,3.0,0.0
+Letters,H,:,1.0,0.0
+Letters,A,TOTAL,4.0,0.0
+Letters,BB,DISCOUNTRECEIPTFORANOFFER,12.5,0.0
+Letters,BB,TOTALRECEIPT,6.0,0.0
+Letters,HY,***,1.5,0.0
+Letters,W,.,1.0,0.0
+Letters,M,CASHIER,7.0,0.0
+Letters,D,TOTAL:,6.0,0.0
+Letters,HH,TOTAL,2.5,0.0
+Letters,H,TOTAL,5.0,0.0
+Letters,BB,DISCOUNTRECEIPTFORANOFFER,12.5,0.0
+Letters,R,TOTAL,5.0,0.0
+Letters,RW,***,1.5,0.0
+Letters,M,***,3.0,0.0
+Letters,B,DISCOUNTFORA,12.0,0.0
+Letters,BB,TOTAL,2.5,0.0
+Letters,H,CASHIER,6.0,0.0
+Letters,DR,***,1.5,0.0
+Letters,AA,DISCOUNTFORAGOODORGANIZES.,12.0,0.0
+Letters,AA,***,1.5,0.0
+Letters,B,***,3.0,0.0
+Letters,B,TOTAL,5.0,0.0
+Letters,W,TOTALRECEIPTFORANOFFER,22.0,0.0
+Letters,H,***,3.0,0.0
+Letters,Y,***,3.0,0.0
+Letters,M,TOTAL,5.0,0.0
+Letters,D,TOTALAMOUNT,11.0,0.0
+Letters,H,DISCOUNTCARDS,13.0,0.0
+Letters,B,***,3.0,0.0
+Letters,W,DISCOUNTFORAFREECARDS,21.0,0.0
+Letters,A,***,3.0,0.0
+Letters,A,DISCOUNTFORAGOODCARDS.,21.0,0.0
+Letters,BB,DISCOUNTFORAFREECARDS.COMOVERFORRECEIPTFORDETAILS.,25.0,0.0
+Letters,RW,***,1.5,0.0
+Letters,BB,TOTALCASHIER,6.0,0.0
+Letters,A,***,3.0,0.0
+Letters,BK,DISCOUNTNOTEOFRECEIPT,10.5,0.0
+Letters,D,***,3.0,0.0
+Letters,HH,CASHIER,3.0,0.0
+Letters,W,-,1.0,0.0
+Letters,YB,DISCOUNT,4.0,0.0
+Letters,B,TOTALUNITEDSTATES,17.0,0.0
+Letters,B,***,3.0,0.0
+Letters,Y,***,3.0,0.0
+Letters,R,TOTAL,5.0,0.0
+Letters,R,TOTAL,5.0,0.0
+Letters,R,TOTAL,5.0,0.0
+Letters,A,***,3.0,0.0
+Letters,AA,DISCOUNTRECEIPTFORANOFFER,12.0,0.0
+Letters,D,REGION:--,9.0,0.0
+Letters,M,TOTAL,5.0,0.0
+Letters,AS,TOTALREFUNDS,5.0,0.0
+Letters,B,DISCOUNT,8.0,0.0
+Letters,B,DISCOUNT,8.0,0.0
+Letters,BB,DISCOUNT,4.0,0.0
+Letters,YB,***,1.5,0.0
+Letters,S,TOTALSALES,9.0,0.0
+Letters,H,TOTALREFUNDS,12.0,0.0
+Letters,S,TOTALRECEIPT,12.0,0.0
+Letters,A,FREETOTAL,8.0,0.0
+Letters,BH,DISCOUNTFORAFREEFRY&CASHTAINONRECEIPTFORDE-S.,22.0,0.0
+Letters,M,***,3.0,0.0
+Letters,TH,REFUND,3.0,0.0
+Letters,W,TOTALAMOUNT,11.0,0.0
+Letters,T,:,1.0,0.0
+Letters,AA,TOTALAMOUNT,4.5,0.0
+Letters,BB,***,1.5,0.0
+Letters,W,TOTALAMOUNT,11.0,0.0
+Letters,A,***,3.0,0.0
+Letters,BB,***,1.5,0.0
+Letters,AA,TOTALREFUNDS,5.5,0.0
+Letters,S,DISCOUNT***,10.0,0.0
+Letters,BW,TOTALREFUNDS,6.0,0.0
+Letters,BB,TOTALGOOD,4.5,0.0
+Letters,R,***,3.0,0.0
+Letters,W,***,3.0,0.0
+Letters,M,TOTAL,5.0,0.0
+Letters,DR,***,1.5,0.0
+Letters,DY,***,1.5,0.0
+Letters,A,***,3.0,0.0
+Letters,AA,***,1.5,0.0
+Letters,BB,DISCOUNTRECEIPTFORANOFFER,12.5,0.0
+Letters,BB,TOTALRECEIPTFORANOFFER,11.0,0.0
+Letters,AW,DISCOUNTFORA,6.0,0.0
+Letters,W,TOTAL:,6.0,0.0
+Letters,W,***,3.0,0.0
+Letters,H,TOTALRECEIPT,12.0,0.0
+Letters,W,TOTAL:.%,8.0,0.0
+Letters,Y,***,3.0,0.0
+Letters,R,STYPE,5.0,0.0
+Letters,B,TOTAL,5.0,0.0
+Letters,M,***,3.0,0.0
+Letters,M,TOTAL,5.0,0.0
+Letters,B,-,1.0,0.0
+Letters,D,TOTAL,5.0,0.0
+Letters,M,***,3.0,0.0
+Letters,H,TOTALAMOUNT,11.0,0.0
+Letters,SS,TOTALCARDS,4.5,0.0
+Letters,A,***,3.0,0.0
+Letters,H,CASHIER,6.0,0.0
+Letters,A,***,3.0,0.0
+Letters,BB,DISCOUNTFORA,6.0,0.0
+Letters,BB,TOTALGOOD,4.5,0.0
+Letters,W,TOTAL,5.0,0.0
+Letters,Y,***,3.0,0.0
+Letters,RS,***,1.5,0.0
+Letters,BR,CHANGE,3.0,0.0
+Letters,HR,TOTALGOOD,4.5,0.0
+Letters,S,DISCOUNT,7.0,0.0
+Letters,B,TOTAL,5.0,0.0
+Letters,A,:,1.0,0.0
+Letters,B,***,3.0,0.0
+Letters,R,DISCOUNT,8.0,0.0
+Letters,S,***,3.0,0.0
+Letters,M,***,3.0,0.0
+Letters,D,REFUNDINGRECEIPTFORANOFFER,25.0,0.0
+Letters,S,TOTAL,5.0,0.0
+Letters,BB,***,1.5,0.0
+Letters,MY,DISPLAYFACEUPONDASH,9.0,0.0
+Letters,HY,TOTAL,2.5,0.0
+Letters,S,.,1.0,0.0
+Letters,R,***,3.0,0.0
+Letters,R,DISCOUNTFORAFREEORADJUSTFORAFREEORADJUSTFORYOURRECEI,51.0,0.0
+Letters,TH,***,1.5,0.0
+Letters,D,TOTAL,5.0,0.0
+Letters,W,DISCOUNTRECEIPTFORANOFFER,25.0,0.0
+Letters,Y,TOTALAMOUNT,11.0,0.0
+Letters,B,DISCOUNTFORAFREEORIGINALORRECEIPTFORANOFFER,43.0,0.0
+Letters,BB,TOTALUNITEDSTATES,8.5,0.0
+Letters,BB,TOTALTOTAL,5.0,0.0
+Letters,BB,SEEBACKOFRECEIPTFORANOFFER,12.5,0.0
+Letters,M,TOTALAMOUNT,10.0,0.0
+Letters,MM,DISCOUNTFORA,6.0,0.0
+Letters,A,TOTAL:,5.0,0.0
+Letters,S,DISCOUNTRECEIPTFORANOFFER,24.0,0.0
+Letters,BB,DISCOUNTFORAFREEOROLDER,11.5,0.0
+Letters,AA,TOTAL,2.0,0.0
+Letters,BH,--,1.0,0.0
+Letters,D,DISCOUNTFORAFREEFRY&CASHTAINFORRECEIPTFORRECEIPTFOR,50.0,0.0
+Letters,AB,.,1.0,0.0
+Letters,D,DISCOUNT,7.0,0.0
+Letters,A,TOTALCASHIER,11.0,0.0
+Letters,RK,TOTAL,2.5,0.0
+Letters,MM,..,1.0,0.0
+Letters,AA,TOTALEXCHANGES,6.0,0.0
+Letters,B,***,3.0,0.0
+Letters,AA,TOTALAMOUNT,4.5,0.0
+Letters,D,DISCOUNT,7.0,0.0
+Letters,BB,USINGRECEIPTFORANOFFER,11.0,0.0
+Letters,B,TOTAL,5.0,0.0
+Letters,YY,***,1.5,0.0
+Letters,W,DISCOUNTFORAFREEORIGINALORRECEIPTFORANOFFERRECEIPT,50.0,0.0
+Letters,H,,1.0,0.0
+Letters,B,TOTALRECEIPT,12.0,0.0
+Letters,A,TOTALREFUNDS,11.0,0.0
+Letters,S,***,3.0,0.0
+Letters,B,TOTAL,5.0,0.0
+Letters,B,REF,3.0,0.0
+Letters,R,TOTALAMOUNT,11.0,0.0
+Letters,BB,TOTALREFUNDS,6.0,0.0
+Letters,D,TOTAL,5.0,0.0
+Letters,D,DISCOUNTFORAFREEORIGINAL&DRINTAINONRECEIPTFORDETA,48.0,0.0
+Letters,TH,***,1.5,0.0
+Letters,R,***,3.0,0.0
+Letters,W,.,1.0,0.0
+Letters,H,TOTAL,5.0,0.0
+Letters,B,GST,3.0,0.0
+Letters,D,TOTALSALES,10.0,0.0
+Letters,HR,REFUND,3.0,0.0
+Letters,M,TOTALCASHIER,12.0,0.0
+Letters,B,TOTALRECEIPT,12.0,0.0
+Letters,B,***,3.0,0.0
+Letters,HY,***,1.5,0.0
+Letters,B,SEEBACKOFRECEIPTFORANOFFER,25.0,0.0
+Letters,BB,TOTALCASHIER,6.0,0.0
+Letters,H,DISCOUNTRECEIPTFORANOFFER,25.0,0.0
+Letters,KB,***,1.5,0.0
+Letters,M,TOTALUNITEDSTATES,17.0,0.0
+Letters,W,TOTAL,5.0,0.0
+Letters,AA,CASHDISCOUNT,5.5,0.0
+Letters,AA,DISCOUNTRECEIPTFORANOFFER,12.0,0.0
+Letters,BB,TOTALCASHIER,6.0,0.0
+Letters,AA,***,1.5,0.0
+Letters,W,CHANGE,6.0,0.0
+Letters,T,REF,3.0,0.0
+Letters,R,.,1.0,0.0
+Letters,BR,***,1.5,0.0
+Letters,AA,***,1.5,0.0
+Letters,RM,GST:,2.0,0.0
+Letters,M,SEEBACKOFRECEIPTFORANOFFER,26.0,0.0
+Letters,Y,***,3.0,0.0
+Letters,M,TOTAL,5.0,0.0
+Letters,S,REGION:,7.0,0.0
+Letters,W,***,3.0,0.0
+Letters,D,DISCOUNTFORANOFFER,17.0,0.0
+Letters,AB,DISCOUNTFORAFREEORIGINALORRECEIPTFORDETAILS.,21.5,0.0
+Letters,YY,***,1.5,0.0
+Letters,BB,DISCOUNT,4.0,0.0
+Letters,BS,DISCOUNT,3.5,0.0
+Letters,Y,TOTAL,5.0,0.0
+Letters,DR,TOTAL,2.5,0.0
+Letters,WW,TOTALUNITEDSTATES,8.5,0.0
+Letters,AA,TOTAL:,2.5,0.0
+Letters,D,SAMPLE,6.0,0.0
+Letters,AA,TOTALCASHIER,5.0,0.0
+Letters,AW,GST:,2.0,0.0
+Letters,W,GST:,4.0,0.0
+Letters,B,***,3.0,0.0
+Letters,W,SR:,3.0,0.0
+Letters,SS,***,1.5,0.0
+Letters,Y,DISCOUNTNOTEOFRECEIPTFORANOFFER,31.0,0.0
+Letters,W,TOTAL,5.0,0.0
+Letters,TA,PERFORATEDCARDS,6.5,0.0
+Letters,BB,TOTAL:.%,4.0,0.0
+Letters,BB,DISCOUNTFORAFREEORGANICS!,12.5,0.0
+Letters,D,TOTALAMOUNT,11.0,0.0
+Letters,B,DISPLAYFACEUPONDASH,19.0,0.0
+Letters,T,-,1.0,0.0
+Letters,R,TOTALRECEIPTFORANOFFER,21.0,0.0
+Letters,W,TOTALUNITEDSTATES,17.0,0.0
+Letters,BB,DISCOUNTFORAGOOD.,8.5,0.0
+Letters,W,***,3.0,0.0
+Letters,H,***,3.0,0.0
+Letters,H,CASHIER,6.0,0.0
+Letters,D,DISCOUNTEXCHANGES,16.0,0.0
+Letters,W,TOTALCASHIER,12.0,0.0
+Letters,BB,TOTAL,2.5,0.0
+Letters,R,TOTAL,5.0,0.0
+Letters,Y,TOTAL,5.0,0.0
+Letters,DD,***,1.5,0.0
+Letters,M,***,3.0,0.0
+Letters,A,TOTALPRICE,9.0,0.0
+Letters,S,TOTAL,5.0,0.0
+Letters,H,***,3.0,0.0
+Letters,Y,TOTAL,5.0,0.0
+Letters,R,***,3.0,0.0
+Letters,W,***,3.0,0.0
+Letters,RR,***,1.5,0.0
+Letters,AM,***,1.5,0.0
+Letters,K,***,3.0,0.0
+Letters,HY,----,2.0,0.0
+Letters,S,:,1.0,0.0
+Letters,Y,TOTALRECEIPTFORANOFFER,22.0,0.0
+Letters,SS,TOTAL***,4.0,0.0
+Letters,Y,SR-FREE,7.0,0.0
+Letters,B,******,6.0,0.0
+Letters,BB,CASHIER:,4.0,0.0
+Letters,HR,TOTALCASHIER,5.0,0.0
+Letters,AA,DATE:,2.0,0.0
+Letters,RM,TOTAL,2.5,0.0
+Letters,Y,TOTALCARDS,10.0,0.0
+Letters,H,***,3.0,0.0
+Letters,Y,-,1.0,0.0
+Letters,D,***,3.0,0.0
+Letters,Y,***,3.0,0.0
+Letters,Y,-,1.0,0.0
+Letters,M,***,3.0,0.0
+Letters,BB,CHANGE,3.0,0.0
+Letters,Y,GST:-,5.0,0.0
+Letters,Y,***,3.0,0.0
+Letters,W,TOTALREFUNDS,12.0,0.0
+Letters,M,TOTALSALES,10.0,0.0
+Letters,BB,DISCOUNTFORAGOODCARDS.,11.0,0.0
+Letters,SS,DISCOUNT,3.5,0.0
+Letters,Y,***,3.0,0.0
+Letters,D,***,3.0,0.0
+Letters,BB,***,1.5,0.0
+Letters,RY,TOTALRECEIPT,5.5,0.0
+Letters,HY,***,1.5,0.0
+Letters,D,TOTAL,5.0,0.0
+Letters,SS,DISCOUNTFORAFREEOROLDEROROLDER.,15.0,0.0
+Letters,BB,***,1.5,0.0
+Letters,S,***,3.0,0.0
+Letters,D,***,3.0,0.0
+Letters,DR,-,1.0,0.0
+Letters,S,TOTALSALES,9.0,0.0
+Letters,DY,TOTALTOTAL,5.0,0.0
+Letters,BB,TOTALCASHIER,6.0,0.0
+Letters,BB,DISPLAYFACEUPONDASH,9.5,0.0
+Letters,D,***,3.0,0.0
+Letters,M,TOTAL,5.0,0.0
+Letters,S,REF,3.0,0.0
+Letters,H,TOTAL:.,7.0,0.0
+Letters,BD,TOTAL:,3.0,0.0
+Letters,H,***,3.0,0.0
+Letters,R,***,3.0,0.0
+Letters,AW,CASHIER,3.0,0.0
+Letters,B,***,3.0,0.0
+Letters,R,CASHIER,6.0,0.0
+Letters,M,TOTAL,5.0,0.0
+Letters,M,.,1.0,0.0
+Letters,BB,***,1.5,0.0
+Letters,M,-,1.0,0.0
+Letters,BB,TOTAL,2.5,0.0
+Letters,BY,-STYPE-SIZE,5.0,0.0
+Letters,AD,-,1.0,0.0
+Letters,BW,TOTALSALES,5.0,0.0
+Letters,D,TOTAL,5.0,0.0
+Letters,W,***,3.0,0.0
+Letters,M,***,3.0,0.0
+Letters,R,TOTAL,5.0,0.0
+Letters,T,***,3.0,0.0
+Letters,W,TOTAL,5.0,0.0
+Letters,HS,DISCOUNTFORAFREEOROLDER!,11.5,0.0
+Letters,R,***,3.0,0.0
+Letters,DD,***,1.5,0.0
+Letters,D,***,3.0,0.0
+Letters,S,***,3.0,0.0
+Letters,DR,TOTAL,2.5,0.0
+Letters,D,DISCOUNT,7.0,0.0
+Letters,AA,TOTAL,2.0,0.0
+Letters,H,***,3.0,0.0
+Letters,Y,***,3.0,0.0
+Letters,RW,TOTALTOTAL,5.0,0.0
+Letters,H,--,2.0,0.0
+Letters,Y,.,1.0,0.0
+Letters,TH,***,1.5,0.0
+Letters,A,TOTALCASHIER,11.0,0.0
+Letters,MM,TOTALSALES,5.0,0.0
+Letters,AA,******,3.0,0.0
+Letters,B,TOTAL***,8.0,0.0
+Letters,H,CASHTAINRECEIPT,14.0,0.0
+Letters,S,***,3.0,0.0
+Letters,KB,REFUND,3.0,0.0
+Letters,H,TOTALRECEIPTFORANOFFER,22.0,0.0
+Letters,S,TOTAL,5.0,0.0
+Letters,BM,GST:,2.0,0.0
+Letters,M,TOTALTOTAL,10.0,0.0
+Letters,A,TOTALTOTAL,9.0,0.0
+Letters,H,TOTALSALES,10.0,0.0
+Letters,W,SUBJECT:,8.0,0.0
+Letters,BB,DISCOUNT,4.0,0.0
+Letters,S,TOTAL,5.0,0.0
+Letters,A,TOTAL,4.0,0.0
+Letters,M,TOTAL***,8.0,0.0
+Letters,B,***,3.0,0.0
+Letters,Y,REFUND,6.0,0.0
+Letters,S,***,3.0,0.0
+Letters,BY,***,1.5,0.0
+Letters,D,DISCOUNT,7.0,0.0
+Letters,TH,***,1.5,0.0
+Letters,BB,***,1.5,0.0
+Letters,AA,SR-C-S-C-S-S-S-S,8.0,0.0
+Letters,AA,TOTAL,2.0,0.0
+Letters,HY,SUBJECT:,4.0,0.0
+Letters,AB,TOTAL,2.0,0.0
+Letters,BB,TOTALAMOUNT,5.5,0.0
+Letters,D,***,3.0,0.0
+Letters,AA,--,1.0,0.0
+Letters,B,TOTALCASHIER,12.0,0.0
+Letters,AA,TOTAL:.,3.0,0.0
+Letters,BB,DISCOUNTFORA,6.0,0.0
+Letters,R,DISCOUNTFORAFREEORIGINAL!,24.0,0.0
+Letters,Y,***,3.0,0.0
+Letters,R,TOTALRECEIPT,11.0,0.0
+Letters,BB,DISCOUNT,4.0,0.0
+Letters,B,***,3.0,0.0
+Letters,AA,TOTALTOTAL,4.0,0.0
+Letters,DY,TOTALGOOD,4.5,0.0
+Letters,RR,TOTAL,2.5,0.0
+Letters,S,CASHIER,6.0,0.0
+Letters,BB,DISCOUNT,4.0,0.0
+Letters,BB,"TOTALUNITEDSTATES,INC.",11.0,0.0
+Letters,H,TOTALRECEIPTFORANOFFERRECEIPTFORANOFFINRECEIPTFORREC,52.0,0.0
+Letters,M,***,3.0,0.0
+Letters,R,-,1.0,0.0
+Letters,D,CONVENIENCE,11.0,0.0
+Letters,R,TOTAL,5.0,0.0
+Letters,A,TOTAL,4.0,0.0
+Letters,A,:,1.0,0.0
+Letters,R,TOTALREFUNDS,11.0,0.0
+Letters,AA,.,1.0,0.0
+Letters,BB,***,1.5,0.0
+Letters,BB,TOTAL,2.5,0.0
+Letters,T,***,3.0,0.0
+Letters,S,TOTALEXCHANGE,13.0,0.0
+Letters,S,DISCOUNTRECEIPTFORANOFFER,24.0,0.0
+Letters,S,***,3.0,0.0
+Letters,AA,TOTALTOTAL,4.0,0.0
+Letters,H,***,3.0,0.0
+Letters,AA,-,1.0,0.0
+Letters,AA,TOTALRECEIPT,5.5,0.0
+Letters,W,TOTALAMOUNT,11.0,0.0
+Letters,BY,-.,1.0,0.0
+Letters,R,CASHIER,6.0,0.0
+Letters,BB,DISCOUNTFORAFREEOROLDER!,12.0,0.0
+Letters,R,SUBJECT:,8.0,0.0
+Letters,Y,TOTALAMOUNT,11.0,0.0
+Letters,BD,DISCOUNT,4.0,0.0
+Letters,AA,TOTALAMOUNT,4.5,0.0
+Letters,R,***,3.0,0.0
+Letters,Y,***,3.0,0.0
+Letters,M,***,3.0,0.0
+Letters,Y,REF.,4.0,0.0
+Letters,W,***,3.0,0.0
+Letters,S,TOTALCASHIER,11.0,0.0
+Letters,Y,TOTALCASHIER,12.0,0.0
+Letters,Y,TOTAL,5.0,0.0
+Letters,R,--,2.0,0.0
+Letters,A,TOTAL,4.0,0.0
+Letters,R,DISCOUNT,8.0,0.0
+Letters,BB,TOTALGOOD,4.5,0.0
+Letters,BB,***,1.5,0.0
+Letters,BB,DISCOUNTFORA,6.0,0.0
+Letters,S,"TOTALUNITEDSTATES,INC.",21.0,0.0
+Letters,Y,CASHIER,7.0,0.0
+Letters,M,TOTALAMOUNT,10.0,0.0
+Letters,H,-,1.0,0.0
+Letters,BB,TOTALSALES,5.0,0.0
+Letters,S,CASHDISPLAYFACEUPONDASH,22.0,0.0
+Letters,RK,TOTAL,2.5,0.0
+Letters,R,***,3.0,0.0
+Letters,S,TOTAL,5.0,0.0
+Letters,D,TOTAL,5.0,0.0
+Letters,M,TOTALAMOUNT,10.0,0.0
+Letters,H,TOTALTOTAL,10.0,0.0
+Letters,AA,POSTINGRECEIPTFORANOFFER,11.5,0.0
+Letters,AD,TOTAL,2.0,0.0
+Letters,BB,TOTALAMOUNT,5.5,0.0
+Letters,H,DISCOUNTFORAFREEORA,19.0,0.0
+Letters,AA,TOTALAMOUNT,4.5,0.0
+Letters,H,CASHIER,6.0,0.0
+Letters,Average,Average,6.699799196787149,0.0

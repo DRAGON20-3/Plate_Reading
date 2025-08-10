@@ -1,0 +1,898 @@
+Type,Label,Prediction,CER,Accuracy
+All_Characters,2 6 4 5 2 D,7 6 4 4 K Y,0.36363636363636365,0.0
+All_Characters,3 3 7 5 6 R,3 3 5 5 Y K,0.2727272727272727,0.0
+All_Characters,3 5 6 1 5 R,2 5 5 3 Y,0.5454545454545454,0.0
+All_Characters,9 6 2 5 M M,1 4 2 Y W,0.5454545454545454,0.0
+All_Characters,5 9 8 2 B H,8 8 8 B Y,0.45454545454545453,0.0
+All_Characters,6 2 0 1 3 W,6 7 1 S W,0.36363636363636365,0.0
+All_Characters,7 7 3 7 0 R,7 7 7 5 7 L K,0.45454545454545453,0.0
+All_Characters,9 4 3 4 B,9 4 3 4 D Y,0.3333333333333333,0.0
+All_Characters,3 6 5 5 2 W,5 6 5 7 D Y,0.36363636363636365,0.0
+All_Characters,5 2 4 2 H A,2 4 8 M Y,0.45454545454545453,0.0
+All_Characters,5 8 9 7 2 B B,5 5 5 L,0.6923076923076923,0.0
+All_Characters,1 3 1 0 5 R,1 6 3 3 D L,0.45454545454545453,0.0
+All_Characters,8 6 9 0 0 M,8 6 8 0 W A,0.2727272727272727,0.0
+All_Characters,6 9 0 1 R S,6 7 0 R Y,0.36363636363636365,0.0
+All_Characters,9 3 8 5 5 A A,7 7 5 5 Y A,0.38461538461538464,0.0
+All_Characters,3 3 9 6 5 B B,3 7 6 Y Y,0.5384615384615384,0.0
+All_Characters,6 4 3 7 5 H,6 4 4 5 Y H,0.2727272727272727,0.0
+All_Characters,9 8 2 6 5 H,1 5 6 5 Y Y,0.5454545454545454,0.0
+All_Characters,5 4 3 9 3 A,3 4 5 9 A,0.36363636363636365,0.0
+All_Characters,5 0 3 1 8 B B,9 5 5 3 Y M,0.6153846153846154,0.0
+All_Characters,8 0 7 3 D R,8 0 3 H S,0.36363636363636365,0.0
+All_Characters,4 8 9 2 1 W,4 2 7 2 L Y,0.36363636363636365,0.0
+All_Characters,5 4 4 6 3 D,5 4 4 6 D Y,0.18181818181818182,0.0
+All_Characters,1 6 4 9 7 H,5 6 4 Y S,0.45454545454545453,0.0
+All_Characters,5 5 5 9 7 B B,5 5 8 T T,0.5384615384615384,0.0
+All_Characters,3 2 9 1 1 H,5 1 1 T Y,0.5454545454545454,0.0
+All_Characters,3 5 2 4 A Y,5 5 2 Y,0.45454545454545453,0.0
+All_Characters,7 8 8 2 7 D,1 8 W S,0.6363636363636364,0.0
+All_Characters,8 8 4 3 9 B B,8 0 4 3 Y S,0.38461538461538464,0.0
+All_Characters,3 5 2 1 8 D,3 5 2 8 B,0.2727272727272727,0.0
+All_Characters,6 6 8 4 A S,2 5 6 W S,0.5454545454545454,0.0
+All_Characters,1 3 7 4 7 D,4 5 4 7 T,0.45454545454545453,0.0
+All_Characters,1 8 7 4 1 A,7 7 7 4 Y Y,0.36363636363636365,0.0
+All_Characters,5 5 3 0 6 D,2 5 5 0 D B,0.36363636363636365,0.0
+All_Characters,6 5 2 1 7 R,3 H S,0.8181818181818182,0.0
+All_Characters,7 0 2 9 1 A A,4 7 0 9 T A,0.46153846153846156,0.0
+All_Characters,2 3 0 1 1 B B,2 7 0 3 D W,0.46153846153846156,0.0
+All_Characters,1 7 6 8 2 B B,2 2 6 8 T M,0.46153846153846156,0.0
+All_Characters,5 2 7 5 5 A,5 2 7 5 5 A,0.0,1.0
+All_Characters,5 6 6 7 0 H,8 5 6 6 D R,0.45454545454545453,0.0
+All_Characters,6 2 3 5 3 A A,6 3 5 5 K,0.46153846153846156,0.0
+All_Characters,6 6 8 4 A S,1 6 6 8 4 M S,0.2727272727272727,0.0
+All_Characters,9 7 0 9 3 B,7 8 7 8 Y T,0.5454545454545454,0.0
+All_Characters,6 3 5 7 R Y,4 5 3 T A,0.5454545454545454,0.0
+All_Characters,7 1 3 2 2 M,7 5 3 M S,0.45454545454545453,0.0
+All_Characters,5 8 2 3 S S,5 6 5 L Y,0.5454545454545454,0.0
+All_Characters,5 7 5 5 4,1 T,0.8888888888888888,0.0
+All_Characters,4 5 6 9 5 A A,4 K Y Y,0.6923076923076923,0.0
+All_Characters,5 6 7 5 B H,1 1 1 L B,0.5454545454545454,0.0
+All_Characters,2 7 3 6 9 R,2 7 7 6 Y Y,0.2727272727272727,0.0
+All_Characters,5 7 0 9 9 S,1 T,0.9090909090909091,0.0
+All_Characters,9 5 4 7 7 Y,7 7 5 Y Y,0.5454545454545454,0.0
+All_Characters,5 2 5 8 B S,8 2 5 Y S,0.36363636363636365,0.0
+All_Characters,8 5 1 8 7 M,7 8 5 8 Y Y,0.45454545454545453,0.0
+All_Characters,8 6 2 8 7 B B,8 6 2 8 7 T S,0.15384615384615385,0.0
+All_Characters,7 5 1 3 B S,7 5 3 T D,0.36363636363636365,0.0
+All_Characters,6 9 6 1 4 H,2 7 6 1 H H,0.2727272727272727,0.0
+All_Characters,4 1 3 1 9 H,4 4 5 Y L,0.5454545454545454,0.0
+All_Characters,8 9 5 4 3 D,8 7 4 S Y,0.45454545454545453,0.0
+All_Characters,4 4 8 2 8 M,4 4 8 2 8 M M,0.18181818181818182,0.0
+All_Characters,7 5 2 7 4 W,1 5 7 4 H Y,0.45454545454545453,0.0
+All_Characters,3 7 9 0 5 A A,7 6 7 9 A,0.5384615384615384,0.0
+All_Characters,2 5 0 2 R W,2 5 0 2 K W,0.09090909090909091,0.0
+All_Characters,4 9 0 0 8 M,4 7 0 0 6 M B,0.36363636363636365,0.0
+All_Characters,6 7 6 7 4,1 5 6 S S,0.4444444444444444,0.0
+All_Characters,8 7 6 9 3 A A,7 5 6 9 H A,0.38461538461538464,0.0
+All_Characters,8 7 7 9 6 B B,8 7 7 7 5 Y,0.38461538461538464,0.0
+All_Characters,1 2 2 5 3 M,2 0 M,0.6363636363636364,0.0
+All_Characters,8 3 2 7 8 S,8 4 4 4 B Y,0.45454545454545453,0.0
+All_Characters,9 3 2 3 4 D,8 4 5 5 S Y,0.5454545454545454,0.0
+All_Characters,8 0 4 7 8 D,2 8 0 7 B Y,0.45454545454545453,0.0
+All_Characters,4 7 3 0 9 A,4 7 5 5 A,0.36363636363636365,0.0
+All_Characters,3 6 3 0 4 B,4 6 5 Y,0.6363636363636364,0.0
+All_Characters,8 2 5 4 0 B B,2 2 5 B D,0.46153846153846156,0.0
+All_Characters,8 7 9 8 5 M,8 7 9 2 Y W,0.2727272727272727,0.0
+All_Characters,6 2 0 7 R,1 3 0 T K,0.4444444444444444,0.0
+All_Characters,9 8 6 3 1 B,7 8 5 S T,0.5454545454545454,0.0
+All_Characters,9 1 5 3 0 D,8 8 8 5 B,0.6363636363636364,0.0
+All_Characters,8 6 9 0 0 M,8 6 5 0 Y,0.36363636363636365,0.0
+All_Characters,6 2 0 0 7 B B,5 2 0 Y S,0.5384615384615384,0.0
+All_Characters,2 7 5 R K,7 4 4 W K,0.4444444444444444,0.0
+All_Characters,8 0 6 1 0 W,1 4 Y Y,0.7272727272727273,0.0
+All_Characters,6 5 8 6 A,6 6 8 B,0.4444444444444444,0.0
+All_Characters,1 7 1 1 3 R,1 4 4 H Y,0.5454545454545454,0.0
+All_Characters,4 8 7 8 3 A A,1 5 5 S S,0.6923076923076923,0.0
+All_Characters,5 8 4 3 8 A A,4 5 5 8 Y A,0.46153846153846156,0.0
+All_Characters,2 1 2 7 7 M,8 7 5 3 T S,0.5454545454545454,0.0
+All_Characters,8 7 4 0 4,1 5 6 2 Y,0.5555555555555556,0.0
+All_Characters,7 9 9 4 8 R,7 7 9 6 Y K,0.36363636363636365,0.0
+All_Characters,6 2 2 5 3 W,6 7 4 S K,0.5454545454545454,0.0
+All_Characters,7 3 6 7 1 B,7 6 5 7 T R,0.36363636363636365,0.0
+All_Characters,2 5 6 1 6 Y,1 A,0.8181818181818182,0.0
+All_Characters,4 8 7 8 3 A A,4 8 7 S A,0.38461538461538464,0.0
+All_Characters,5 8 5 3 6 A,5 8 5 5 A A,0.18181818181818182,0.0
+All_Characters,5 5 2 6 2 S,1 5 2 6 Y,0.36363636363636365,0.0
+All_Characters,1 6 2 9 S S,1 8 9 5 T Y,0.45454545454545453,0.0
+All_Characters,4 3 5 4 7 M,1 4 4 T,0.6363636363636364,0.0
+All_Characters,7 3 8 0 7 B B,2 5 8 2 T S,0.5384615384615384,0.0
+All_Characters,4 3 9 6 H R,6 5 9 L Y,0.5454545454545454,0.0
+All_Characters,6 1 7 8 6 M,1 8 7 D Y,0.5454545454545454,0.0
+All_Characters,6 7 4 2 3 B B,6 7 5 A T,0.5384615384615384,0.0
+All_Characters,5 8 5 3 6 A,5 8 5 5 6 A K,0.2727272727272727,0.0
+All_Characters,9 6 5 6 4 M,7 7 5 5 W Y,0.45454545454545453,0.0
+All_Characters,8 1 6 9 7 A A,8 1 6 7 A A,0.15384615384615385,0.0
+All_Characters,7 0 3 2 7 B,1 4 8 Y S,0.6363636363636364,0.0
+All_Characters,8 3 6 5 6 Y,1 A Y Y,0.6363636363636364,0.0
+All_Characters,8 0 6 6 3 D,1 5 5 5 Y S,0.5454545454545454,0.0
+All_Characters,1 3 2 2 5 B B,2 5 7 2 B Y,0.46153846153846156,0.0
+All_Characters,7 5 4 9 8 B B,7 5 4 Y Y,0.46153846153846156,0.0
+All_Characters,4 2 1 0 7 A,1 4 2 1 B S,0.5454545454545454,0.0
+All_Characters,4 3 4 6 7 W,1 4 4 5 Y,0.5454545454545454,0.0
+All_Characters,3 0 5 7 9 H,1 7 5 5 Y Y,0.45454545454545453,0.0
+All_Characters,1 4 6 7 5 Y,1 A Y,0.6363636363636364,0.0
+All_Characters,3 8 0 1 9 B,8 8 5 7 Y S,0.45454545454545453,0.0
+All_Characters,6 1 9 8 2 H,1 1 7 Y,0.6363636363636364,0.0
+All_Characters,1 4 3 1 9 W,4 4 3 5 T S,0.36363636363636365,0.0
+All_Characters,5 2 6 2 4 D,1 6 6 4 T,0.45454545454545453,0.0
+All_Characters,2 7 5 6 1 D,2 5 6 L L,0.36363636363636365,0.0
+All_Characters,4 5 4 2 5 M,5 5 5 S,0.5454545454545454,0.0
+All_Characters,2 4 3 6 5 M,1 2 4 5 6 L L,0.45454545454545453,0.0
+All_Characters,5 6 5 4 0 A,5 6 5 Y,0.45454545454545453,0.0
+All_Characters,9 5 0 2 S S,1 9 5 2 S S,0.2727272727272727,0.0
+All_Characters,7 3 7 4 4 B,7 5 7 4 H S,0.2727272727272727,0.0
+All_Characters,5 3 7 3 3 B B,5 7 7 3 B B,0.23076923076923078,0.0
+All_Characters,2 3 6 2 9 A A,2 5 5 2 Y M,0.46153846153846156,0.0
+All_Characters,6 4 6 8 0 Y,6 6 5 0 Y,0.2727272727272727,0.0
+All_Characters,4 1 8 4 9 R,4 4 6 Y S,0.5454545454545454,0.0
+All_Characters,3 6 6 9 8 R,5 6 5 9 Y,0.45454545454545453,0.0
+All_Characters,8 3 6 5 6 Y,8 6 5 D Y,0.2727272727272727,0.0
+All_Characters,7 8 8 2 7 D,7 8 8 2 7 S S,0.2727272727272727,0.0
+All_Characters,7 6 9 0 2 W,7 6 6 2 W Y,0.36363636363636365,0.0
+All_Characters,6 5 7 4 9 B B,2 5 5 8 Y Y,0.5384615384615384,0.0
+All_Characters,9 1 5 3 0 D,3 T S,0.7272727272727273,0.0
+All_Characters,9 4 6 6 9 Y,7 4 4 6 T S,0.36363636363636365,0.0
+All_Characters,8 9 3 4 4 D,8 0 8 5 T S,0.45454545454545453,0.0
+All_Characters,9 8 8 7 R A,4 W Y Y,0.7272727272727273,0.0
+All_Characters,6 0 7 9 0 W,1 7 9 9 T Y,0.45454545454545453,0.0
+All_Characters,1 7 7 5 6 B,1 7 7 6 B,0.18181818181818182,0.0
+All_Characters,6 5 2 1 7 R,1 6 5 T,0.7272727272727273,0.0
+All_Characters,3 5 6 6 2 B B,5 5 6 6 T S,0.38461538461538464,0.0
+All_Characters,9 9 2 1 4 S,7 7 2 L S,0.45454545454545453,0.0
+All_Characters,6 5 7 4 9 B B,6 5 7 5 Y Y,0.38461538461538464,0.0
+All_Characters,9 0 1 3 7 W,7 5 5 W T,0.6363636363636364,0.0
+All_Characters,1 0 2 5 8 W,8 5 5 S Y,0.5454545454545454,0.0
+All_Characters,1 9 9 7 5 D,4 W,0.9090909090909091,0.0
+All_Characters,3 9 7 3 4 H,1 4 5 Y Y,0.6363636363636364,0.0
+All_Characters,6 6 5 1 7 W,6 6 2 7 T S,0.36363636363636365,0.0
+All_Characters,3 7 4 6 7 B B,5 7 4 6 T D,0.38461538461538464,0.0
+All_Characters,2 6 6 0 6 D,8 5 6 0 D,0.36363636363636365,0.0
+All_Characters,6 8 3 T,1 A,0.8571428571428571,0.0
+All_Characters,8 1 0 0 6 Y,2 2 7 6 Y Y,0.45454545454545453,0.0
+All_Characters,4 3 5 6 3 B B,1 T,0.9230769230769231,0.0
+All_Characters,1 8 3 8 1 B,8 6 5 S,0.6363636363636364,0.0
+All_Characters,9 3 5 6 D Y,7 3 5 6 T S,0.2727272727272727,0.0
+All_Characters,4 1 4 6 9 B B,4 1 5 5 7 Y Y,0.38461538461538464,0.0
+All_Characters,5 7 6 3 2 A,1 A,0.8181818181818182,0.0
+All_Characters,7 5 5 2 W,8 7 5 Y W,0.3333333333333333,0.0
+All_Characters,7 1 9 4 5 H,7 1 7 4 S,0.36363636363636365,0.0
+All_Characters,7 5 5 6 W W,7 5 6 Y K,0.36363636363636365,0.0
+All_Characters,3 4 6 1 4 A A,4 4 6 4 A,0.38461538461538464,0.0
+All_Characters,9 3 5 0 3 S,5 5 5 S Y,0.5454545454545454,0.0
+All_Characters,6 0 8 2 7 Y,8 8 8 2 Y Y,0.2727272727272727,0.0
+All_Characters,3 2 4 6 H H,1 7 4 6 A,0.45454545454545453,0.0
+All_Characters,6 0 8 2 5 A,6 2 3 2 Y A,0.2727272727272727,0.0
+All_Characters,8 8 0 6 A B,1 5 S S,0.7272727272727273,0.0
+All_Characters,5 0 2 1 4 M,2 0 9 9 A Y,0.45454545454545453,0.0
+All_Characters,9 6 5 6 4 M,8 2 6 5 H,0.5454545454545454,0.0
+All_Characters,4 1 5 5 B H,0 1 5 B H,0.2727272727272727,0.0
+All_Characters,4 7 1 6 8 H,4 7 5 8 H,0.2727272727272727,0.0
+All_Characters,9 9 5 5 1 W,2 5 5 L Y,0.45454545454545453,0.0
+All_Characters,7 2 8 6 H H,7 7 5 5 H H,0.2727272727272727,0.0
+All_Characters,8 1 0 7 5 D,4 4 7 Y Y,0.5454545454545454,0.0
+All_Characters,5 4 8 3 M,1 T W,0.7777777777777778,0.0
+All_Characters,8 5 6 6 B,2 5 5 S,0.5555555555555556,0.0
+All_Characters,3 2 8 6 D R,3 2 6 S T,0.36363636363636365,0.0
+All_Characters,9 8 4 2 0 B B,2 8 6 2 D T,0.46153846153846156,0.0
+All_Characters,9 5 3 3 3 A A,2 6 3 3 Y Y,0.46153846153846156,0.0
+All_Characters,4 8 9 2 1 W,4 0 7 5 R,0.5454545454545454,0.0
+All_Characters,6 2 8 6 R Y,6 5 5 6 R Y,0.18181818181818182,0.0
+All_Characters,5 0 0 5 5 B,4 5 0 T,0.6363636363636364,0.0
+All_Characters,7 0 6 1 3 B B,7 6 6 S Y,0.5384615384615384,0.0
+All_Characters,4 1 5 9 5 A A,4 4 5 9 Y M,0.38461538461538464,0.0
+All_Characters,3 8 3 1 3 B,2 A,0.9090909090909091,0.0
+All_Characters,7 0 6 5 1 Y,7 7 6 5 L Y,0.18181818181818182,0.0
+All_Characters,4 2 8 A,4 1 8 8 A Y,0.7142857142857143,0.0
+All_Characters,4 7 8 7 A W,4 T Y,0.7272727272727273,0.0
+All_Characters,1 5 9 4 D Y,2 5 4 B Y,0.36363636363636365,0.0
+All_Characters,4 7 7 6 1 H,1 7 7 3 L Y,0.36363636363636365,0.0
+All_Characters,7 4 4 8 S S,7 7 4 6 L B,0.36363636363636365,0.0
+All_Characters,6 1 1 8 0 B B,6 1 3 B L,0.46153846153846156,0.0
+All_Characters,1 5 7 9 A S,1 H Y,0.7272727272727273,0.0
+All_Characters,1 7 1 1 3 R,1 7 1 S Y,0.36363636363636365,0.0
+All_Characters,6 5 1 6 B D,6 4 5 Y Y,0.5454545454545454,0.0
+All_Characters,4 7 1 7 A Y,4 7 2 2 A Y,0.18181818181818182,0.0
+All_Characters,5 0 0 5 5 B,1 Y,0.9090909090909091,0.0
+All_Characters,3 5 9 0 9 A A,5 5 9 0 Y S,0.38461538461538464,0.0
+All_Characters,8 3 6 9 7 W,6 8 9 Y Y,0.5454545454545454,0.0
+All_Characters,4 2 8 9 T B,2 K,0.8181818181818182,0.0
+All_Characters,8 1 7 7 9 M,2 2 7 Y A,0.5454545454545454,0.0
+All_Characters,4 2 1 8 4 A A,4 4 2 5 4 Y A,0.3076923076923077,0.0
+All_Characters,9 0 4 1 H S,9 4 4 Y Y,0.45454545454545453,0.0
+All_Characters,8 5 2 3 B B,1 5 5 7 T Y,0.45454545454545453,0.0
+All_Characters,6 4 3 7 5 H,4 4 5 L K,0.5454545454545454,0.0
+All_Characters,1 6 5 2 H R,6 L R,0.6363636363636364,0.0
+All_Characters,5 9 7 6 1 S,5 7 7 6 L S,0.18181818181818182,0.0
+All_Characters,4 0 8 8 1 B,4 8 8 5 L D,0.36363636363636365,0.0
+All_Characters,6 0 9 2 4 D,2 4 3 A Y,0.6363636363636364,0.0
+All_Characters,5 9 5 0 8 H,3 S Y,0.8181818181818182,0.0
+All_Characters,8 5 6 3 3 S,1 8 3 Y S,0.45454545454545453,0.0
+All_Characters,2 5 9 9 B K,2 2 4 D Y,0.5454545454545454,0.0
+All_Characters,4 9 7 1 2 W,4 4 7 7 T W,0.2727272727272727,0.0
+All_Characters,3 6 5 7 2 H,8 5 7 H Y,0.45454545454545453,0.0
+All_Characters,5 2 5 4 1 D,4 4 4 T,0.6363636363636364,0.0
+All_Characters,9 5 5 4 1 A A,7 5 5 4 A A,0.23076923076923078,0.0
+All_Characters,4 6 0 0 1 B,4 4 2 2 L M,0.45454545454545453,0.0
+All_Characters,2 3 0 5 2 B B,3 5 5 7 D B,0.38461538461538464,0.0
+All_Characters,4 1 2 3 8 B,2 5 5 S S,0.6363636363636364,0.0
+All_Characters,6 6 3 0 7 R,6 6 8 7 T S,0.36363636363636365,0.0
+All_Characters,9 9 8 0 5 B B,7 7 0 L S,0.6153846153846154,0.0
+All_Characters,1 6 9 3 A S,2 6 8 S S,0.45454545454545453,0.0
+All_Characters,3 4 7 3 7 A,1 Y Y,0.8181818181818182,0.0
+All_Characters,9 2 1 7 3 H,9 2 1 7 M H,0.09090909090909091,0.0
+All_Characters,9 5 4 5 R S,7 5 4 R K,0.36363636363636365,0.0
+All_Characters,7 2 4 0 9 M,7 2 4 0 Y,0.2727272727272727,0.0
+All_Characters,6 7 3 0 0 D,7 7 8 8 T S,0.45454545454545453,0.0
+All_Characters,2 8 6 5 R,8 8 8 H,0.5555555555555556,0.0
+All_Characters,2 2 5 3 2 B B,2 5 5 2 L S,0.38461538461538464,0.0
+All_Characters,5 6 8 1 3 H,4 9 4 Y,0.7272727272727273,0.0
+All_Characters,1 2 2 6 9 B B,2 2 2 6 T B,0.3076923076923077,0.0
+All_Characters,1 7 2 3 W W,3 T Y,0.7272727272727273,0.0
+All_Characters,8 7 4 9 9 S,7 7 4 4 T Y,0.36363636363636365,0.0
+All_Characters,8 8 1 5 4 D,1 5 5 8 S Y,0.5454545454545454,0.0
+All_Characters,1 7 8 0 1,1 Y,0.7777777777777778,0.0
+All_Characters,7 4 7 8 0 B B,7 7 7 9 L S,0.46153846153846156,0.0
+All_Characters,6 2 7 0 L A,7 4 H,0.7272727272727273,0.0
+All_Characters,5 6 7 7 3 D,5 6 5 7 7 T S,0.36363636363636365,0.0
+All_Characters,8 1 4 9 7 A,8 2 4 9 Y,0.36363636363636365,0.0
+All_Characters,5 6 8 1 3 H,4 W,0.9090909090909091,0.0
+All_Characters,8 7 9 3 T H,7 7 2 A,0.6363636363636364,0.0
+All_Characters,8 7 8 7 7 W,8 5 8 7 Y W,0.18181818181818182,0.0
+All_Characters,6 1 0 4 D Y,6 1 0 W Y,0.2727272727272727,0.0
+All_Characters,2 7 7 4 3 B B,7 7 7 L Y,0.5384615384615384,0.0
+All_Characters,3 9 4 9 7 S,5 9 4 7 Y K,0.36363636363636365,0.0
+All_Characters,8 1 0 7 5 D,6 8 7 5 H S,0.5454545454545454,0.0
+All_Characters,5 7 6 0 4 B B,8 1 4 Y Y,0.6153846153846154,0.0
+All_Characters,4 7 1 7 A Y,4 7 2 7 A Y,0.09090909090909091,0.0
+All_Characters,7 6 2 1 6 R,7 4 3 B R,0.45454545454545453,0.0
+All_Characters,2 8 9 0 6 H,2 8 8 W Y,0.45454545454545453,0.0
+All_Characters,3 7 3 4 8 H,3 7 5 8 B Y,0.36363636363636365,0.0
+All_Characters,8 8 9 0 1 H,8 7 0 7 L,0.45454545454545453,0.0
+All_Characters,8 0 2 0 B D,8 0 2 T T,0.36363636363636365,0.0
+All_Characters,7 4 3 1 6 H,4 S,0.8181818181818182,0.0
+All_Characters,4 1 7 5 1 S,6 5 7 5 L S,0.2727272727272727,0.0
+All_Characters,6 4 9 2 5 B B,3 4 7 2 B S,0.38461538461538464,0.0
+All_Characters,2 9 3 1 H D,2 5 2 8 H,0.45454545454545453,0.0
+All_Characters,1 5 9 7 B W,1 5 5 Y Y,0.45454545454545453,0.0
+All_Characters,5 2 8 4 2 R,8 2 8 4 T,0.36363636363636365,0.0
+All_Characters,2 3 6 8 3 A A,2 4 6 8 S A,0.3076923076923077,0.0
+All_Characters,2 2 5 3 2 B B,2 2 0 3 3 B S,0.23076923076923078,0.0
+All_Characters,5 9 0 0 T,2 2 2 Y,0.6666666666666666,0.0
+All_Characters,4 3 4 0 D R,4 3 4 0 S D,0.18181818181818182,0.0
+All_Characters,4 0 2 9 7 W,4 0 2 2 Y,0.36363636363636365,0.0
+All_Characters,1 3 5 6 0 Y,1 5 5 6 Y Y,0.18181818181818182,0.0
+All_Characters,8 7 9 8 5 M,8 7 9 2 T W,0.2727272727272727,0.0
+All_Characters,1 2 2 6 B S,7 7 2 2 L,0.5454545454545454,0.0
+All_Characters,7 2 5 6 D D,2 7 5 D D,0.36363636363636365,0.0
+All_Characters,2 9 1 0 1 Y,2 7 9 4 Y Y,0.36363636363636365,0.0
+All_Characters,4 2 4 6 2 A,3 4 6 L A,0.36363636363636365,0.0
+All_Characters,9 6 9 2 R Y,2 6 9 2 Y Y,0.18181818181818182,0.0
+All_Characters,3 8 7 0 A D,5 5 5 S Y,0.6363636363636364,0.0
+All_Characters,8 6 9 2 0,3 H,0.8888888888888888,0.0
+All_Characters,8 3 7 1 B,9 7 4 T,0.5555555555555556,0.0
+All_Characters,3 7 8 6 K B,2 4 4 W S,0.6363636363636364,0.0
+All_Characters,6 6 7 3 5 A,6 6 6 3 Y,0.36363636363636365,0.0
+All_Characters,4 1 3 0 4 R,4 2 3 6 Y K,0.36363636363636365,0.0
+All_Characters,1 3 9 0 1 Y,1 5 9 T Y,0.36363636363636365,0.0
+All_Characters,7 0 9 6 3 M,1 7 2 6 B M,0.36363636363636365,0.0
+All_Characters,8 9 0 5 M Y,8 7 D S,0.6363636363636364,0.0
+All_Characters,6 8 4 3 R R,6 4 5 S K,0.45454545454545453,0.0
+All_Characters,9 8 2 0 9 R,4 8 8 8 T Y,0.45454545454545453,0.0
+All_Characters,4 3 9 2 2 H,4 8 8 L S,0.5454545454545454,0.0
+All_Characters,2 0 1 6 3 W,2 5 6 3 Y W,0.36363636363636365,0.0
+All_Characters,4 4 9 1 0 A,4 4 7 L M,0.45454545454545453,0.0
+All_Characters,4 6 7 6 3 Y,4 6 4 7 Y,0.36363636363636365,0.0
+All_Characters,5 2 8 0 T,7 9 4 7 Y,0.5555555555555556,0.0
+All_Characters,4 7 4 8 2 A A,4 7 2 8 L Y,0.38461538461538464,0.0
+All_Characters,2 9 0 8 1 W,7 5 5 S Y,0.6363636363636364,0.0
+All_Characters,7 5 0 1 2 M,7 7 5 0 L A,0.45454545454545453,0.0
+All_Characters,4 9 D A,1 5 Y,0.7142857142857143,0.0
+All_Characters,4 9 6 4 8 B B,4 4 8 5 S D,0.5384615384615384,0.0
+All_Characters,7 3 9 3 6 Y,1 T,0.9090909090909091,0.0
+All_Characters,3 3 5 1 D A,7 5 5 Y Y,0.5454545454545454,0.0
+All_Characters,6 7 9 0 1 B,7 7 5 Y,0.6363636363636364,0.0
+All_Characters,4 3 8 9 0 S,4 8 8 D S,0.36363636363636365,0.0
+All_Characters,5 9 2 4 M W,1 5 2 4 M Y,0.2727272727272727,0.0
+All_Characters,5 2 0 5 1 B,5 2 5 L D,0.36363636363636365,0.0
+All_Characters,7 9 7 6 8,2 4 4 Y,0.6666666666666666,0.0
+All_Characters,9 4 3 5 8 B B,2 4 5 5 5 Y Y,0.38461538461538464,0.0
+All_Characters,7 3 8 0 7 B B,3 5 7 T S,0.5384615384615384,0.0
+All_Characters,4 3 9 2 2 H,2 T,0.8181818181818182,0.0
+All_Characters,Average,Average,0.4698360898360898,0.0033333333333333335
+Digits,26452,7644,0.6,0.0
+Digits,33756,3355,0.4,0.0
+Digits,35615,2553,0.8,0.0
+Digits,9625,142,0.75,0.0
+Digits,5982,888,0.75,0.0
+Digits,62013,671,0.6,0.0
+Digits,77370,77757,0.6,0.0
+Digits,9434,9434,0.0,1.0
+Digits,36552,5657,0.6,0.0
+Digits,5242,248,0.5,0.0
+Digits,58972,555,0.8,0.0
+Digits,13105,1633,0.8,0.0
+Digits,86900,8680,0.4,0.0
+Digits,6901,670,0.5,0.0
+Digits,93855,7755,0.6,0.0
+Digits,33965,376,0.6,0.0
+Digits,64375,6445,0.4,0.0
+Digits,98265,1565,0.6,0.0
+Digits,54393,3459,0.6,0.0
+Digits,50318,9553,0.8,0.0
+Digits,8073,803,0.25,0.0
+Digits,48921,4272,0.6,0.0
+Digits,54463,5446,0.2,0.0
+Digits,16497,564,0.6,0.0
+Digits,55597,558,0.6,0.0
+Digits,32911,511,0.6,0.0
+Digits,3524,552,0.5,0.0
+Digits,78827,18,0.8,0.0
+Digits,88439,8043,0.4,0.0
+Digits,35218,3528,0.2,0.0
+Digits,6684,256,1.0,0.0
+Digits,13747,4547,0.6,0.0
+Digits,18741,7774,0.6,0.0
+Digits,55306,2550,0.6,0.0
+Digits,65217,3,1.0,0.0
+Digits,70291,4709,0.6,0.0
+Digits,23011,2703,0.6,0.0
+Digits,17682,2268,0.6,0.0
+Digits,52755,52755,0.0,1.0
+Digits,56670,8566,0.6,0.0
+Digits,62353,6355,0.4,0.0
+Digits,6684,16684,0.25,0.0
+Digits,97093,7878,0.8,0.0
+Digits,6357,453,0.75,0.0
+Digits,71322,753,0.6,0.0
+Digits,5823,565,0.75,0.0
+Digits,57554,1,1.0,0.0
+Digits,45695,4,0.8,0.0
+Digits,5675,111,1.0,0.0
+Digits,27369,2776,0.4,0.0
+Digits,57099,1,1.0,0.0
+Digits,95477,775,0.8,0.0
+Digits,5258,825,0.5,0.0
+Digits,85187,7858,0.6,0.0
+Digits,86287,86287,0.0,1.0
+Digits,7513,753,0.25,0.0
+Digits,69614,2761,0.6,0.0
+Digits,41319,445,0.8,0.0
+Digits,89543,874,0.6,0.0
+Digits,44828,44828,0.0,1.0
+Digits,75274,1574,0.4,0.0
+Digits,37905,7679,0.8,0.0
+Digits,2502,2502,0.0,1.0
+Digits,49008,47006,0.4,0.0
+Digits,67674,156,0.8,0.0
+Digits,87693,7569,0.6,0.0
+Digits,87796,87775,0.4,0.0
+Digits,12253,20,0.8,0.0
+Digits,83278,8444,0.8,0.0
+Digits,93234,8455,1.0,0.0
+Digits,80478,2807,0.6,0.0
+Digits,47309,4755,0.6,0.0
+Digits,36304,465,0.8,0.0
+Digits,82540,225,0.6,0.0
+Digits,87985,8792,0.4,0.0
+Digits,6207,130,0.75,0.0
+Digits,98631,785,0.8,0.0
+Digits,91530,8885,1.0,0.0
+Digits,86900,8650,0.4,0.0
+Digits,62007,520,0.6,0.0
+Digits,275,744,1.0,0.0
+Digits,80610,14,0.8,0.0
+Digits,6586,668,0.5,0.0
+Digits,17113,144,0.8,0.0
+Digits,48783,155,1.0,0.0
+Digits,58438,4558,0.8,0.0
+Digits,21277,8753,1.0,0.0
+Digits,87404,1562,1.0,0.0
+Digits,79948,7796,0.6,0.0
+Digits,62253,674,0.8,0.0
+Digits,73671,7657,0.6,0.0
+Digits,25616,1,0.8,0.0
+Digits,48783,487,0.4,0.0
+Digits,58536,5855,0.4,0.0
+Digits,55262,1526,0.4,0.0
+Digits,1629,1895,0.75,0.0
+Digits,43547,144,0.8,0.0
+Digits,73807,2582,0.8,0.0
+Digits,4396,659,0.75,0.0
+Digits,61786,187,0.6,0.0
+Digits,67423,675,0.6,0.0
+Digits,58536,58556,0.2,0.0
+Digits,96564,7755,0.8,0.0
+Digits,81697,8167,0.2,0.0
+Digits,70327,148,1.0,0.0
+Digits,83656,1,1.0,0.0
+Digits,80663,1555,1.0,0.0
+Digits,13225,2572,0.8,0.0
+Digits,75498,754,0.4,0.0
+Digits,42107,1421,0.6,0.0
+Digits,43467,1445,0.8,0.0
+Digits,30579,1755,0.8,0.0
+Digits,14675,1,0.8,0.0
+Digits,38019,8857,0.8,0.0
+Digits,61982,117,0.8,0.0
+Digits,14319,4435,0.6,0.0
+Digits,52624,1664,0.6,0.0
+Digits,27561,256,0.4,0.0
+Digits,45425,555,0.6,0.0
+Digits,24365,12456,0.6,0.0
+Digits,56540,565,0.4,0.0
+Digits,9502,1952,0.5,0.0
+Digits,73744,7574,0.4,0.0
+Digits,53733,5773,0.4,0.0
+Digits,23629,2552,0.6,0.0
+Digits,64680,6650,0.4,0.0
+Digits,41849,446,0.6,0.0
+Digits,36698,5659,0.6,0.0
+Digits,83656,865,0.4,0.0
+Digits,78827,78827,0.0,1.0
+Digits,76902,7662,0.4,0.0
+Digits,65749,2558,0.8,0.0
+Digits,91530,3,0.8,0.0
+Digits,94669,7446,0.6,0.0
+Digits,89344,8085,0.8,0.0
+Digits,9887,4,1.0,0.0
+Digits,60790,1799,0.6,0.0
+Digits,17756,1776,0.2,0.0
+Digits,65217,165,0.8,0.0
+Digits,35662,5566,0.4,0.0
+Digits,99214,772,0.8,0.0
+Digits,65749,6575,0.4,0.0
+Digits,90137,755,1.0,0.0
+Digits,10258,855,0.8,0.0
+Digits,19975,4,1.0,0.0
+Digits,39734,145,1.0,0.0
+Digits,66517,6627,0.4,0.0
+Digits,37467,5746,0.4,0.0
+Digits,26606,8560,0.6,0.0
+Digits,683,1,1.0,0.0
+Digits,81006,2276,0.8,0.0
+Digits,43563,1,1.0,0.0
+Digits,18381,865,0.8,0.0
+Digits,9356,7356,0.25,0.0
+Digits,41469,41557,0.6,0.0
+Digits,57632,1,1.0,0.0
+Digits,7552,875,0.75,0.0
+Digits,71945,7174,0.4,0.0
+Digits,7556,756,0.25,0.0
+Digits,34614,4464,0.4,0.0
+Digits,93503,555,0.8,0.0
+Digits,60827,8882,0.6,0.0
+Digits,3246,1746,0.5,0.0
+Digits,60825,6232,0.6,0.0
+Digits,8806,15,1.0,0.0
+Digits,50214,2099,0.8,0.0
+Digits,96564,8265,0.8,0.0
+Digits,4155,015,0.5,0.0
+Digits,47168,4758,0.4,0.0
+Digits,99551,255,0.6,0.0
+Digits,7286,7755,0.75,0.0
+Digits,81075,447,0.8,0.0
+Digits,5483,1,1.0,0.0
+Digits,8566,255,0.75,0.0
+Digits,3286,326,0.25,0.0
+Digits,98420,2862,0.6,0.0
+Digits,95333,2633,0.6,0.0
+Digits,48921,4075,0.8,0.0
+Digits,6286,6556,0.5,0.0
+Digits,50055,450,0.8,0.0
+Digits,70613,766,0.6,0.0
+Digits,41595,4459,0.4,0.0
+Digits,38313,2,1.0,0.0
+Digits,70651,7765,0.4,0.0
+Digits,428,4188,0.6666666666666666,0.0
+Digits,4787,4,0.75,0.0
+Digits,1594,254,0.5,0.0
+Digits,47761,1773,0.6,0.0
+Digits,7448,7746,0.5,0.0
+Digits,61180,613,0.6,0.0
+Digits,1579,1,0.75,0.0
+Digits,17113,171,0.4,0.0
+Digits,6516,645,0.75,0.0
+Digits,4717,4722,0.5,0.0
+Digits,50055,1,1.0,0.0
+Digits,35909,5590,0.4,0.0
+Digits,83697,689,0.8,0.0
+Digits,4289,2,0.75,0.0
+Digits,81779,227,0.8,0.0
+Digits,42184,44254,0.6,0.0
+Digits,9041,944,0.5,0.0
+Digits,8523,1557,0.75,0.0
+Digits,64375,445,0.6,0.0
+Digits,1652,6,0.75,0.0
+Digits,59761,5776,0.4,0.0
+Digits,40881,4885,0.4,0.0
+Digits,60924,243,0.8,0.0
+Digits,59508,3,1.0,0.0
+Digits,85633,183,0.8,0.0
+Digits,2599,224,0.75,0.0
+Digits,49712,4477,0.6,0.0
+Digits,36572,857,0.6,0.0
+Digits,52541,444,0.8,0.0
+Digits,95541,7554,0.4,0.0
+Digits,46001,4422,0.8,0.0
+Digits,23052,3557,0.6,0.0
+Digits,41238,255,0.8,0.0
+Digits,66307,6687,0.4,0.0
+Digits,99805,770,0.8,0.0
+Digits,1693,268,0.75,0.0
+Digits,34737,1,1.0,0.0
+Digits,92173,9217,0.2,0.0
+Digits,9545,754,0.5,0.0
+Digits,72409,7240,0.2,0.0
+Digits,67300,7788,0.8,0.0
+Digits,2865,888,0.75,0.0
+Digits,22532,2552,0.4,0.0
+Digits,56813,494,1.0,0.0
+Digits,12269,2226,0.4,0.0
+Digits,1723,3,0.75,0.0
+Digits,87499,7744,0.6,0.0
+Digits,88154,1558,0.8,0.0
+Digits,17801,1,0.8,0.0
+Digits,74780,7779,0.6,0.0
+Digits,6270,74,0.75,0.0
+Digits,56773,56577,0.4,0.0
+Digits,81497,8249,0.4,0.0
+Digits,56813,4,1.0,0.0
+Digits,8793,772,0.75,0.0
+Digits,87877,8587,0.4,0.0
+Digits,6104,610,0.25,0.0
+Digits,27743,777,0.6,0.0
+Digits,39497,5947,0.4,0.0
+Digits,81075,6875,0.6,0.0
+Digits,57604,814,0.8,0.0
+Digits,4717,4727,0.25,0.0
+Digits,76216,743,0.8,0.0
+Digits,28906,288,0.6,0.0
+Digits,37348,3758,0.4,0.0
+Digits,88901,8707,0.6,0.0
+Digits,8020,802,0.25,0.0
+Digits,74316,4,0.8,0.0
+Digits,41751,6575,0.6,0.0
+Digits,64925,3472,0.6,0.0
+Digits,2931,2528,0.75,0.0
+Digits,1597,155,0.5,0.0
+Digits,52842,8284,0.4,0.0
+Digits,23683,2468,0.4,0.0
+Digits,22532,22033,0.4,0.0
+Digits,5900,222,1.0,0.0
+Digits,4340,4340,0.0,1.0
+Digits,40297,4022,0.4,0.0
+Digits,13560,1556,0.4,0.0
+Digits,87985,8792,0.4,0.0
+Digits,1226,7722,0.75,0.0
+Digits,7256,275,0.75,0.0
+Digits,29101,2794,0.8,0.0
+Digits,42462,346,0.6,0.0
+Digits,9692,2692,0.25,0.0
+Digits,3870,555,1.0,0.0
+Digits,86920,3,1.0,0.0
+Digits,8371,974,0.75,0.0
+Digits,3786,244,1.0,0.0
+Digits,66735,6663,0.4,0.0
+Digits,41304,4236,0.6,0.0
+Digits,13901,159,0.6,0.0
+Digits,70963,1726,0.8,0.0
+Digits,8905,87,0.75,0.0
+Digits,6843,645,0.5,0.0
+Digits,98209,4888,0.8,0.0
+Digits,43922,488,0.8,0.0
+Digits,20163,2563,0.4,0.0
+Digits,44910,447,0.6,0.0
+Digits,46763,4647,0.6,0.0
+Digits,5280,7947,1.0,0.0
+Digits,47482,4728,0.4,0.0
+Digits,29081,755,1.0,0.0
+Digits,75012,7750,0.6,0.0
+Digits,49,15,1.0,0.0
+Digits,49648,4485,0.6,0.0
+Digits,73936,1,1.0,0.0
+Digits,3351,755,0.75,0.0
+Digits,67901,775,0.8,0.0
+Digits,43890,488,0.6,0.0
+Digits,5924,1524,0.5,0.0
+Digits,52051,525,0.4,0.0
+Digits,79768,244,1.0,0.0
+Digits,94358,24555,0.6,0.0
+Digits,73807,357,0.6,0.0
+Digits,43922,2,0.8,0.0
+Digits,Average,Average,0.6302222222222222,0.023333333333333334
+Letters,D,KY,2.0,0.0
+Letters,R,YK,2.0,0.0
+Letters,R,Y,1.0,0.0
+Letters,MM,YW,1.0,0.0
+Letters,BH,BY,0.5,0.0
+Letters,W,SW,1.0,0.0
+Letters,R,LK,2.0,0.0
+Letters,B,DY,2.0,0.0
+Letters,W,DY,2.0,0.0
+Letters,HA,MY,1.0,0.0
+Letters,BB,L,1.0,0.0
+Letters,R,DL,2.0,0.0
+Letters,M,WA,2.0,0.0
+Letters,RS,RY,0.5,0.0
+Letters,AA,YA,0.5,0.0
+Letters,BB,YY,1.0,0.0
+Letters,H,YH,1.0,0.0
+Letters,H,YY,2.0,0.0
+Letters,A,A,0.0,1.0
+Letters,BB,YM,1.0,0.0
+Letters,DR,HS,1.0,0.0
+Letters,W,LY,2.0,0.0
+Letters,D,DY,1.0,0.0
+Letters,H,YS,2.0,0.0
+Letters,BB,TT,1.0,0.0
+Letters,H,TY,2.0,0.0
+Letters,AY,Y,0.5,0.0
+Letters,D,WS,2.0,0.0
+Letters,BB,YS,1.0,0.0
+Letters,D,B,1.0,0.0
+Letters,AS,WS,0.5,0.0
+Letters,D,T,1.0,0.0
+Letters,A,YY,2.0,0.0
+Letters,D,DB,1.0,0.0
+Letters,R,HS,2.0,0.0
+Letters,AA,TA,0.5,0.0
+Letters,BB,DW,1.0,0.0
+Letters,BB,TM,1.0,0.0
+Letters,A,A,0.0,1.0
+Letters,H,DR,2.0,0.0
+Letters,AA,K,1.0,0.0
+Letters,AS,MS,0.5,0.0
+Letters,B,YT,2.0,0.0
+Letters,RY,TA,1.0,0.0
+Letters,M,MS,1.0,0.0
+Letters,SS,LY,1.0,0.0
+Letters,AA,KYY,1.5,0.0
+Letters,BH,LB,1.0,0.0
+Letters,R,YY,2.0,0.0
+Letters,S,T,1.0,0.0
+Letters,Y,YY,1.0,0.0
+Letters,BS,YS,0.5,0.0
+Letters,M,YY,2.0,0.0
+Letters,BB,TS,1.0,0.0
+Letters,BS,TD,1.0,0.0
+Letters,H,HH,1.0,0.0
+Letters,H,YL,2.0,0.0
+Letters,D,SY,2.0,0.0
+Letters,M,MM,1.0,0.0
+Letters,W,HY,2.0,0.0
+Letters,AA,A,0.5,0.0
+Letters,RW,KW,0.5,0.0
+Letters,M,MB,1.0,0.0
+Letters,AA,HA,0.5,0.0
+Letters,BB,Y,1.0,0.0
+Letters,M,M,0.0,1.0
+Letters,S,BY,2.0,0.0
+Letters,D,SY,2.0,0.0
+Letters,D,BY,2.0,0.0
+Letters,A,A,0.0,1.0
+Letters,B,Y,1.0,0.0
+Letters,BB,BD,0.5,0.0
+Letters,M,YW,2.0,0.0
+Letters,R,TK,2.0,0.0
+Letters,B,ST,2.0,0.0
+Letters,D,B,1.0,0.0
+Letters,M,Y,1.0,0.0
+Letters,BB,YS,1.0,0.0
+Letters,RK,WK,0.5,0.0
+Letters,W,YY,2.0,0.0
+Letters,A,B,1.0,0.0
+Letters,R,HY,2.0,0.0
+Letters,AA,SS,1.0,0.0
+Letters,AA,YA,0.5,0.0
+Letters,M,TS,2.0,0.0
+Letters,R,YK,2.0,0.0
+Letters,W,SK,2.0,0.0
+Letters,B,TR,2.0,0.0
+Letters,Y,A,1.0,0.0
+Letters,AA,SA,0.5,0.0
+Letters,A,AA,1.0,0.0
+Letters,S,Y,1.0,0.0
+Letters,SS,TY,1.0,0.0
+Letters,M,T,1.0,0.0
+Letters,BB,TS,1.0,0.0
+Letters,HR,LY,1.0,0.0
+Letters,M,DY,2.0,0.0
+Letters,BB,AT,1.0,0.0
+Letters,A,AK,1.0,0.0
+Letters,M,WY,2.0,0.0
+Letters,AA,AA,0.0,1.0
+Letters,B,YS,2.0,0.0
+Letters,Y,AYY,2.0,0.0
+Letters,D,YS,2.0,0.0
+Letters,BB,BY,0.5,0.0
+Letters,BB,YY,1.0,0.0
+Letters,A,BS,2.0,0.0
+Letters,W,Y,1.0,0.0
+Letters,H,YY,2.0,0.0
+Letters,Y,AY,1.0,0.0
+Letters,B,YS,2.0,0.0
+Letters,H,Y,1.0,0.0
+Letters,W,TS,2.0,0.0
+Letters,D,T,1.0,0.0
+Letters,D,LL,2.0,0.0
+Letters,M,S,1.0,0.0
+Letters,M,LL,2.0,0.0
+Letters,A,Y,1.0,0.0
+Letters,SS,SS,0.0,1.0
+Letters,B,HS,2.0,0.0
+Letters,BB,BB,0.0,1.0
+Letters,AA,YM,1.0,0.0
+Letters,Y,Y,0.0,1.0
+Letters,R,YS,2.0,0.0
+Letters,R,Y,1.0,0.0
+Letters,Y,DY,1.0,0.0
+Letters,D,SS,2.0,0.0
+Letters,W,WY,1.0,0.0
+Letters,BB,YY,1.0,0.0
+Letters,D,TS,2.0,0.0
+Letters,Y,TS,2.0,0.0
+Letters,D,TS,2.0,0.0
+Letters,RA,WYY,1.5,0.0
+Letters,W,TY,2.0,0.0
+Letters,B,B,0.0,1.0
+Letters,R,T,1.0,0.0
+Letters,BB,TS,1.0,0.0
+Letters,S,LS,1.0,0.0
+Letters,BB,YY,1.0,0.0
+Letters,W,WT,1.0,0.0
+Letters,W,SY,2.0,0.0
+Letters,D,W,1.0,0.0
+Letters,H,YY,2.0,0.0
+Letters,W,TS,2.0,0.0
+Letters,BB,TD,1.0,0.0
+Letters,D,D,0.0,1.0
+Letters,T,A,1.0,0.0
+Letters,Y,YY,1.0,0.0
+Letters,BB,T,1.0,0.0
+Letters,B,S,1.0,0.0
+Letters,DY,TS,1.0,0.0
+Letters,BB,YY,1.0,0.0
+Letters,A,A,0.0,1.0
+Letters,W,YW,1.0,0.0
+Letters,H,S,1.0,0.0
+Letters,WW,YK,1.0,0.0
+Letters,AA,A,0.5,0.0
+Letters,S,SY,1.0,0.0
+Letters,Y,YY,1.0,0.0
+Letters,HH,A,1.0,0.0
+Letters,A,YA,1.0,0.0
+Letters,AB,SS,1.0,0.0
+Letters,M,AY,2.0,0.0
+Letters,M,H,1.0,0.0
+Letters,BH,BH,0.0,1.0
+Letters,H,H,0.0,1.0
+Letters,W,LY,2.0,0.0
+Letters,HH,HH,0.0,1.0
+Letters,D,YY,2.0,0.0
+Letters,M,TW,2.0,0.0
+Letters,B,S,1.0,0.0
+Letters,DR,ST,1.0,0.0
+Letters,BB,DT,1.0,0.0
+Letters,AA,YY,1.0,0.0
+Letters,W,R,1.0,0.0
+Letters,RY,RY,0.0,1.0
+Letters,B,T,1.0,0.0
+Letters,BB,SY,1.0,0.0
+Letters,AA,YM,1.0,0.0
+Letters,B,A,1.0,0.0
+Letters,Y,LY,1.0,0.0
+Letters,A,AY,1.0,0.0
+Letters,AW,TY,1.0,0.0
+Letters,DY,BY,0.5,0.0
+Letters,H,LY,2.0,0.0
+Letters,SS,LB,1.0,0.0
+Letters,BB,BL,0.5,0.0
+Letters,AS,HY,1.0,0.0
+Letters,R,SY,2.0,0.0
+Letters,BD,YY,1.0,0.0
+Letters,AY,AY,0.0,1.0
+Letters,B,Y,1.0,0.0
+Letters,AA,YS,1.0,0.0
+Letters,W,YY,2.0,0.0
+Letters,TB,K,1.0,0.0
+Letters,M,YA,2.0,0.0
+Letters,AA,YA,0.5,0.0
+Letters,HS,YY,1.0,0.0
+Letters,BB,TY,1.0,0.0
+Letters,H,LK,2.0,0.0
+Letters,HR,LR,0.5,0.0
+Letters,S,LS,1.0,0.0
+Letters,B,LD,2.0,0.0
+Letters,D,AY,2.0,0.0
+Letters,H,SY,2.0,0.0
+Letters,S,YS,1.0,0.0
+Letters,BK,DY,1.0,0.0
+Letters,W,TW,1.0,0.0
+Letters,H,HY,1.0,0.0
+Letters,D,T,1.0,0.0
+Letters,AA,AA,0.0,1.0
+Letters,B,LM,2.0,0.0
+Letters,BB,DB,0.5,0.0
+Letters,B,SS,2.0,0.0
+Letters,R,TS,2.0,0.0
+Letters,BB,LS,1.0,0.0
+Letters,AS,SS,0.5,0.0
+Letters,A,YY,2.0,0.0
+Letters,H,MH,1.0,0.0
+Letters,RS,RK,0.5,0.0
+Letters,M,Y,1.0,0.0
+Letters,D,TS,2.0,0.0
+Letters,R,H,1.0,0.0
+Letters,BB,LS,1.0,0.0
+Letters,H,Y,1.0,0.0
+Letters,BB,TB,0.5,0.0
+Letters,WW,TY,1.0,0.0
+Letters,S,TY,2.0,0.0
+Letters,D,SY,2.0,0.0
+Letters,BB,LS,1.0,0.0
+Letters,LA,H,1.0,0.0
+Letters,D,TS,2.0,0.0
+Letters,A,Y,1.0,0.0
+Letters,H,W,1.0,0.0
+Letters,TH,A,1.0,0.0
+Letters,W,YW,1.0,0.0
+Letters,DY,WY,0.5,0.0
+Letters,BB,LY,1.0,0.0
+Letters,S,YK,2.0,0.0
+Letters,D,HS,2.0,0.0
+Letters,BB,YY,1.0,0.0
+Letters,AY,AY,0.0,1.0
+Letters,R,BR,1.0,0.0
+Letters,H,WY,2.0,0.0
+Letters,H,BY,2.0,0.0
+Letters,H,L,1.0,0.0
+Letters,BD,TT,1.0,0.0
+Letters,H,S,1.0,0.0
+Letters,S,LS,1.0,0.0
+Letters,BB,BS,0.5,0.0
+Letters,HD,H,0.5,0.0
+Letters,BW,YY,1.0,0.0
+Letters,R,T,1.0,0.0
+Letters,AA,SA,0.5,0.0
+Letters,BB,BS,0.5,0.0
+Letters,T,Y,1.0,0.0
+Letters,DR,SD,1.0,0.0
+Letters,W,Y,1.0,0.0
+Letters,Y,YY,1.0,0.0
+Letters,M,TW,2.0,0.0
+Letters,BS,L,1.0,0.0
+Letters,DD,DD,0.0,1.0
+Letters,Y,YY,1.0,0.0
+Letters,A,LA,1.0,0.0
+Letters,RY,YY,0.5,0.0
+Letters,AD,SY,1.0,0.0
+Letters,B,T,1.0,0.0
+Letters,KB,WS,1.0,0.0
+Letters,A,Y,1.0,0.0
+Letters,R,YK,2.0,0.0
+Letters,Y,TY,1.0,0.0
+Letters,M,BM,1.0,0.0
+Letters,MY,DS,1.0,0.0
+Letters,RR,SK,1.0,0.0
+Letters,R,TY,2.0,0.0
+Letters,H,LS,2.0,0.0
+Letters,W,YW,1.0,0.0
+Letters,A,LM,2.0,0.0
+Letters,Y,Y,0.0,1.0
+Letters,T,Y,1.0,0.0
+Letters,AA,LY,1.0,0.0
+Letters,W,SY,2.0,0.0
+Letters,M,LA,2.0,0.0
+Letters,DA,Y,1.0,0.0
+Letters,BB,SD,1.0,0.0
+Letters,Y,T,1.0,0.0
+Letters,DA,YY,1.0,0.0
+Letters,B,Y,1.0,0.0
+Letters,S,DS,1.0,0.0
+Letters,MW,MY,0.5,0.0
+Letters,B,LD,2.0,0.0
+Letters,BB,YY,1.0,0.0
+Letters,BB,TS,1.0,0.0
+Letters,H,T,1.0,0.0
+Letters,Average,Average,1.1734693877551021,0.06802721088435375

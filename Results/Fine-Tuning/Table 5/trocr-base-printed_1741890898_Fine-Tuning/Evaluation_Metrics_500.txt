@@ -1,0 +1,7 @@
+{'CER': 0.3277340957827019
+ 'WER': 0.5134514435695539
+ 'CER_Not_Split': 0.5134514435695539
+ 'WER_Not_Split': 0.97
+ 'Google_BLEU': 0.3128415300546448
+ 'Google_BLEU_Not_Split': 0.03
+ 'Accuracy': 0.03}

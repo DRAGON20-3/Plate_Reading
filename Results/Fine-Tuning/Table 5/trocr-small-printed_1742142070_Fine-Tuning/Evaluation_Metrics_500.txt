@@ -1,7 +1,0 @@
-{'CER': 0.4108291636883488
- 'WER': 0.588254593175853
- 'CER_Not_Split': 0.588254593175853
- 'WER_Not_Split': 0.986
- 'Google_BLEU': 0.26270456503014644
- 'Google_BLEU_Not_Split': 0.014
- 'Accuracy': 0.014}

@@ -35,4 +35,5 @@ The parameters in all of the codes consist of:
 14. __Epochs__: $${\color{lightblue}int}$$; The number of training iteration for all the data.
 15. __Batch_Size__: $${\color{lightblue}int}$$; The number of data samples in each batch.
 
+The ipynb format of the codes, enabling execution on Google Colab, will be provided soon.
 .

@@ -24,7 +24,7 @@ Additionally, there are other files which could be found in various experiments 
 
 - *Sample_Evaluation*: A sheet file contains sample-wise evaluation using CER (Character Error Rate) and Accuracy. There are three evaluaion for each sample in this file include All_Characters, Digits, and Letters. Regarding the evaluation of a model performance, this evaluation will show whether the model preform better on digit recognition, letter recognition or both. The size of the dataset is mentioned in the filename.
 
-- *Sample_Evaluation_Processed*: This file is almost similar to the Sample_Evaluation files except some processing on the predictions. As the maximum number of digits and letters in a plate of this dataset are 5 and 2 respectively, another option to interpret and evaluate predictions is to choose the first 5 digits and first 2 letters and ignore the other values; Beside providing another view for evaluation, this method will prevent the CER values over 1.0 which would happen because of longer length of text in a prediction other than a label.
+- *Sample_Evaluation_Processed*: This file is almost similar to the Sample_Evaluation files except some processing on the predictions. <!--As the maximum number of digits and letters in a plate of this dataset are 5 and 2 respectively, another option to interpret and evaluate predictions is to choose the first 5 digits and first 2 letters and ignore the other values; Beside providing another view for evaluation, this method will prevent the CER values over 1.0 which would happen because of longer length of text in a prediction other than a label.-->
 
 
 

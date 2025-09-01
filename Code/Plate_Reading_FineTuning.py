@@ -82,14 +82,16 @@ Batch_Size = 32
 
 if Using_Synthetic_Dataset == 1: # or Using_Augmented_Dataset == 1:
   if not os.path.isdir(Data_Address + "Synthetic_Data/Data/"):
-    if not os.path.isfile(Data_Address + "Synthetic_Data/Synthetic_Data.zip"):
-      gdown.download(id = "1VBYWCgQSgChnfQTI0v4jU_pf0-QJ-LzE", output = Data_Address + "Synthetic_Data/Synthetic_Data.zip") # https://drive.google.com/file/d/1VBYWCgQSgChnfQTI0v4jU_pf0-QJ-LzE
+	os.makedirs(Data_Address + "Synthetic_Data/Data/")
+  if not os.path.isfile(Data_Address + "Synthetic_Data/Synthetic_Data.zip"):
+    gdown.download(id = "1VBYWCgQSgChnfQTI0v4jU_pf0-QJ-LzE", output = Data_Address + "Synthetic_Data/Synthetic_Data.zip") # https://drive.google.com/file/d/1VBYWCgQSgChnfQTI0v4jU_pf0-QJ-LzE
     shutil.unpack_archive(Data_Address + "Synthetic_Data/Synthetic_Data.zip", Data_Address + "Synthetic_Data/")
     
 if Using_Augmented_Dataset == 1: # or Using_Augmented_Dataset == 1:
   if not os.path.isdir(Data_Address + "Augmented_Data/Data/"):
-    if not os.path.isfile(Data_Address + "Augmented_Data/Augmented_Data.zip"):
-      gdown.download(id = "12p7wLegr8q_nXT3UxUHv7-PbmwE5hnHJ", output = Data_Address + "Augmented_Data/Augmented_Data.zip") # https://drive.google.com/file/d/12p7wLegr8q_nXT3UxUHv7-PbmwE5hnHJ
+	os.makedirs(Data_Address + "Augmented_Data/Data/"
+  if not os.path.isfile(Data_Address + "Augmented_Data/Augmented_Data.zip"):
+    gdown.download(id = "12p7wLegr8q_nXT3UxUHv7-PbmwE5hnHJ", output = Data_Address + "Augmented_Data/Augmented_Data.zip") # https://drive.google.com/file/d/12p7wLegr8q_nXT3UxUHv7-PbmwE5hnHJ
     shutil.unpack_archive(Data_Address + "Augmented_Data/Augmented_Data.zip", Data_Address + "Augmented_Data/")
       
     
